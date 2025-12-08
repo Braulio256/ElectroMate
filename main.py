@@ -1,22 +1,30 @@
 from logic.buscador import BuscadorComponentes
 from logic.procesador import ProcesadorTexto
 from logic.interfaz import C_BOT, C_USR, C_SYS, CambioDeContexto
+# IMPORTAR EL GESTOR DE AUTENTICACIÓN
+from logic.auth import GestorSesion
 
 import logic.ohm as ohm
 import logic.filtros as filtros
 
 
 def main():
+    # --- BLOQUE DE SEGURIDAD ---
+    sistema_auth = GestorSesion()
+    acceso_concedido = sistema_auth.menu_autenticacion()
+
+    if not acceso_concedido:
+        return  # Si eligió salir o falló, el programa termina aquí.
+
+    # --- INICIO DEL CHATBOT ---
+    print("\n" * 50)  # Limpiar pantalla para efecto "Login Exitoso"
     print("=====================================================")
-    print("      ELECTROMATE v5.0 - SISTEMA EXPERTO DC          ")
+    print(f"      ELECTROMATE v5.0 - USUARIO: {sistema_auth.usuario_actual.upper()}          ")
     print("=====================================================")
-    print("Sistema listo. Capacidades expandidas:")
-    print(" - Circuitos DC: Serie/Paralelo, Divisores, Potencia.")
-    print(" - Análisis: Transitorios (Tau), Carga de capacitores.")
-    print(" - Diseño: Filtros Activos y Pasivos, Ley de Ohm.")
+    print("Sistema listo. Módulo experto en Filtros y DC cargado.")
 
     motor = BuscadorComponentes()
-    procesador = ProcesadorTexto()
+    procesador = ProcesadorTexto()  # Asegúrate de que este archivo tenga la corrección del JSON si la aplicaste
     comando_pendiente = None
 
     while True:
@@ -28,17 +36,19 @@ def main():
             else:
                 entrada = input(f"\n{C_USR} ").strip()
 
-            if entrada.lower() in ["salir", "exit", "shutdown"]:
-                print(f"{C_BOT} Guardando sesión... Hasta luego.")
+            if entrada.lower() in ["salir", "exit", "shutdown", "cerrar sesion"]:
+                print(f"{C_BOT} Guardando sesión... Hasta luego, {sistema_auth.usuario_actual}.")
                 break
 
             if not entrada: continue
 
+            # AQUÍ VA EL RESTO DE TU LÓGICA DE PROCESAMIENTO
+            # (Mantén el código que ya tenías dentro del while)
             intencion = procesador.identificar_intencion(entrada)
             datos = procesador.extraer_parametros(entrada)
 
             try:
-                # --- NUEVAS RUTAS DC ---
+                # --- RUTAS DC ---
                 if intencion == "DC_REQ":
                     ohm.resolver_reduccion_resistencias(datos, motor)
                 elif intencion == "DC_CEQ":
@@ -53,14 +63,8 @@ def main():
                     else:
                         ohm.resolver_reduccion_resistencias(datos, motor)
 
-                # --- RUTAS EXISTENTES ---
-                elif intencion == "OHM_DIVISOR":
-                    ohm.resolver_divisor_voltaje(datos, motor)
-                elif intencion == "OHM_ENERGIA":
-                    ohm.resolver_energia(datos, motor)
-
-                # Filtros
-                elif intencion == "FILTRO_AMBIGUO":
+                # --- RUTAS FILTROS (CON O SIN LA LOGICA NUEVA, LA QUE TENGAS) ---
+                elif intencion == "FILTRO_AMBIGUO":  # O las nuevas intenciones si usaste el JSON
                     filtros.resolver_filtro_ambiguo(datos, motor)
                 elif intencion == "FILTRO_ACTIVO":
                     filtros.resolver_filtro_activo(datos, motor)
@@ -74,7 +78,11 @@ def main():
                 elif intencion == "FILTRO_CALC_FC_RC":
                     filtros.resolver_calc_fc_rc(datos)
 
-                # Ohm Básico
+                # --- LEY DE OHM ---
+                elif intencion == "OHM_DIVISOR":
+                    ohm.resolver_divisor_voltaje(datos, motor)
+                elif intencion == "OHM_ENERGIA":
+                    ohm.resolver_energia(datos, motor)
                 elif intencion == "OHM_CALC_V":
                     ohm.resolver_voltaje(datos, motor)
                 elif intencion == "OHM_CALC_I":
@@ -85,6 +93,12 @@ def main():
                     ohm.resolver_potencia(datos, motor)
                 elif intencion == "OHM_LED":
                     ohm.resolver_led(datos, motor)
+
+                # --- NUEVAS RUTAS DE DESAMBIGUACION (SI LAS IMPLEMENTASTE) ---
+                elif intencion == "CALCULO_FRECUENCIA_AMBIGUO":
+                    filtros.resolver_calculo_frecuencia_ambiguo(datos)
+                elif intencion == "FILTRO_DISENO_AMBIGUO":
+                    filtros.resolver_filtro_ambiguo_total(datos, motor)
 
                 else:
                     print(f"{C_BOT} No estoy seguro de qué necesitas.")

@@ -26,19 +26,17 @@ def calcular_divisor_voltaje(vin, r1, r2):
     if (r1+r2) == 0: return None
     return vin * (r2 / (r1+r2))
 
-# --- NUEVO: REDUCCION DE CIRCUITOS (SERIE/PARALELO) ---
+# --- REDUCCION DE CIRCUITOS (SERIE/PARALELO) ---
 def calcular_equivalente_resistencias(lista_valores, tipo="serie"):
-    """Calcula Req para Resistencias o Inductores"""
     if not lista_valores: return 0
     if tipo == "serie":
         return sum(lista_valores)
     elif tipo == "paralelo":
-        if 0 in lista_valores: return 0 # Cortocircuito
+        if 0 in lista_valores: return 0
         suma_inversa = sum(1/r for r in lista_valores)
         return 1 / suma_inversa
 
 def calcular_equivalente_capacitores(lista_valores, tipo="serie"):
-    """Calcula Ceq (La lógica es inversa a las resistencias)"""
     if not lista_valores: return 0
     if tipo == "paralelo":
         return sum(lista_valores)
@@ -47,25 +45,18 @@ def calcular_equivalente_capacitores(lista_valores, tipo="serie"):
         suma_inversa = sum(1/c for c in lista_valores)
         return 1 / suma_inversa
 
-# --- NUEVO: ANALISIS TRANSITORIO (TAU) ---
-def calcular_tau_rc(r, c):
-    """Constante de tiempo para circuito RC"""
-    return r * c
-
-def calcular_tau_rl(r, l):
-    """Constante de tiempo para circuito RL"""
-    return l / r if r != 0 else 0
+# --- ANALISIS TRANSITORIO (TAU) ---
+def calcular_tau_rc(r, c): return r * c
+def calcular_tau_rl(r, l): return l / r if r != 0 else 0
 
 def estado_carga_transitorio(tau, tiempo):
-    """Devuelve el % de carga según el tiempo transcurrido"""
     if tau == 0: return 100.0
-    # Formula de carga: 1 - e^(-t/tau)
     porcentaje = (1 - math.exp(-tiempo / tau)) * 100
     return porcentaje
 
-# --- FILTROS (Se mantienen igual, solo mostramos el import) ---
-def calcular_par_rc(motor, f, v):
-    # (Mantener el código anterior de filtros RC)
+# --- DISEÑO DE FILTROS (Búsqueda de componentes) ---
+def calcular_par_rc(motor, f, v, tipo="alto"):
+    # (Lógica original optimizada)
     caps = [100e-12, 1e-9, 10e-9, 100e-9, 1e-6, 4.7e-6, 10e-6]
     mejor = None; min_err = 100
     for c_val in caps:
@@ -84,7 +75,6 @@ def calcular_par_rc(motor, f, v):
     return mejor
 
 def calcular_par_rl(motor, f, i_max):
-    # (Mantener código anterior RL)
     ress = [10, 22, 47, 100, 220, 470, 1000]
     mejor = None; min_err = 100
     for r_val in ress:
@@ -104,7 +94,6 @@ def calcular_par_rl(motor, f, i_max):
     return mejor
 
 def calcular_par_rlc(motor, f, v):
-    # (Mantener código anterior RLC)
     caps = [100e-12, 1e-9, 10e-9, 100e-9, 1e-6]
     mejor = None; min_err = 100
     for c_val in caps:
@@ -123,7 +112,6 @@ def calcular_par_rlc(motor, f, v):
     return mejor
 
 def calcular_ganancia_opamp(motor, g):
-    # (Mantener código anterior OPAMP)
     if g <= 1: return {"rf": None, "rg": None, "g": 1.0}
     rgs = [1000, 2200, 4700, 10000, 22000]
     mejor = None; min_err = 100
@@ -138,3 +126,16 @@ def calcular_ganancia_opamp(motor, g):
                 min_err = err
                 mejor = {"rf": rf, "rg": rg, "g": g_real}
     return mejor
+
+# --- NUEVO: CALCULADORAS INVERSAS (Frecuencia a partir de componentes) ---
+def calcular_fc_rc_simple(r, c):
+    if r <= 0 or c <= 0: return None
+    return 1 / (2 * math.pi * r * c)
+
+def calcular_fc_rl_simple(r, l):
+    if r <= 0 or l <= 0: return None
+    return r / (2 * math.pi * l)
+
+def calcular_f0_rlc_simple(l, c):
+    if l <= 0 or c <= 0: return None
+    return 1 / (2 * math.pi * math.sqrt(l * c))
