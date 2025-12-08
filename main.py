@@ -3,19 +3,19 @@ from logic.buscador import BuscadorComponentes
 
 
 def sistema_experto():
-    print("=== SISTEMA EXPERTO DE DISENO ELECTRONICO v2.2 (Filtros Activos Completos) ===")
+    print("=== SISTEMA EXPERTO DE DISENO ELECTRONICO v3.1 (Correccion Ley Ohm) ===")
     motor = BuscadorComponentes()
 
     while True:
         print("\n--- MENU PRINCIPAL ---")
-        print("1. Calcular Resistencia (Ley de Ohm)")
+        print("1. Ley de Ohm y Potencia (Analisis DC)")
         print("2. Disenar Filtros (Suite Completa)")
         print("0. Salir")
 
         opcion = input("Seleccione una opcion: ")
 
         if opcion == "1":
-            modo_resistencia(motor)
+            menu_ley_ohm(motor)
         elif opcion == "2":
             menu_filtros_principal(motor)
         elif opcion == "0":
@@ -25,44 +25,134 @@ def sistema_experto():
             print("[ERROR] Opcion no valida.")
 
 
-def modo_resistencia(motor):
-    print("\n[MODO] CALCULO DE RESISTENCIA")
+# --- MENU LEY DE OHM MEJORADO ---
+def menu_ley_ohm(motor):
+    print("\n--- LEY DE OHM Y POTENCIA ---")
+    print("1. Resistencia Limitadora (Para LEDs)")
+    print("2. Calcular Corriente (Tengo V y R)")
+    print("3. Calcular Voltaje (Tengo I y R)")
+    print("4. Calcular Potencia (Tengo V e I)")
+
+    tipo = input("Seleccione calculo: ")
+
     try:
-        voltaje_fuente = float(input("Ingrese Voltaje de la Fuente (V): "))
-        voltaje_carga = float(input("Ingrese Voltaje del componente (V): "))
-        corriente_mA = float(input("Ingrese Corriente deseada (mA): "))
+        # --- 1. RESISTENCIA LIMITADORA ---
+        if tipo == "1":
+            print("\n[DISEÑO LIMITADORA LED]")
+            v_fuente = float(input("Voltaje Fuente (V): "))
+            v_led = float(input("Voltaje LED (V): "))
+            i_mA = float(input("Corriente LED (mA): "))
 
-        corriente_A = corriente_mA / 1000.0
-        voltaje_resistencia = voltaje_fuente - voltaje_carga
+            if v_fuente <= v_led:
+                print("[ERROR] La fuente debe ser mayor al voltaje del LED.")
+                return
 
-        if voltaje_resistencia <= 0:
-            print("[ERROR] La fuente debe ser mayor al voltaje del componente.")
-            return
+            i_A = i_mA / 1000.0
+            r_teorica = (v_fuente - v_led) / i_A
+            p_teorica = (v_fuente - v_led) * i_A
 
-        resistencia_teorica = voltaje_resistencia / corriente_A
-        potencia_teorica = voltaje_resistencia * corriente_A
+            print(f"-> R Calculada: {r_teorica:.2f} Ω")
+            print(f"-> P Disipada:  {p_teorica:.4f} W")
 
-        print(f"\n[CALCULO TEORICO]")
-        print(f"Resistencia: {resistencia_teorica:.2f} Ohms")
-        print(f"Potencia:    {potencia_teorica:.4f} Watts")
+            comp, msg = motor.buscar_resistencia_optima(r_teorica, p_teorica)
+            if comp:
+                print(f"✅ SUGERENCIA COMERCIAL: {comp['nombre']}")
+                print(
+                    f"   (Valor: {comp['parametros']['valor_ohmios']}Ω, Potencia: {comp['parametros']['potencia_watts']}W)")
+            else:
+                print(f"[ALERTA] {msg}")
 
-        componente, mensaje = motor.buscar_resistencia_optima(resistencia_teorica, potencia_teorica)
+        # --- 2. CALCULAR CORRIENTE ---
+        elif tipo == "2":
+            print("\n[CALCULO DE CORRIENTE I=V/R]")
+            v = float(input("Voltaje (V): "))
+            r = float(input("Resistencia (Ohms): "))
 
-        print(f"\n[RESULTADO DEL SISTEMA]")
-        if componente:
-            print(f"Componente: {componente['nombre']}")
-            print(f"ID:         {componente['id']}")
-        else:
-            print(f"[FALLO] {mensaje}")
+            if r <= 0: print("[ERROR] R > 0"); return
+
+            i_A = v / r
+            p_W = (v ** 2) / r
+
+            print("-" * 30)
+            print(f"⚡ Corriente: {i_A * 1000:.2f} mA ({i_A:.4f} A)")
+            print(f"🔥 Potencia:  {p_W:.4f} W")
+
+            # Buscamos si la resistencia que el usuario ingresó existe comercialmente para esa potencia
+            print("... Verificando viabilidad del componente ...")
+            comp, msg = motor.buscar_resistencia_optima(r, p_W)
+
+            if comp:
+                # Verificamos si el valor óhmico es cercano al que ingresó el usuario
+                r_found = comp['parametros']['valor_ohmios']
+                if abs(r - r_found) < (r * 0.1):  # 10% tolerancia
+                    print(f"✅ VIABLE: Existe {comp['nombre']} que soporta esta potencia.")
+                else:
+                    print(f"⚠️ CUIDADO: Ingresaste {r}Ω, pero el valor comercial más cercano es {r_found}Ω.")
+                    print(f"   Sugerencia: Usa la de {comp['nombre']}.")
+            else:
+                print(f"❌ PELIGRO: No encontré una resistencia comercial única que soporte {p_W:.2f}W.")
+                print("   Solución: Usa resistencias de potencia (cerámica) o conéctalas en paralelo.")
+
+        # --- 3. CALCULAR VOLTAJE ---
+        elif tipo == "3":
+            print("\n[CALCULO DE VOLTAJE V=I*R]")
+            i_mA = float(input("Corriente (mA): "))
+            r = float(input("Resistencia (Ohms): "))
+
+            i_A = i_mA / 1000.0
+            v = i_A * r
+            p_W = (i_A ** 2) * r
+
+            print("-" * 30)
+            print(f"⚡ Voltaje: {v:.2f} V")
+            print(f"🔥 Potencia: {p_W:.4f} W")
+
+            comp, msg = motor.buscar_resistencia_optima(r, p_W)
+            if comp:
+                print(f"✅ Componente adecuado: {comp['nombre']}")
+            else:
+                print(f"❌ Alerta de Potencia: {msg}")
+
+        # --- 4. CALCULAR POTENCIA ---
+        elif tipo == "4":
+            print("\n[CALCULO DE POTENCIA P=V*I]")
+            v = float(input("Voltaje (V): "))
+            i_mA = float(input("Corriente (mA): "))
+
+            i_A = i_mA / 1000.0
+            p_W = v * i_A
+
+            if i_A > 0:
+                r_eq = v / i_A
+                print("-" * 30)
+                print(f"🔥 Potencia Total: {p_W:.4f} W")
+                print(f"💡 Resistencia Equivalente: {r_eq:.2f} Ω")
+
+                print("... Buscando resistencia comercial ...")
+                comp, msg = motor.buscar_resistencia_optima(r_eq, p_W)
+
+                if comp:
+                    r_real = comp['parametros']['valor_ohmios']
+                    print(f"✅ SUGERENCIA COMERCIAL: {comp['nombre']}")
+                    print(f"   ID: {comp['id']}")
+
+                    # Mostrar diferencia si el valor calculado no es estandar
+                    if r_real != r_eq:
+                        diff = abs(r_real - r_eq)
+                        print(f"   (Nota: El valor comercial difiere en {diff:.2f}Ω del calculado)")
+                else:
+                    print(f"❌ NO ENCONTRADA: {msg}")
+                    print("   Causa probable: La potencia es > 5W o el valor óhmico es muy bajo/alto.")
+            else:
+                print("[INFO] Sin corriente no hay potencia.")
 
     except ValueError:
-        print("[ERROR] Solo numeros.")
+        print("[ERROR] Ingrese solo numeros validos.")
 
 
-# --- FUNCIONES DE CALCULO ---
+# --- FUNCIONES DE CALCULO FILTROS (Sin cambios) ---
 def calcular_par_rc(motor, frecuencia, voltaje, tipo_capacitor="general"):
     capacitores_prueba = []
-
     print(f"\n[PARAMETRO C] Para {frecuencia} Hz:")
     entrada = input("Valor Capacitor (uF) o ENTER para auto: ")
     if entrada.strip():
@@ -70,7 +160,6 @@ def calcular_par_rc(motor, frecuencia, voltaje, tipo_capacitor="general"):
             capacitores_prueba = [float(entrada) / 1e6]
         except:
             pass
-
     if not capacitores_prueba:
         if tipo_capacitor == "bajo":
             capacitores_prueba = [100e-12, 22e-12, 10e-9, 1e-9]
@@ -79,19 +168,15 @@ def calcular_par_rc(motor, frecuencia, voltaje, tipo_capacitor="general"):
 
     mejor_combinacion = None
     menor_error = 100.0
-
     for valor_c_prueba in capacitores_prueba:
         cap_real, msg = motor.buscar_capacitor_optimo(valor_c_prueba, voltaje)
-
         if not cap_real and entrada.strip():
             cap_real = {"nombre": f"Generico {entrada}uF", "parametros": {"valor_faradios": valor_c_prueba}}
         elif not cap_real:
             continue
-
         val_c = cap_real['parametros']['valor_faradios']
         res_necesaria = 1 / (2 * math.pi * frecuencia * val_c)
         res_real, msg_r = motor.buscar_resistencia_optima(res_necesaria, 0.125)
-
         if res_real:
             val_r = res_real['parametros']['valor_ohmios']
             f_real = 1 / (2 * math.pi * val_r * val_c)
@@ -111,7 +196,6 @@ def calcular_par_rl(motor, frecuencia, corriente_max):
             l_manual = float(entrada) / 1000.0
         except:
             pass
-
     if l_manual:
         r_nec = frecuencia * 2 * math.pi * l_manual
         res_real, _ = motor.buscar_resistencia_optima(r_nec, corriente_max ** 2 * r_nec)
@@ -120,24 +204,19 @@ def calcular_par_rl(motor, frecuencia, corriente_max):
             err = abs(1 - (f_real / frecuencia)) * 100
             return {"l": {"nombre": f"Generico {entrada}mH"}, "r": res_real, "f": f_real, "err": err}
         return None
-
     if corriente_max > 0.5:
         resistencias = [10, 22, 47, 100]
     else:
         resistencias = [1000, 2200, 4700, 10000]
-
     mejor_combinacion = None
     menor_error = 100.0
-
     for val_r in resistencias:
         potencia = (corriente_max ** 2) * val_r
         res_real, _ = motor.buscar_resistencia_optima(val_r, potencia)
         if not res_real: continue
-
         r_ohm = res_real['parametros']['valor_ohmios']
         l_nec = r_ohm / (2 * math.pi * frecuencia)
         ind_real, _ = motor.buscar_inductor_optimo(l_nec, corriente_max)
-
         if ind_real:
             val_l = ind_real['parametros']['valor_henrys']
             f_real = r_ohm / (2 * math.pi * val_l)
@@ -152,22 +231,16 @@ def calcular_par_rlc(motor, frecuencia, voltaje):
     capacitores_prueba = [100e-12, 1e-9, 10e-9, 100e-9, 1e-6]
     mejor_combinacion = None
     menor_error = 100.0
-
-    print("... Iterando combinaciones LC resonantes ...")
-
     for val_c_test in capacitores_prueba:
         cap_real, _ = motor.buscar_capacitor_optimo(val_c_test, voltaje)
         if not cap_real: continue
-
         val_c = cap_real['parametros']['valor_faradios']
         l_necesaria = 1 / (4 * (math.pi ** 2) * (frecuencia ** 2) * val_c)
         ind_real, _ = motor.buscar_inductor_optimo(l_necesaria, 0.1)
-
         if ind_real:
             val_l = ind_real['parametros']['valor_henrys']
             f_real = 1 / (2 * math.pi * math.sqrt(val_l * val_c))
             error = abs(1 - (f_real / frecuencia)) * 100
-
             if error < menor_error:
                 menor_error = error
                 mejor_combinacion = {"l": ind_real, "c": cap_real, "f": f_real, "err": error}
@@ -175,55 +248,33 @@ def calcular_par_rlc(motor, frecuencia, voltaje):
 
 
 def calcular_ganancia_opamp(motor, ganancia_deseada):
-    """
-    Calcula resistencias para Amplificador No Inversor.
-    Formula: G = 1 + (Rf / Rg)
-    """
-    if ganancia_deseada <= 1:
-        return {"rf": None, "rg": None, "tipo": "Buffer (Seguidor de Voltaje)"}
-
-    # Fijamos Rg (Resistencia a tierra) en valores comunes
-    r_g_candidatas = [1000, 2200, 4700, 10000, 22000, 47000, 100000]
+    if ganancia_deseada <= 1: return {"rf": None, "rg": None, "tipo": "Buffer", "g_real": 1.0}
+    r_g_candidatas = [1000, 2200, 4700, 10000, 22000]
     mejor_config = None
     menor_error_g = 100.0
-
     for rg_val in r_g_candidatas:
-        # Calculamos Rf necesaria: Rf = Rg * (G - 1)
         rf_necesaria = rg_val * (ganancia_deseada - 1)
-
-        # Buscamos Rf comercial
         rf_real, _ = motor.buscar_resistencia_optima(rf_necesaria, 0.125)
-
         if rf_real:
             rf_val = rf_real['parametros']['valor_ohmios']
             g_real = 1 + (rf_val / rg_val)
             error = abs(1 - (g_real / ganancia_deseada)) * 100
-
             if error < menor_error_g:
                 menor_error_g = error
-                # Buscamos el objeto Rg tambien para mostrar nombre comercial
                 rg_real, _ = motor.buscar_resistencia_optima(rg_val, 0.125)
-                mejor_config = {
-                    "rf": rf_real,
-                    "rg": rg_real,
-                    "g_real": g_real,
-                    "tipo": "Amplificador No-Inversor"
-                }
-
+                mejor_config = {"rf": rf_real, "rg": rg_real, "g_real": g_real, "tipo": "Amp No-Inversor"}
     return mejor_config
 
 
-# --- MENUS ---
+# --- MENUS Y SUBMENUS ---
 def menu_filtros_principal(motor):
     print("\n--- CATEGORIA DE FILTROS ---")
     print("1. Filtros Pasivos RC")
     print("2. Filtros Pasivos RL")
     print("3. Filtros Pasivos RLC")
-    print("4. Filtros Activos (Op-Amps + RC)")
+    print("4. Filtros Activos (Op-Amps)")
     print("0. Volver")
-
-    cat = input("Seleccione categoria: ")
-
+    cat = input("Seleccione: ")
     if cat == "1":
         menu_filtros_rc(motor)
     elif cat == "2":
@@ -232,89 +283,74 @@ def menu_filtros_principal(motor):
         menu_filtros_rlc(motor)
     elif cat == "4":
         menu_filtros_activos(motor)
-    elif cat == "0":
-        return
 
 
 def menu_filtros_rc(motor):
     print("\n--- FILTROS PASIVOS RC ---")
     print("1. Pasa Bajas")
     print("2. Pasa Altas")
-    print("3. Rechaza Banda (Twin-T)")
-    print("4. Pasa Banda (Pasivo)")
-    print("5. CALC: Freq = 1/(2*pi*R*C)")
-
+    print("3. Rechaza Banda")
+    print("4. Pasa Banda")
+    print("5. CALC: Freq")
     tipo = input("Seleccione: ")
     if tipo not in ["1", "2", "3", "4", "5"]: return
-
     try:
         if tipo == "5":
-            r = float(input("R (Ohms): "))
+            r = float(input("R (Ohms): "));
             c = float(input("C (uF): "))
             print(f"✅ Freq: {1 / (2 * math.pi * r * (c / 1e6)):.2f} Hz")
             return
-
         v = float(input("Voltaje (V): "))
         if tipo == "4":
-            print("[PASA BANDA RC]")
-            fb = float(input("Freq Baja: "))
-            fa = float(input("Freq Alta: "))
-            hp = calcular_par_rc(motor, fb, v)
+            fb = float(input("Fq Baja: "));
+            fa = float(input("Fq Alta: "))
+            hp = calcular_par_rc(motor, fb, v);
             lp = calcular_par_rc(motor, fa, v, "bajo")
-            if hp and lp:
-                print(f"HP: C={hp['c']['nombre']}, R={hp['r']['nombre']}")
-                print(f"LP: R={lp['r']['nombre']}, C={lp['c']['nombre']}")
+            if hp and lp: print(
+                f"HP: C={hp['c']['nombre']}, R={hp['r']['nombre']}\nLP: R={lp['r']['nombre']}, C={lp['c']['nombre']}")
             return
-
         f = float(input("Frecuencia (Hz): "))
         res = calcular_par_rc(motor, f, v)
-        if not res: print("[FALLO]"); return
-
-        print(f"\n[RC CALCULADO] Freq: {res['f']:.1f}Hz")
-        if tipo == "1":
-            print(f"LP: R={res['r']['nombre']} -> C={res['c']['nombre']}")
-        elif tipo == "2":
-            print(f"HP: C={res['c']['nombre']} -> R={res['r']['nombre']}")
-        elif tipo == "3":
-            print("Twin-T: Ver esquema complejo.")
-
+        if res:
+            print(f"\n[RC CALCULADO] Freq: {res['f']:.1f}Hz")
+            if tipo == "1":
+                print(f"LP: R={res['r']['nombre']} -> C={res['c']['nombre']}")
+            elif tipo == "2":
+                print(f"HP: C={res['c']['nombre']} -> R={res['r']['nombre']}")
+            elif tipo == "3":
+                print("Twin-T: Ver esquema.")
+        else:
+            print("[FALLO]")
     except ValueError:
-        print("[ERROR] Invalido.")
+        print("[ERROR]")
 
 
 def menu_filtros_rl(motor):
     print("\n--- FILTROS PASIVOS RL ---")
-    print("1. Pasa Bajas RL")
-    print("2. Pasa Altas RL")
-    print("3. Pasa Banda RL")
-    print("4. CALC: Freq = R/(2*pi*L)")
-
+    print("1. Pasa Bajas")
+    print("2. Pasa Altas")
+    print("3. Pasa Banda")
+    print("4. CALC: Freq")
     tipo = input("Seleccione: ")
     if tipo not in ["1", "2", "3", "4"]: return
-
     try:
         if tipo == "4":
-            r = float(input("R (Ohms): "))
+            r = float(input("R: "));
             l = float(input("L (mH): "))
-            print(f"✅ Freq: {r / (2 * math.pi * (l / 1000)):.2f} Hz")
+            print(f"✅ Freq: {r / (2 * math.pi * (l / 1000)):.2f} Hz");
             return
-
         i = float(input("Corriente (A): "))
         if tipo == "3":
-            print("[PASA BANDA RL]")
-            fb = float(input("Freq Baja: "))
-            fa = float(input("Freq Alta: "))
-            hp = calcular_par_rl(motor, fb, i)
+            fb = float(input("Fq Baja: "));
+            fa = float(input("Fq Alta: "))
+            hp = calcular_par_rl(motor, fb, i);
             lp = calcular_par_rl(motor, fa, i)
-            if hp and lp:
-                print(f"HP: R={hp['r']['nombre']}, L={hp['l']['nombre']}")
-                print(f"LP: L={lp['l']['nombre']}, R={lp['r']['nombre']}")
+            if hp and lp: print(
+                f"HP: R={hp['r']['nombre']}, L={hp['l']['nombre']}\nLP: L={lp['l']['nombre']}, R={lp['r']['nombre']}")
             return
-
-        f = float(input("Frecuencia (Hz): "))
+        f = float(input("Frecuencia: "))
         res = calcular_par_rl(motor, f, i)
         if res:
-            print(f"\n[RL CALCULADO] Freq: {res['f']:.1f}Hz")
             if tipo == "1":
                 print(f"LP: L={res['l']['nombre']} -> R={res['r']['nombre']}")
             else:
@@ -322,143 +358,88 @@ def menu_filtros_rl(motor):
         else:
             print("[FALLO]")
     except ValueError:
-        print("[ERROR] Invalido.")
+        print("[ERROR]")
 
 
 def menu_filtros_rlc(motor):
-    print("\n--- FILTROS PASIVOS RLC ---")
+    print("\n--- FILTROS RLC ---")
     print("1. Pasa Banda")
     print("2. Rechaza Banda")
-    print("3. CALC: Freq = 1/(2*pi*sqrt(LC))")
-
+    print("3. CALC: Freq")
     tipo = input("Seleccione: ")
     if tipo not in ["1", "2", "3"]: return
-
     try:
         if tipo == "3":
-            print("\n[CALCULADORA RESONANCIA]")
-            l_mH = float(input("Inductor (mH): "))
-            c_uF = float(input("Capacitor (uF): "))
-            l = l_mH / 1000.0;
-            c = c_uF / 1e6
-            freq = 1 / (2 * math.pi * math.sqrt(l * c))
-            print(f"✅ Frecuencia Resonancia: {freq:.2f} Hz")
+            l = float(input("L (mH): ")) / 1000;
+            c = float(input("C (uF): ")) / 1e6
+            print(f"✅ Freq: {1 / (2 * math.pi * math.sqrt(l * c)):.2f} Hz");
             return
-
-        f = float(input("Frecuencia Central (Hz): "))
-        v = float(input("Voltaje (V): "))
+        f = float(input("Frecuencia: "));
+        v = float(input("Voltaje: "))
         res = calcular_par_rlc(motor, f, v)
-
         if res:
-            print(f"\n[RLC CALCULADO] Freq Central: {res['f']:.1f}Hz")
-            print(f"Componentes LC: {res['l']['nombre']} + {res['c']['nombre']}")
-
-            # Calculo R comercial para Q=10
-            xl = 2 * math.pi * f * res['l']['parametros']['valor_henrys']
-            r_ideal = xl / 10.0
+            xl = 2 * math.pi * f * res['l']['parametros']['valor_henrys'];
+            r_ideal = xl / 10
             r_com, _ = motor.buscar_resistencia_optima(r_ideal, 0.25)
-
-            print(f"Ajuste Q=10: Resistencia sugerida ~{r_ideal:.1f}Ω")
-            if r_com: print(f"--> Comercial: {r_com['nombre']}")
-
-            if tipo == "1":
-                print("Pasa Banda: R Serie -> [L+C Serie] -> Salida")
-            elif tipo == "2":
-                print("Rechaza Banda: R Serie -> Salida (con [L+C] a tierra)")
+            print(f"LC: {res['l']['nombre']} + {res['c']['nombre']}")
+            print(f"R Sugerida (Q=10): {r_ideal:.1f} ohm")
+            if r_com: print(f"-> Comercial: {r_com['nombre']}")
         else:
             print("[FALLO]")
     except ValueError:
-        print("[ERROR] Invalido.")
+        print("[ERROR]")
 
 
 def menu_filtros_activos(motor):
-    print("\n--- FILTROS ACTIVOS (OP-AMP) ---")
-    print("1. Pasa Bajas (Active LP)")
-    print("2. Pasa Altas (Active HP)")
-    print("3. Pasa Banda (Active BP - Cascada)")
-    print("4. Rechaza Banda (Active Notch - Buffered Twin-T)")
-
+    print("\n--- FILTROS ACTIVOS ---")
+    print("1. Pasa Bajas")
+    print("2. Pasa Altas")
+    print("3. Pasa Banda")
+    print("4. Rechaza Banda")
     tipo = input("Seleccione: ")
     if tipo not in ["1", "2", "3", "4"]: return
-
     try:
-        v = float(input("Voltaje Op-Amp (V): "))
+        v = float(input("Voltaje OpAmp: "))
+        g_in = input("Ganancia [Enter=1]: ")
+        ganancia = float(g_in) if g_in.strip() else 1.0
+        conf_g = calcular_ganancia_opamp(motor, ganancia)
 
-        # --- PREGUNTA POR GANANCIA (COMUN A TODOS) ---
-        ganancia = 1.0
-        entrada_g = input("Ganancia deseada (Ej: 1, 2, 10) [Enter=1]: ")
-        if entrada_g.strip(): ganancia = float(entrada_g)
-
-        # Calculamos resistencias de ganancia
-        conf_ganancia = calcular_ganancia_opamp(motor, ganancia)
-
-        # --- OPCION 3: PASA BANDA ---
         if tipo == "3":
-            fb = float(input("Fq Baja (Corte inferior): "))
-            fa = float(input("Fq Alta (Corte superior): "))
-            hp = calcular_par_rc(motor, fb, v)
+            fb = float(input("Fq Baja: "));
+            fa = float(input("Fq Alta: "))
+            hp = calcular_par_rc(motor, fb, v);
             lp = calcular_par_rc(motor, fa, v, "bajo")
             op, _ = motor.buscar_opamp_apto(fa, v)
-
             if hp and lp and op:
-                print(f"\n✅ [PASA BANDA ACTIVO] Chip: {op['nombre']}")
-                print(f"Etapa 1 (HP): C={hp['c']['nombre']}, R={hp['r']['nombre']}")
-                print(f"Etapa 2 (LP): R={lp['r']['nombre']}, C={lp['c']['nombre']}")
-
-                print(f"--- Amplificacion ({conf_ganancia['tipo']}) ---")
-                if conf_ganancia['rf']:
-                    print(f"Resistencia Feedback (Rf): {conf_ganancia['rf']['nombre']}")
-                    print(f"Resistencia a Gnd (Rg):    {conf_ganancia['rg']['nombre']}")
-                    print(f"Ganancia Real: x{conf_ganancia['g_real']:.2f}")
-                else:
-                    print("Configuracion: Buffer (Salida directa a entrada inverdora -)")
+                print(
+                    f"Chip: {op['nombre']}\nHP: C={hp['c']['nombre']}, R={hp['r']['nombre']}\nLP: R={lp['r']['nombre']}, C={lp['c']['nombre']}")
+                if conf_g['rf']: print(
+                    f"Ganancia x{conf_g['g_real']:.1f}: Rf={conf_g['rf']['nombre']}, Rg={conf_g['rg']['nombre']}")
             return
 
-        # --- OPCION 4: RECHAZA BANDA (ACTIVE NOTCH) ---
         if tipo == "4":
-            f = float(input("Frecuencia a ELIMINAR (Notch): "))
-            res = calcular_par_rc(motor, f, v)
+            f = float(input("Freq Notch: "));
+            res = calcular_par_rc(motor, f, v);
             op, _ = motor.buscar_opamp_apto(f, v)
-
             if res and op:
-                print(f"\n✅ [ACTIVE NOTCH / TWIN-T] Chip: {op['nombre']}")
-                r_nom = res['r']['nombre']
-                c_nom = res['c']['nombre']
-                print("Este filtro requiere precisión. Usa componentes al 1%.")
-                print("--- Rama Superior (Pasa Bajas T) ---")
-                print(f"   2x Resistencias en Serie: {r_nom}")
-                print(f"   1x Capacitor a Gnd (2C):  Poner 2 unidades de {c_nom} en PARALELO")
-                print("--- Rama Inferior (Pasa Altas T) ---")
-                print(f"   2x Capacitores en Serie:  {c_nom}")
-                print(f"   1x Resistencia a Gnd (R/2): Poner 2 unidades de {r_nom} en PARALELO")
-                print("--- Buffer ---")
-                print("Salida del filtro a Entrada (+) del OpAmp. Configurado como Buffer (G=1).")
+                print(
+                    f"Notch {op['nombre']}\nRama T-LP: 2x {res['r']['nombre']} Serie, 2x {res['c']['nombre']} Paralelo a Gnd")
+                print(f"Rama T-HP: 2x {res['c']['nombre']} Serie, 2x {res['r']['nombre']} Paralelo a Gnd")
             return
 
-        # --- OPCIONES 1 y 2 (LP / HP STANDARD) ---
-        f = float(input("Frecuencia (Hz): "))
-        res = calcular_par_rc(motor, f, v)
+        f = float(input("Frecuencia: "))
+        res = calcular_par_rc(motor, f, v);
         op, _ = motor.buscar_opamp_apto(f, v)
-
         if res and op:
-            print(f"\n✅ [FILTRO ACTIVO CALCULADO] Chip: {op['nombre']}")
+            print(f"Chip: {op['nombre']}")
             if tipo == "1":
-                print(f"Topologia: Pasa Bajas (Entrada +)")
-                print(f"Componentes RC: R={res['r']['nombre']} (Serie), C={res['c']['nombre']} (Gnd)")
+                print(f"LP: R={res['r']['nombre']}, C={res['c']['nombre']}")
             else:
-                print(f"Topologia: Pasa Altas (Entrada +)")
-                print(f"Componentes RC: C={res['c']['nombre']} (Serie), R={res['r']['nombre']} (Gnd)")
-
-            print(f"--- Amplificacion ({conf_ganancia['tipo']}) ---")
-            if conf_ganancia['rf']:
-                print(f"Rf (Salida a In-): {conf_ganancia['rf']['nombre']}")
-                print(f"Rg (In- a Gnd):    {conf_ganancia['rg']['nombre']}")
-                print(f"Ganancia Real: x{conf_ganancia['g_real']:.2f}")
-            else:
-                print("Buffer: Conectar Salida directo a In-")
-
+                print(f"HP: C={res['c']['nombre']}, R={res['r']['nombre']}")
+            if conf_g['rf']: print(
+                f"Ganancia x{conf_g['g_real']:.1f}: Rf={conf_g['rf']['nombre']}, Rg={conf_g['rg']['nombre']}")
     except ValueError:
-        print("[ERROR] Invalido.")
+        print("[ERROR]")
 
 
 if __name__ == "__main__":
