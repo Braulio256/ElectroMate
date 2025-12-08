@@ -1,111 +1,95 @@
+from logic.interfaz import input_profesional, C_BOT, C_SYS
 from logic.calculos import (
-    calcular_corriente_ohm,
-    calcular_voltaje_ohm,
-    calcular_potencia_dc,
+    calcular_voltaje_ohm, calcular_potencia_dc,
+    calcular_corriente_ohm, calcular_resistencia_ohm,
     calcular_resistencia_limitadora
 )
 
 
-def menu_ley_ohm(motor):
-    print("\n--- LEY DE OHM Y POTENCIA ---")
-    print("1. Resistencia Limitadora (Proteccion de Cargas)")
-    print("2. Calcular Corriente (Tengo V y R)")
-    print("3. Calcular Voltaje (Tengo I y R)")
-    print("4. Calcular Potencia (Tengo V e I)")
+def resolver_voltaje(datos, motor):
+    print(f"{C_BOT} Cálculo V = I * R")
+    i = datos.get('corriente')
+    r = datos.get('resistencia')
 
-    tipo = input("Seleccione calculo: ")
+    if not i: i = input_profesional("Corriente (mA):") / 1000.0
+    if not r: r = input_profesional("Resistencia (Ω):")
+
+    v = calcular_voltaje_ohm(i, r)
+    p = calcular_potencia_dc(v, i)
+
+    print(f"{C_BOT} V: {v:.2f}V | P: {p:.3f}W")
+    c, _ = motor.buscar_resistencia_optima(r, p)
+    if c: print(f"       ✅ {c['nombre']}")
+
+
+def resolver_corriente(datos, motor):
+    print(f"{C_BOT} Cálculo I = V / R")
+    v = datos.get('voltaje')
+    r = datos.get('resistencia')
+
+    if not v: v = input_profesional("Voltaje (V):")
+    if not r: r = input_profesional("Resistencia (Ω):")
+
+    if r <= 0: print(f"{C_SYS} Error: Resistencia debe ser mayor a 0."); return
+
+    i = calcular_corriente_ohm(v, r)
+    p = calcular_potencia_dc(v, i)
+
+    print(f"{C_BOT} I: {i * 1000:.1f}mA | P: {p:.3f}W")
+    c, _ = motor.buscar_resistencia_optima(r, p)
+    if c:
+        print(f"       ✅ {c['nombre']} aguanta.")
+    else:
+        print("       ⚠️ Resistencia pequeña se quema.")
+
+
+def resolver_resistencia(datos, motor):
+    print(f"{C_BOT} Cálculo R = V / I")
+    v = datos.get('voltaje')
+    i = datos.get('corriente')
+
+    if not v: v = input_profesional("Voltaje (V):")
+    if not i: i = input_profesional("Corriente (mA):") / 1000.0
+
+    if i <= 0: print(f"{C_SYS} Error: Corriente debe ser mayor a 0."); return
+
+    r = calcular_resistencia_ohm(v, i)
+    p = calcular_potencia_dc(v, i)
+
+    print(f"{C_BOT} R: {r:.2f}Ω")
+    c, _ = motor.buscar_resistencia_optima(r, p)
+    if c: print(f"       ✅ Usa: {c['nombre']}")
+
+
+def resolver_potencia(datos, motor):
+    print(f"{C_BOT} Cálculo P = V * I")
+    v = datos.get('voltaje')
+    i = datos.get('corriente')
+
+    if not v: v = input_profesional("Voltaje (V):")
+    if not i: i = input_profesional("Corriente (mA):") / 1000.0
+
+    p = calcular_potencia_dc(v, i)
+    print(f"{C_BOT} Potencia: {p:.4f}W")
+
+
+def resolver_led(datos, motor):
+    print(f"{C_BOT} Cálculo R Limitadora LED")
+    v = datos.get('voltaje')
+    if not v: v = input_profesional("V Fuente:")
 
     try:
-        # 1. RESISTENCIA LIMITADORA (GENERALIZADO)
-        if tipo == "1":
-            print("\n[DISEÑO RESISTENCIA LIMITADORA]")
-            print("Sirve para: LEDs, Zener, Motores DC pequeños, Bases de Transistor, etc.")
-            v_fuente = float(input("Voltaje de la Fuente (V): "))
-            v_carga = float(input("Voltaje nominal de la Carga (V): "))
-            i_mA = float(input("Corriente nominal de la Carga (mA): "))
+        vl = input_profesional("V Carga/LED:")
+    except:
+        return
 
-            # Usamos la funcion actualizada de calculos.py
-            r_teorica, p_teorica = calcular_resistencia_limitadora(v_fuente, v_carga, i_mA / 1000.0)
+    i = datos.get('corriente')
+    if not i: i = input_profesional("I Carga (mA):") / 1000.0
 
-            if r_teorica is None:
-                print("[ERROR] El voltaje de fuente debe ser MAYOR al de la carga.")
-                return
-
-            print(f"-> Resistencia Serie: {r_teorica:.2f} Ω")
-            print(f"-> Potencia en Resistencia: {p_teorica:.4f} W")
-
-            comp, msg = motor.buscar_resistencia_optima(r_teorica, p_teorica)
-            if comp:
-                print(f"✅ SUGERENCIA COMERCIAL: {comp['nombre']}")
-                print(
-                    f"   (Valor: {comp['parametros']['valor_ohmios']}Ω, Potencia: {comp['parametros']['potencia_watts']}W)")
-            else:
-                print(f"[ALERTA] {msg}")
-
-        # 2. CALCULAR CORRIENTE
-        elif tipo == "2":
-            print("\n[CALCULO DE CORRIENTE I=V/R]")
-            v = float(input("Voltaje (V): "))
-            r = float(input("Resistencia (Ohms): "))
-
-            i_A = calcular_corriente_ohm(v, r)
-            if i_A is None:
-                print("[ERROR] Resistencia no puede ser 0");
-                return
-
-            p_W = calcular_potencia_dc(v, i_A)
-
-            print("-" * 30)
-            print(f"⚡ Corriente: {i_A * 1000:.2f} mA ({i_A:.4f} A)")
-            print(f"🔥 Potencia:  {p_W:.4f} W")
-
-            comp, msg = motor.buscar_resistencia_optima(r, p_W)
-            if comp:
-                r_found = comp['parametros']['valor_ohmios']
-                if abs(r - r_found) < (r * 0.1):
-                    print(f"✅ VIABLE: Existe {comp['nombre']} que soporta esta potencia.")
-                else:
-                    print(f"⚠️ AVISO: Calculado con {r}Ω. Comercial más cercana: {r_found}Ω.")
-            else:
-                print(f"❌ ALERTA: No existe resistencia comercial única para {p_W:.2f}W.")
-
-        # 3. CALCULAR VOLTAJE
-        elif tipo == "3":
-            print("\n[CALCULO DE VOLTAJE V=I*R]")
-            i_mA = float(input("Corriente (mA): "))
-            r = float(input("Resistencia (Ohms): "))
-
-            i_A = i_mA / 1000.0
-            v = calcular_voltaje_ohm(i_A, r)
-            p_W = calcular_potencia_dc(v, i_A)
-
-            print("-" * 30)
-            print(f"⚡ Voltaje: {v:.2f} V")
-            print(f"🔥 Potencia: {p_W:.4f} W")
-
-            comp, msg = motor.buscar_resistencia_optima(r, p_W)
-            if not comp: print(f"❌ Alerta: La resistencia {r}Ω se quemaría.")
-
-        # 4. CALCULAR POTENCIA
-        elif tipo == "4":
-            print("\n[CALCULO DE POTENCIA P=V*I]")
-            v = float(input("Voltaje (V): "))
-            i_mA = float(input("Corriente (mA): "))
-
-            i_A = i_mA / 1000.0
-            p_W = calcular_potencia_dc(v, i_A)
-
-            if i_A > 0:
-                r_eq = v / i_A
-                print("-" * 30)
-                print(f"🔥 Potencia Total: {p_W:.4f} W")
-                print(f"💡 Resistencia Equivalente: {r_eq:.2f} Ω")
-
-                comp, msg = motor.buscar_resistencia_optima(r_eq, p_W)
-                if comp:
-                    print(f"✅ SUGERENCIA: {comp['nombre']}")
-                else:
-                    print(f"❌ NO ENCONTRADA: {msg}")
-
-    except ValueError:
-        print("[ERROR] Ingrese solo numeros validos.")
+    r, p = calcular_resistencia_limitadora(v, vl, i)
+    if r:
+        print(f"{C_BOT} R Sugerida: {r:.2f}Ω")
+        c, _ = motor.buscar_resistencia_optima(r, p)
+        if c: print(f"       ✅ {c['nombre']}")
+    else:
+        print(f"{C_SYS} Error: Voltaje insuficiente.")
