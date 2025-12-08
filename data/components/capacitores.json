@@ -1,0 +1,990 @@
+[
+  {
+    "id": "CAP_CER_10pF_50V",
+    "nombre": "Capacitor Cerámico 10pF",
+    "tipo": "Capacitive",
+    "subtipo": "Ceramic Disc/MLCC",
+    "parametros": {
+      "valor_faradios": 1e-11,
+      "voltaje_maximo": 50,
+      "esr_estimado": 0.05,
+      "polarizado": false
+    },
+    "costo_estimado_usd": 0.05
+  },
+  {
+    "id": "CAP_CER_22pF_50V",
+    "nombre": "Capacitor Cerámico 22pF",
+    "tipo": "Capacitive",
+    "subtipo": "Ceramic Disc/MLCC",
+    "parametros": {
+      "valor_faradios": 2.2e-11,
+      "voltaje_maximo": 50,
+      "esr_estimado": 0.05,
+      "polarizado": false
+    },
+    "costo_estimado_usd": 0.05
+  },
+  {
+    "id": "CAP_CER_100pF_50V",
+    "nombre": "Capacitor Cerámico 100pF",
+    "tipo": "Capacitive",
+    "subtipo": "Ceramic Disc/MLCC",
+    "parametros": {
+      "valor_faradios": 1e-10,
+      "voltaje_maximo": 50,
+      "esr_estimado": 0.05,
+      "polarizado": false
+    },
+    "costo_estimado_usd": 0.05
+  },
+  {
+    "id": "CAP_CER_1nF_50V",
+    "nombre": "Capacitor Cerámico 1nF",
+    "tipo": "Capacitive",
+    "subtipo": "Ceramic Disc/MLCC",
+    "parametros": {
+      "valor_faradios": 1e-09,
+      "voltaje_maximo": 50,
+      "esr_estimado": 0.05,
+      "polarizado": false
+    },
+    "costo_estimado_usd": 0.05
+  },
+  {
+    "id": "CAP_CER_10nF_50V",
+    "nombre": "Capacitor Cerámico 10nF",
+    "tipo": "Capacitive",
+    "subtipo": "Ceramic Disc/MLCC",
+    "parametros": {
+      "valor_faradios": 1e-08,
+      "voltaje_maximo": 50,
+      "esr_estimado": 0.05,
+      "polarizado": false
+    },
+    "costo_estimado_usd": 0.05
+  },
+  {
+    "id": "CAP_CER_100nF_50V",
+    "nombre": "Capacitor Cerámico 100nF",
+    "tipo": "Capacitive",
+    "subtipo": "Ceramic Disc/MLCC",
+    "parametros": {
+      "valor_faradios": 1e-07,
+      "voltaje_maximo": 50,
+      "esr_estimado": 0.05,
+      "polarizado": false
+    },
+    "costo_estimado_usd": 0.05
+  },
+  {
+    "id": "CAP_ELEC_1uF_16V",
+    "nombre": "Capacitor Electrolítico 1.0uF 16V",
+    "tipo": "Capacitive",
+    "subtipo": "Aluminum Electrolytic",
+    "parametros": {
+      "valor_faradios": 1e-06,
+      "voltaje_maximo": 16,
+      "esr_estimado": 0.5,
+      "polarizado": true
+    },
+    "costo_estimado_usd": 0.10032
+  },
+  {
+    "id": "CAP_ELEC_2uF_16V",
+    "nombre": "Capacitor Electrolítico 2.2uF 16V",
+    "tipo": "Capacitive",
+    "subtipo": "Aluminum Electrolytic",
+    "parametros": {
+      "valor_faradios": 2.2e-06,
+      "voltaje_maximo": 16,
+      "esr_estimado": 0.5,
+      "polarizado": true
+    },
+    "costo_estimado_usd": 0.100704
+  },
+  {
+    "id": "CAP_ELEC_3uF_16V",
+    "nombre": "Capacitor Electrolítico 3.3uF 16V",
+    "tipo": "Capacitive",
+    "subtipo": "Aluminum Electrolytic",
+    "parametros": {
+      "valor_faradios": 3.2999999999999997e-06,
+      "voltaje_maximo": 16,
+      "esr_estimado": 0.5,
+      "polarizado": true
+    },
+    "costo_estimado_usd": 0.101056
+  },
+  {
+    "id": "CAP_ELEC_4uF_16V",
+    "nombre": "Capacitor Electrolítico 4.7uF 16V",
+    "tipo": "Capacitive",
+    "subtipo": "Aluminum Electrolytic",
+    "parametros": {
+      "valor_faradios": 4.7e-06,
+      "voltaje_maximo": 16,
+      "esr_estimado": 0.5,
+      "polarizado": true
+    },
+    "costo_estimado_usd": 0.10150400000000001
+  },
+  {
+    "id": "CAP_ELEC_10uF_16V",
+    "nombre": "Capacitor Electrolítico 10.0uF 16V",
+    "tipo": "Capacitive",
+    "subtipo": "Aluminum Electrolytic",
+    "parametros": {
+      "valor_faradios": 1e-05,
+      "voltaje_maximo": 16,
+      "esr_estimado": 0.5,
+      "polarizado": true
+    },
+    "costo_estimado_usd": 0.1032
+  },
+  {
+    "id": "CAP_ELEC_22uF_16V",
+    "nombre": "Capacitor Electrolítico 22.0uF 16V",
+    "tipo": "Capacitive",
+    "subtipo": "Aluminum Electrolytic",
+    "parametros": {
+      "valor_faradios": 2.2e-05,
+      "voltaje_maximo": 16,
+      "esr_estimado": 0.5,
+      "polarizado": true
+    },
+    "costo_estimado_usd": 0.10704000000000001
+  },
+  {
+    "id": "CAP_ELEC_33uF_16V",
+    "nombre": "Capacitor Electrolítico 33.0uF 16V",
+    "tipo": "Capacitive",
+    "subtipo": "Aluminum Electrolytic",
+    "parametros": {
+      "valor_faradios": 3.3e-05,
+      "voltaje_maximo": 16,
+      "esr_estimado": 0.5,
+      "polarizado": true
+    },
+    "costo_estimado_usd": 0.11056
+  },
+  {
+    "id": "CAP_ELEC_47uF_16V",
+    "nombre": "Capacitor Electrolítico 47.0uF 16V",
+    "tipo": "Capacitive",
+    "subtipo": "Aluminum Electrolytic",
+    "parametros": {
+      "valor_faradios": 4.7e-05,
+      "voltaje_maximo": 16,
+      "esr_estimado": 0.5,
+      "polarizado": true
+    },
+    "costo_estimado_usd": 0.11504
+  },
+  {
+    "id": "CAP_ELEC_100uF_16V",
+    "nombre": "Capacitor Electrolítico 100.0uF 16V",
+    "tipo": "Capacitive",
+    "subtipo": "Aluminum Electrolytic",
+    "parametros": {
+      "valor_faradios": 0.0001,
+      "voltaje_maximo": 16,
+      "esr_estimado": 0.1,
+      "polarizado": true
+    },
+    "costo_estimado_usd": 0.132
+  },
+  {
+    "id": "CAP_ELEC_220uF_16V",
+    "nombre": "Capacitor Electrolítico 220.0uF 16V",
+    "tipo": "Capacitive",
+    "subtipo": "Aluminum Electrolytic",
+    "parametros": {
+      "valor_faradios": 0.00022,
+      "voltaje_maximo": 16,
+      "esr_estimado": 0.1,
+      "polarizado": true
+    },
+    "costo_estimado_usd": 0.1704
+  },
+  {
+    "id": "CAP_ELEC_330uF_16V",
+    "nombre": "Capacitor Electrolítico 330.0uF 16V",
+    "tipo": "Capacitive",
+    "subtipo": "Aluminum Electrolytic",
+    "parametros": {
+      "valor_faradios": 0.00033,
+      "voltaje_maximo": 16,
+      "esr_estimado": 0.1,
+      "polarizado": true
+    },
+    "costo_estimado_usd": 0.2056
+  },
+  {
+    "id": "CAP_ELEC_470uF_16V",
+    "nombre": "Capacitor Electrolítico 470.0uF 16V",
+    "tipo": "Capacitive",
+    "subtipo": "Aluminum Electrolytic",
+    "parametros": {
+      "valor_faradios": 0.00047,
+      "voltaje_maximo": 16,
+      "esr_estimado": 0.1,
+      "polarizado": true
+    },
+    "costo_estimado_usd": 0.2504
+  },
+  {
+    "id": "CAP_ELEC_1000uF_16V",
+    "nombre": "Capacitor Electrolítico 1000.0uF 16V",
+    "tipo": "Capacitive",
+    "subtipo": "Aluminum Electrolytic",
+    "parametros": {
+      "valor_faradios": 0.001,
+      "voltaje_maximo": 16,
+      "esr_estimado": 0.1,
+      "polarizado": true
+    },
+    "costo_estimado_usd": 0.42000000000000004
+  },
+  {
+    "id": "CAP_ELEC_2200uF_16V",
+    "nombre": "Capacitor Electrolítico 2200.0uF 16V",
+    "tipo": "Capacitive",
+    "subtipo": "Aluminum Electrolytic",
+    "parametros": {
+      "valor_faradios": 0.0022,
+      "voltaje_maximo": 16,
+      "esr_estimado": 0.1,
+      "polarizado": true
+    },
+    "costo_estimado_usd": 0.8039999999999999
+  },
+  {
+    "id": "CAP_ELEC_1uF_25V",
+    "nombre": "Capacitor Electrolítico 1.0uF 25V",
+    "tipo": "Capacitive",
+    "subtipo": "Aluminum Electrolytic",
+    "parametros": {
+      "valor_faradios": 1e-06,
+      "voltaje_maximo": 25,
+      "esr_estimado": 0.5,
+      "polarizado": true
+    },
+    "costo_estimado_usd": 0.1005
+  },
+  {
+    "id": "CAP_ELEC_2uF_25V",
+    "nombre": "Capacitor Electrolítico 2.2uF 25V",
+    "tipo": "Capacitive",
+    "subtipo": "Aluminum Electrolytic",
+    "parametros": {
+      "valor_faradios": 2.2e-06,
+      "voltaje_maximo": 25,
+      "esr_estimado": 0.5,
+      "polarizado": true
+    },
+    "costo_estimado_usd": 0.10110000000000001
+  },
+  {
+    "id": "CAP_ELEC_3uF_25V",
+    "nombre": "Capacitor Electrolítico 3.3uF 25V",
+    "tipo": "Capacitive",
+    "subtipo": "Aluminum Electrolytic",
+    "parametros": {
+      "valor_faradios": 3.2999999999999997e-06,
+      "voltaje_maximo": 25,
+      "esr_estimado": 0.5,
+      "polarizado": true
+    },
+    "costo_estimado_usd": 0.10165
+  },
+  {
+    "id": "CAP_ELEC_4uF_25V",
+    "nombre": "Capacitor Electrolítico 4.7uF 25V",
+    "tipo": "Capacitive",
+    "subtipo": "Aluminum Electrolytic",
+    "parametros": {
+      "valor_faradios": 4.7e-06,
+      "voltaje_maximo": 25,
+      "esr_estimado": 0.5,
+      "polarizado": true
+    },
+    "costo_estimado_usd": 0.10235000000000001
+  },
+  {
+    "id": "CAP_ELEC_10uF_25V",
+    "nombre": "Capacitor Electrolítico 10.0uF 25V",
+    "tipo": "Capacitive",
+    "subtipo": "Aluminum Electrolytic",
+    "parametros": {
+      "valor_faradios": 1e-05,
+      "voltaje_maximo": 25,
+      "esr_estimado": 0.5,
+      "polarizado": true
+    },
+    "costo_estimado_usd": 0.10500000000000001
+  },
+  {
+    "id": "CAP_ELEC_22uF_25V",
+    "nombre": "Capacitor Electrolítico 22.0uF 25V",
+    "tipo": "Capacitive",
+    "subtipo": "Aluminum Electrolytic",
+    "parametros": {
+      "valor_faradios": 2.2e-05,
+      "voltaje_maximo": 25,
+      "esr_estimado": 0.5,
+      "polarizado": true
+    },
+    "costo_estimado_usd": 0.111
+  },
+  {
+    "id": "CAP_ELEC_33uF_25V",
+    "nombre": "Capacitor Electrolítico 33.0uF 25V",
+    "tipo": "Capacitive",
+    "subtipo": "Aluminum Electrolytic",
+    "parametros": {
+      "valor_faradios": 3.3e-05,
+      "voltaje_maximo": 25,
+      "esr_estimado": 0.5,
+      "polarizado": true
+    },
+    "costo_estimado_usd": 0.1165
+  },
+  {
+    "id": "CAP_ELEC_47uF_25V",
+    "nombre": "Capacitor Electrolítico 47.0uF 25V",
+    "tipo": "Capacitive",
+    "subtipo": "Aluminum Electrolytic",
+    "parametros": {
+      "valor_faradios": 4.7e-05,
+      "voltaje_maximo": 25,
+      "esr_estimado": 0.5,
+      "polarizado": true
+    },
+    "costo_estimado_usd": 0.1235
+  },
+  {
+    "id": "CAP_ELEC_100uF_25V",
+    "nombre": "Capacitor Electrolítico 100.0uF 25V",
+    "tipo": "Capacitive",
+    "subtipo": "Aluminum Electrolytic",
+    "parametros": {
+      "valor_faradios": 0.0001,
+      "voltaje_maximo": 25,
+      "esr_estimado": 0.1,
+      "polarizado": true
+    },
+    "costo_estimado_usd": 0.15000000000000002
+  },
+  {
+    "id": "CAP_ELEC_220uF_25V",
+    "nombre": "Capacitor Electrolítico 220.0uF 25V",
+    "tipo": "Capacitive",
+    "subtipo": "Aluminum Electrolytic",
+    "parametros": {
+      "valor_faradios": 0.00022,
+      "voltaje_maximo": 25,
+      "esr_estimado": 0.1,
+      "polarizado": true
+    },
+    "costo_estimado_usd": 0.21000000000000002
+  },
+  {
+    "id": "CAP_ELEC_330uF_25V",
+    "nombre": "Capacitor Electrolítico 330.0uF 25V",
+    "tipo": "Capacitive",
+    "subtipo": "Aluminum Electrolytic",
+    "parametros": {
+      "valor_faradios": 0.00033,
+      "voltaje_maximo": 25,
+      "esr_estimado": 0.1,
+      "polarizado": true
+    },
+    "costo_estimado_usd": 0.265
+  },
+  {
+    "id": "CAP_ELEC_470uF_25V",
+    "nombre": "Capacitor Electrolítico 470.0uF 25V",
+    "tipo": "Capacitive",
+    "subtipo": "Aluminum Electrolytic",
+    "parametros": {
+      "valor_faradios": 0.00047,
+      "voltaje_maximo": 25,
+      "esr_estimado": 0.1,
+      "polarizado": true
+    },
+    "costo_estimado_usd": 0.33499999999999996
+  },
+  {
+    "id": "CAP_ELEC_1000uF_25V",
+    "nombre": "Capacitor Electrolítico 1000.0uF 25V",
+    "tipo": "Capacitive",
+    "subtipo": "Aluminum Electrolytic",
+    "parametros": {
+      "valor_faradios": 0.001,
+      "voltaje_maximo": 25,
+      "esr_estimado": 0.1,
+      "polarizado": true
+    },
+    "costo_estimado_usd": 0.6
+  },
+  {
+    "id": "CAP_ELEC_2200uF_25V",
+    "nombre": "Capacitor Electrolítico 2200.0uF 25V",
+    "tipo": "Capacitive",
+    "subtipo": "Aluminum Electrolytic",
+    "parametros": {
+      "valor_faradios": 0.0022,
+      "voltaje_maximo": 25,
+      "esr_estimado": 0.1,
+      "polarizado": true
+    },
+    "costo_estimado_usd": 1.2000000000000002
+  },
+  {
+    "id": "CAP_ELEC_1uF_35V",
+    "nombre": "Capacitor Electrolítico 1.0uF 35V",
+    "tipo": "Capacitive",
+    "subtipo": "Aluminum Electrolytic",
+    "parametros": {
+      "valor_faradios": 1e-06,
+      "voltaje_maximo": 35,
+      "esr_estimado": 0.5,
+      "polarizado": true
+    },
+    "costo_estimado_usd": 0.10070000000000001
+  },
+  {
+    "id": "CAP_ELEC_2uF_35V",
+    "nombre": "Capacitor Electrolítico 2.2uF 35V",
+    "tipo": "Capacitive",
+    "subtipo": "Aluminum Electrolytic",
+    "parametros": {
+      "valor_faradios": 2.2e-06,
+      "voltaje_maximo": 35,
+      "esr_estimado": 0.5,
+      "polarizado": true
+    },
+    "costo_estimado_usd": 0.10154
+  },
+  {
+    "id": "CAP_ELEC_3uF_35V",
+    "nombre": "Capacitor Electrolítico 3.3uF 35V",
+    "tipo": "Capacitive",
+    "subtipo": "Aluminum Electrolytic",
+    "parametros": {
+      "valor_faradios": 3.2999999999999997e-06,
+      "voltaje_maximo": 35,
+      "esr_estimado": 0.5,
+      "polarizado": true
+    },
+    "costo_estimado_usd": 0.10231000000000001
+  },
+  {
+    "id": "CAP_ELEC_4uF_35V",
+    "nombre": "Capacitor Electrolítico 4.7uF 35V",
+    "tipo": "Capacitive",
+    "subtipo": "Aluminum Electrolytic",
+    "parametros": {
+      "valor_faradios": 4.7e-06,
+      "voltaje_maximo": 35,
+      "esr_estimado": 0.5,
+      "polarizado": true
+    },
+    "costo_estimado_usd": 0.10329
+  },
+  {
+    "id": "CAP_ELEC_10uF_35V",
+    "nombre": "Capacitor Electrolítico 10.0uF 35V",
+    "tipo": "Capacitive",
+    "subtipo": "Aluminum Electrolytic",
+    "parametros": {
+      "valor_faradios": 1e-05,
+      "voltaje_maximo": 35,
+      "esr_estimado": 0.5,
+      "polarizado": true
+    },
+    "costo_estimado_usd": 0.10700000000000001
+  },
+  {
+    "id": "CAP_ELEC_22uF_35V",
+    "nombre": "Capacitor Electrolítico 22.0uF 35V",
+    "tipo": "Capacitive",
+    "subtipo": "Aluminum Electrolytic",
+    "parametros": {
+      "valor_faradios": 2.2e-05,
+      "voltaje_maximo": 35,
+      "esr_estimado": 0.5,
+      "polarizado": true
+    },
+    "costo_estimado_usd": 0.1154
+  },
+  {
+    "id": "CAP_ELEC_33uF_35V",
+    "nombre": "Capacitor Electrolítico 33.0uF 35V",
+    "tipo": "Capacitive",
+    "subtipo": "Aluminum Electrolytic",
+    "parametros": {
+      "valor_faradios": 3.3e-05,
+      "voltaje_maximo": 35,
+      "esr_estimado": 0.5,
+      "polarizado": true
+    },
+    "costo_estimado_usd": 0.1231
+  },
+  {
+    "id": "CAP_ELEC_47uF_35V",
+    "nombre": "Capacitor Electrolítico 47.0uF 35V",
+    "tipo": "Capacitive",
+    "subtipo": "Aluminum Electrolytic",
+    "parametros": {
+      "valor_faradios": 4.7e-05,
+      "voltaje_maximo": 35,
+      "esr_estimado": 0.5,
+      "polarizado": true
+    },
+    "costo_estimado_usd": 0.13290000000000002
+  },
+  {
+    "id": "CAP_ELEC_100uF_35V",
+    "nombre": "Capacitor Electrolítico 100.0uF 35V",
+    "tipo": "Capacitive",
+    "subtipo": "Aluminum Electrolytic",
+    "parametros": {
+      "valor_faradios": 0.0001,
+      "voltaje_maximo": 35,
+      "esr_estimado": 0.1,
+      "polarizado": true
+    },
+    "costo_estimado_usd": 0.17
+  },
+  {
+    "id": "CAP_ELEC_220uF_35V",
+    "nombre": "Capacitor Electrolítico 220.0uF 35V",
+    "tipo": "Capacitive",
+    "subtipo": "Aluminum Electrolytic",
+    "parametros": {
+      "valor_faradios": 0.00022,
+      "voltaje_maximo": 35,
+      "esr_estimado": 0.1,
+      "polarizado": true
+    },
+    "costo_estimado_usd": 0.254
+  },
+  {
+    "id": "CAP_ELEC_330uF_35V",
+    "nombre": "Capacitor Electrolítico 330.0uF 35V",
+    "tipo": "Capacitive",
+    "subtipo": "Aluminum Electrolytic",
+    "parametros": {
+      "valor_faradios": 0.00033,
+      "voltaje_maximo": 35,
+      "esr_estimado": 0.1,
+      "polarizado": true
+    },
+    "costo_estimado_usd": 0.331
+  },
+  {
+    "id": "CAP_ELEC_470uF_35V",
+    "nombre": "Capacitor Electrolítico 470.0uF 35V",
+    "tipo": "Capacitive",
+    "subtipo": "Aluminum Electrolytic",
+    "parametros": {
+      "valor_faradios": 0.00047,
+      "voltaje_maximo": 35,
+      "esr_estimado": 0.1,
+      "polarizado": true
+    },
+    "costo_estimado_usd": 0.42900000000000005
+  },
+  {
+    "id": "CAP_ELEC_1000uF_35V",
+    "nombre": "Capacitor Electrolítico 1000.0uF 35V",
+    "tipo": "Capacitive",
+    "subtipo": "Aluminum Electrolytic",
+    "parametros": {
+      "valor_faradios": 0.001,
+      "voltaje_maximo": 35,
+      "esr_estimado": 0.1,
+      "polarizado": true
+    },
+    "costo_estimado_usd": 0.7999999999999999
+  },
+  {
+    "id": "CAP_ELEC_2200uF_35V",
+    "nombre": "Capacitor Electrolítico 2200.0uF 35V",
+    "tipo": "Capacitive",
+    "subtipo": "Aluminum Electrolytic",
+    "parametros": {
+      "valor_faradios": 0.0022,
+      "voltaje_maximo": 35,
+      "esr_estimado": 0.1,
+      "polarizado": true
+    },
+    "costo_estimado_usd": 1.6400000000000001
+  },
+  {
+    "id": "CAP_ELEC_1uF_50V",
+    "nombre": "Capacitor Electrolítico 1.0uF 50V",
+    "tipo": "Capacitive",
+    "subtipo": "Aluminum Electrolytic",
+    "parametros": {
+      "valor_faradios": 1e-06,
+      "voltaje_maximo": 50,
+      "esr_estimado": 0.5,
+      "polarizado": true
+    },
+    "costo_estimado_usd": 0.101
+  },
+  {
+    "id": "CAP_ELEC_2uF_50V",
+    "nombre": "Capacitor Electrolítico 2.2uF 50V",
+    "tipo": "Capacitive",
+    "subtipo": "Aluminum Electrolytic",
+    "parametros": {
+      "valor_faradios": 2.2e-06,
+      "voltaje_maximo": 50,
+      "esr_estimado": 0.5,
+      "polarizado": true
+    },
+    "costo_estimado_usd": 0.1022
+  },
+  {
+    "id": "CAP_ELEC_3uF_50V",
+    "nombre": "Capacitor Electrolítico 3.3uF 50V",
+    "tipo": "Capacitive",
+    "subtipo": "Aluminum Electrolytic",
+    "parametros": {
+      "valor_faradios": 3.2999999999999997e-06,
+      "voltaje_maximo": 50,
+      "esr_estimado": 0.5,
+      "polarizado": true
+    },
+    "costo_estimado_usd": 0.1033
+  },
+  {
+    "id": "CAP_ELEC_4uF_50V",
+    "nombre": "Capacitor Electrolítico 4.7uF 50V",
+    "tipo": "Capacitive",
+    "subtipo": "Aluminum Electrolytic",
+    "parametros": {
+      "valor_faradios": 4.7e-06,
+      "voltaje_maximo": 50,
+      "esr_estimado": 0.5,
+      "polarizado": true
+    },
+    "costo_estimado_usd": 0.1047
+  },
+  {
+    "id": "CAP_ELEC_10uF_50V",
+    "nombre": "Capacitor Electrolítico 10.0uF 50V",
+    "tipo": "Capacitive",
+    "subtipo": "Aluminum Electrolytic",
+    "parametros": {
+      "valor_faradios": 1e-05,
+      "voltaje_maximo": 50,
+      "esr_estimado": 0.5,
+      "polarizado": true
+    },
+    "costo_estimado_usd": 0.11
+  },
+  {
+    "id": "CAP_ELEC_22uF_50V",
+    "nombre": "Capacitor Electrolítico 22.0uF 50V",
+    "tipo": "Capacitive",
+    "subtipo": "Aluminum Electrolytic",
+    "parametros": {
+      "valor_faradios": 2.2e-05,
+      "voltaje_maximo": 50,
+      "esr_estimado": 0.5,
+      "polarizado": true
+    },
+    "costo_estimado_usd": 0.122
+  },
+  {
+    "id": "CAP_ELEC_33uF_50V",
+    "nombre": "Capacitor Electrolítico 33.0uF 50V",
+    "tipo": "Capacitive",
+    "subtipo": "Aluminum Electrolytic",
+    "parametros": {
+      "valor_faradios": 3.3e-05,
+      "voltaje_maximo": 50,
+      "esr_estimado": 0.5,
+      "polarizado": true
+    },
+    "costo_estimado_usd": 0.133
+  },
+  {
+    "id": "CAP_ELEC_47uF_50V",
+    "nombre": "Capacitor Electrolítico 47.0uF 50V",
+    "tipo": "Capacitive",
+    "subtipo": "Aluminum Electrolytic",
+    "parametros": {
+      "valor_faradios": 4.7e-05,
+      "voltaje_maximo": 50,
+      "esr_estimado": 0.5,
+      "polarizado": true
+    },
+    "costo_estimado_usd": 0.14700000000000002
+  },
+  {
+    "id": "CAP_ELEC_100uF_50V",
+    "nombre": "Capacitor Electrolítico 100.0uF 50V",
+    "tipo": "Capacitive",
+    "subtipo": "Aluminum Electrolytic",
+    "parametros": {
+      "valor_faradios": 0.0001,
+      "voltaje_maximo": 50,
+      "esr_estimado": 0.1,
+      "polarizado": true
+    },
+    "costo_estimado_usd": 0.2
+  },
+  {
+    "id": "CAP_ELEC_220uF_50V",
+    "nombre": "Capacitor Electrolítico 220.0uF 50V",
+    "tipo": "Capacitive",
+    "subtipo": "Aluminum Electrolytic",
+    "parametros": {
+      "valor_faradios": 0.00022,
+      "voltaje_maximo": 50,
+      "esr_estimado": 0.1,
+      "polarizado": true
+    },
+    "costo_estimado_usd": 0.32
+  },
+  {
+    "id": "CAP_ELEC_330uF_50V",
+    "nombre": "Capacitor Electrolítico 330.0uF 50V",
+    "tipo": "Capacitive",
+    "subtipo": "Aluminum Electrolytic",
+    "parametros": {
+      "valor_faradios": 0.00033,
+      "voltaje_maximo": 50,
+      "esr_estimado": 0.1,
+      "polarizado": true
+    },
+    "costo_estimado_usd": 0.43000000000000005
+  },
+  {
+    "id": "CAP_ELEC_470uF_50V",
+    "nombre": "Capacitor Electrolítico 470.0uF 50V",
+    "tipo": "Capacitive",
+    "subtipo": "Aluminum Electrolytic",
+    "parametros": {
+      "valor_faradios": 0.00047,
+      "voltaje_maximo": 50,
+      "esr_estimado": 0.1,
+      "polarizado": true
+    },
+    "costo_estimado_usd": 0.57
+  },
+  {
+    "id": "CAP_ELEC_1000uF_50V",
+    "nombre": "Capacitor Electrolítico 1000.0uF 50V",
+    "tipo": "Capacitive",
+    "subtipo": "Aluminum Electrolytic",
+    "parametros": {
+      "valor_faradios": 0.001,
+      "voltaje_maximo": 50,
+      "esr_estimado": 0.1,
+      "polarizado": true
+    },
+    "costo_estimado_usd": 1.1
+  },
+  {
+    "id": "CAP_ELEC_2200uF_50V",
+    "nombre": "Capacitor Electrolítico 2200.0uF 50V",
+    "tipo": "Capacitive",
+    "subtipo": "Aluminum Electrolytic",
+    "parametros": {
+      "valor_faradios": 0.0022,
+      "voltaje_maximo": 50,
+      "esr_estimado": 0.1,
+      "polarizado": true
+    },
+    "costo_estimado_usd": 2.3000000000000003
+  },
+  {
+    "id": "CAP_ELEC_1uF_63V",
+    "nombre": "Capacitor Electrolítico 1.0uF 63V",
+    "tipo": "Capacitive",
+    "subtipo": "Aluminum Electrolytic",
+    "parametros": {
+      "valor_faradios": 1e-06,
+      "voltaje_maximo": 63,
+      "esr_estimado": 0.5,
+      "polarizado": true
+    },
+    "costo_estimado_usd": 0.10126
+  },
+  {
+    "id": "CAP_ELEC_2uF_63V",
+    "nombre": "Capacitor Electrolítico 2.2uF 63V",
+    "tipo": "Capacitive",
+    "subtipo": "Aluminum Electrolytic",
+    "parametros": {
+      "valor_faradios": 2.2e-06,
+      "voltaje_maximo": 63,
+      "esr_estimado": 0.5,
+      "polarizado": true
+    },
+    "costo_estimado_usd": 0.102772
+  },
+  {
+    "id": "CAP_ELEC_3uF_63V",
+    "nombre": "Capacitor Electrolítico 3.3uF 63V",
+    "tipo": "Capacitive",
+    "subtipo": "Aluminum Electrolytic",
+    "parametros": {
+      "valor_faradios": 3.2999999999999997e-06,
+      "voltaje_maximo": 63,
+      "esr_estimado": 0.5,
+      "polarizado": true
+    },
+    "costo_estimado_usd": 0.104158
+  },
+  {
+    "id": "CAP_ELEC_4uF_63V",
+    "nombre": "Capacitor Electrolítico 4.7uF 63V",
+    "tipo": "Capacitive",
+    "subtipo": "Aluminum Electrolytic",
+    "parametros": {
+      "valor_faradios": 4.7e-06,
+      "voltaje_maximo": 63,
+      "esr_estimado": 0.5,
+      "polarizado": true
+    },
+    "costo_estimado_usd": 0.105922
+  },
+  {
+    "id": "CAP_ELEC_10uF_63V",
+    "nombre": "Capacitor Electrolítico 10.0uF 63V",
+    "tipo": "Capacitive",
+    "subtipo": "Aluminum Electrolytic",
+    "parametros": {
+      "valor_faradios": 1e-05,
+      "voltaje_maximo": 63,
+      "esr_estimado": 0.5,
+      "polarizado": true
+    },
+    "costo_estimado_usd": 0.1126
+  },
+  {
+    "id": "CAP_ELEC_22uF_63V",
+    "nombre": "Capacitor Electrolítico 22.0uF 63V",
+    "tipo": "Capacitive",
+    "subtipo": "Aluminum Electrolytic",
+    "parametros": {
+      "valor_faradios": 2.2e-05,
+      "voltaje_maximo": 63,
+      "esr_estimado": 0.5,
+      "polarizado": true
+    },
+    "costo_estimado_usd": 0.12772
+  },
+  {
+    "id": "CAP_ELEC_33uF_63V",
+    "nombre": "Capacitor Electrolítico 33.0uF 63V",
+    "tipo": "Capacitive",
+    "subtipo": "Aluminum Electrolytic",
+    "parametros": {
+      "valor_faradios": 3.3e-05,
+      "voltaje_maximo": 63,
+      "esr_estimado": 0.5,
+      "polarizado": true
+    },
+    "costo_estimado_usd": 0.14158
+  },
+  {
+    "id": "CAP_ELEC_47uF_63V",
+    "nombre": "Capacitor Electrolítico 47.0uF 63V",
+    "tipo": "Capacitive",
+    "subtipo": "Aluminum Electrolytic",
+    "parametros": {
+      "valor_faradios": 4.7e-05,
+      "voltaje_maximo": 63,
+      "esr_estimado": 0.5,
+      "polarizado": true
+    },
+    "costo_estimado_usd": 0.15922
+  },
+  {
+    "id": "CAP_ELEC_100uF_63V",
+    "nombre": "Capacitor Electrolítico 100.0uF 63V",
+    "tipo": "Capacitive",
+    "subtipo": "Aluminum Electrolytic",
+    "parametros": {
+      "valor_faradios": 0.0001,
+      "voltaje_maximo": 63,
+      "esr_estimado": 0.1,
+      "polarizado": true
+    },
+    "costo_estimado_usd": 0.226
+  },
+  {
+    "id": "CAP_ELEC_220uF_63V",
+    "nombre": "Capacitor Electrolítico 220.0uF 63V",
+    "tipo": "Capacitive",
+    "subtipo": "Aluminum Electrolytic",
+    "parametros": {
+      "valor_faradios": 0.00022,
+      "voltaje_maximo": 63,
+      "esr_estimado": 0.1,
+      "polarizado": true
+    },
+    "costo_estimado_usd": 0.3772
+  },
+  {
+    "id": "CAP_ELEC_330uF_63V",
+    "nombre": "Capacitor Electrolítico 330.0uF 63V",
+    "tipo": "Capacitive",
+    "subtipo": "Aluminum Electrolytic",
+    "parametros": {
+      "valor_faradios": 0.00033,
+      "voltaje_maximo": 63,
+      "esr_estimado": 0.1,
+      "polarizado": true
+    },
+    "costo_estimado_usd": 0.5158
+  },
+  {
+    "id": "CAP_ELEC_470uF_63V",
+    "nombre": "Capacitor Electrolítico 470.0uF 63V",
+    "tipo": "Capacitive",
+    "subtipo": "Aluminum Electrolytic",
+    "parametros": {
+      "valor_faradios": 0.00047,
+      "voltaje_maximo": 63,
+      "esr_estimado": 0.1,
+      "polarizado": true
+    },
+    "costo_estimado_usd": 0.6921999999999999
+  },
+  {
+    "id": "CAP_ELEC_1000uF_63V",
+    "nombre": "Capacitor Electrolítico 1000.0uF 63V",
+    "tipo": "Capacitive",
+    "subtipo": "Aluminum Electrolytic",
+    "parametros": {
+      "valor_faradios": 0.001,
+      "voltaje_maximo": 63,
+      "esr_estimado": 0.1,
+      "polarizado": true
+    },
+    "costo_estimado_usd": 1.36
+  },
+  {
+    "id": "CAP_ELEC_2200uF_63V",
+    "nombre": "Capacitor Electrolítico 2200.0uF 63V",
+    "tipo": "Capacitive",
+    "subtipo": "Aluminum Electrolytic",
+    "parametros": {
+      "valor_faradios": 0.0022,
+      "voltaje_maximo": 63,
+      "esr_estimado": 0.1,
+      "polarizado": true
+    },
+    "costo_estimado_usd": 2.872
+  }
+]

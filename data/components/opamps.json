@@ -1,0 +1,77 @@
+[
+  {
+    "id": "OPAMP_LM741",
+    "nombre": "LM741 General Purpose",
+    "categoria": "Active",
+    "subtipo": "Operational Amplifier",
+    "parametros": {
+      "gbw_hz": 1000000,
+      "slew_rate": 0.5,
+      "voltaje_operacion_min": 10,
+      "voltaje_operacion_max": 36,
+      "tecnologia": "BJT"
+    },
+    "descripcion": "El clásico. Lento, ruidoso, pero omnipresente para uso general.",
+    "costo_estimado_usd": 0.2
+  },
+  {
+    "id": "OPAMP_LM358",
+    "nombre": "LM358 Single Supply",
+    "categoria": "Active",
+    "subtipo": "Operational Amplifier",
+    "parametros": {
+      "gbw_hz": 700000,
+      "slew_rate": 0.3,
+      "voltaje_operacion_min": 3,
+      "voltaje_operacion_max": 32,
+      "tecnologia": "BJT"
+    },
+    "descripcion": "Barato, funciona con fuente simple. Ideal para señales lentas.",
+    "costo_estimado_usd": 0.1
+  },
+  {
+    "id": "OPAMP_TL072",
+    "nombre": "TL072 Low Noise JFET",
+    "categoria": "Active",
+    "subtipo": "Operational Amplifier",
+    "parametros": {
+      "gbw_hz": 3000000,
+      "slew_rate": 13,
+      "voltaje_operacion_min": 7,
+      "voltaje_operacion_max": 36,
+      "tecnologia": "JFET"
+    },
+    "descripcion": "Entrada JFET (alta impedancia). Estándar en audio y filtros.",
+    "costo_estimado_usd": 0.3
+  },
+  {
+    "id": "OPAMP_NE5532",
+    "nombre": "NE5532 Audio Pro",
+    "categoria": "Active",
+    "subtipo": "Operational Amplifier",
+    "parametros": {
+      "gbw_hz": 10000000,
+      "slew_rate": 9,
+      "voltaje_operacion_min": 10,
+      "voltaje_operacion_max": 30,
+      "tecnologia": "BJT"
+    },
+    "descripcion": "Bajo ruido, alta velocidad. El rey del audio profesional.",
+    "costo_estimado_usd": 0.5
+  },
+  {
+    "id": "OPAMP_OP07",
+    "nombre": "OP07 Precision",
+    "categoria": "Active",
+    "subtipo": "Operational Amplifier",
+    "parametros": {
+      "gbw_hz": 600000,
+      "slew_rate": 0.3,
+      "voltaje_operacion_min": 6,
+      "voltaje_operacion_max": 36,
+      "tecnologia": "BJT"
+    },
+    "descripcion": "Ultra preciso (bajo offset). Para sensores e instrumentación.",
+    "costo_estimado_usd": 0.8
+  }
+]

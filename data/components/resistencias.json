@@ -1,0 +1,5618 @@
+[
+  {
+    "id": "RES_0.25W_0p1R",
+    "nombre": "Resistencia 0.1Ω 1/4W Carbón",
+    "tipo": "Resistive",
+    "subtipo": "Carbon Film",
+    "parametros": {
+      "valor_ohmios": 0.1,
+      "potencia_watts": 0.25,
+      "tolerancia_porcentaje": 5,
+      "voltaje_maximo": 250
+    },
+    "costo_estimado_usd": 0.01
+  },
+  {
+    "id": "RES_0.25W_0p12R",
+    "nombre": "Resistencia 0.12Ω 1/4W Carbón",
+    "tipo": "Resistive",
+    "subtipo": "Carbon Film",
+    "parametros": {
+      "valor_ohmios": 0.12,
+      "potencia_watts": 0.25,
+      "tolerancia_porcentaje": 5,
+      "voltaje_maximo": 250
+    },
+    "costo_estimado_usd": 0.01
+  },
+  {
+    "id": "RES_0.25W_0p15R",
+    "nombre": "Resistencia 0.15Ω 1/4W Carbón",
+    "tipo": "Resistive",
+    "subtipo": "Carbon Film",
+    "parametros": {
+      "valor_ohmios": 0.15,
+      "potencia_watts": 0.25,
+      "tolerancia_porcentaje": 5,
+      "voltaje_maximo": 250
+    },
+    "costo_estimado_usd": 0.01
+  },
+  {
+    "id": "RES_0.25W_0p18R",
+    "nombre": "Resistencia 0.18Ω 1/4W Carbón",
+    "tipo": "Resistive",
+    "subtipo": "Carbon Film",
+    "parametros": {
+      "valor_ohmios": 0.18,
+      "potencia_watts": 0.25,
+      "tolerancia_porcentaje": 5,
+      "voltaje_maximo": 250
+    },
+    "costo_estimado_usd": 0.01
+  },
+  {
+    "id": "RES_0.25W_0p22R",
+    "nombre": "Resistencia 0.22Ω 1/4W Carbón",
+    "tipo": "Resistive",
+    "subtipo": "Carbon Film",
+    "parametros": {
+      "valor_ohmios": 0.22,
+      "potencia_watts": 0.25,
+      "tolerancia_porcentaje": 5,
+      "voltaje_maximo": 250
+    },
+    "costo_estimado_usd": 0.01
+  },
+  {
+    "id": "RES_0.25W_0p27R",
+    "nombre": "Resistencia 0.27Ω 1/4W Carbón",
+    "tipo": "Resistive",
+    "subtipo": "Carbon Film",
+    "parametros": {
+      "valor_ohmios": 0.27,
+      "potencia_watts": 0.25,
+      "tolerancia_porcentaje": 5,
+      "voltaje_maximo": 250
+    },
+    "costo_estimado_usd": 0.01
+  },
+  {
+    "id": "RES_0.25W_0p33R",
+    "nombre": "Resistencia 0.33Ω 1/4W Carbón",
+    "tipo": "Resistive",
+    "subtipo": "Carbon Film",
+    "parametros": {
+      "valor_ohmios": 0.33,
+      "potencia_watts": 0.25,
+      "tolerancia_porcentaje": 5,
+      "voltaje_maximo": 250
+    },
+    "costo_estimado_usd": 0.01
+  },
+  {
+    "id": "RES_0.25W_0p39R",
+    "nombre": "Resistencia 0.39Ω 1/4W Carbón",
+    "tipo": "Resistive",
+    "subtipo": "Carbon Film",
+    "parametros": {
+      "valor_ohmios": 0.39,
+      "potencia_watts": 0.25,
+      "tolerancia_porcentaje": 5,
+      "voltaje_maximo": 250
+    },
+    "costo_estimado_usd": 0.01
+  },
+  {
+    "id": "RES_0.25W_0p47R",
+    "nombre": "Resistencia 0.47Ω 1/4W Carbón",
+    "tipo": "Resistive",
+    "subtipo": "Carbon Film",
+    "parametros": {
+      "valor_ohmios": 0.47,
+      "potencia_watts": 0.25,
+      "tolerancia_porcentaje": 5,
+      "voltaje_maximo": 250
+    },
+    "costo_estimado_usd": 0.01
+  },
+  {
+    "id": "RES_0.25W_0p56R",
+    "nombre": "Resistencia 0.56Ω 1/4W Carbón",
+    "tipo": "Resistive",
+    "subtipo": "Carbon Film",
+    "parametros": {
+      "valor_ohmios": 0.56,
+      "potencia_watts": 0.25,
+      "tolerancia_porcentaje": 5,
+      "voltaje_maximo": 250
+    },
+    "costo_estimado_usd": 0.01
+  },
+  {
+    "id": "RES_0.25W_0p68R",
+    "nombre": "Resistencia 0.68Ω 1/4W Carbón",
+    "tipo": "Resistive",
+    "subtipo": "Carbon Film",
+    "parametros": {
+      "valor_ohmios": 0.68,
+      "potencia_watts": 0.25,
+      "tolerancia_porcentaje": 5,
+      "voltaje_maximo": 250
+    },
+    "costo_estimado_usd": 0.01
+  },
+  {
+    "id": "RES_0.25W_0p82R",
+    "nombre": "Resistencia 0.82Ω 1/4W Carbón",
+    "tipo": "Resistive",
+    "subtipo": "Carbon Film",
+    "parametros": {
+      "valor_ohmios": 0.82,
+      "potencia_watts": 0.25,
+      "tolerancia_porcentaje": 5,
+      "voltaje_maximo": 250
+    },
+    "costo_estimado_usd": 0.01
+  },
+  {
+    "id": "RES_0.25W_1R",
+    "nombre": "Resistencia 1Ω 1/4W Carbón",
+    "tipo": "Resistive",
+    "subtipo": "Carbon Film",
+    "parametros": {
+      "valor_ohmios": 1.0,
+      "potencia_watts": 0.25,
+      "tolerancia_porcentaje": 5,
+      "voltaje_maximo": 250
+    },
+    "costo_estimado_usd": 0.01
+  },
+  {
+    "id": "RES_0.25W_1p2R",
+    "nombre": "Resistencia 1.2Ω 1/4W Carbón",
+    "tipo": "Resistive",
+    "subtipo": "Carbon Film",
+    "parametros": {
+      "valor_ohmios": 1.2,
+      "potencia_watts": 0.25,
+      "tolerancia_porcentaje": 5,
+      "voltaje_maximo": 250
+    },
+    "costo_estimado_usd": 0.01
+  },
+  {
+    "id": "RES_0.25W_1p5R",
+    "nombre": "Resistencia 1.5Ω 1/4W Carbón",
+    "tipo": "Resistive",
+    "subtipo": "Carbon Film",
+    "parametros": {
+      "valor_ohmios": 1.5,
+      "potencia_watts": 0.25,
+      "tolerancia_porcentaje": 5,
+      "voltaje_maximo": 250
+    },
+    "costo_estimado_usd": 0.01
+  },
+  {
+    "id": "RES_0.25W_1p8R",
+    "nombre": "Resistencia 1.8Ω 1/4W Carbón",
+    "tipo": "Resistive",
+    "subtipo": "Carbon Film",
+    "parametros": {
+      "valor_ohmios": 1.8,
+      "potencia_watts": 0.25,
+      "tolerancia_porcentaje": 5,
+      "voltaje_maximo": 250
+    },
+    "costo_estimado_usd": 0.01
+  },
+  {
+    "id": "RES_0.25W_2p2R",
+    "nombre": "Resistencia 2.2Ω 1/4W Carbón",
+    "tipo": "Resistive",
+    "subtipo": "Carbon Film",
+    "parametros": {
+      "valor_ohmios": 2.2,
+      "potencia_watts": 0.25,
+      "tolerancia_porcentaje": 5,
+      "voltaje_maximo": 250
+    },
+    "costo_estimado_usd": 0.01
+  },
+  {
+    "id": "RES_0.25W_2p7R",
+    "nombre": "Resistencia 2.7Ω 1/4W Carbón",
+    "tipo": "Resistive",
+    "subtipo": "Carbon Film",
+    "parametros": {
+      "valor_ohmios": 2.7,
+      "potencia_watts": 0.25,
+      "tolerancia_porcentaje": 5,
+      "voltaje_maximo": 250
+    },
+    "costo_estimado_usd": 0.01
+  },
+  {
+    "id": "RES_0.25W_3p3R",
+    "nombre": "Resistencia 3.3Ω 1/4W Carbón",
+    "tipo": "Resistive",
+    "subtipo": "Carbon Film",
+    "parametros": {
+      "valor_ohmios": 3.3,
+      "potencia_watts": 0.25,
+      "tolerancia_porcentaje": 5,
+      "voltaje_maximo": 250
+    },
+    "costo_estimado_usd": 0.01
+  },
+  {
+    "id": "RES_0.25W_3p9R",
+    "nombre": "Resistencia 3.9Ω 1/4W Carbón",
+    "tipo": "Resistive",
+    "subtipo": "Carbon Film",
+    "parametros": {
+      "valor_ohmios": 3.9,
+      "potencia_watts": 0.25,
+      "tolerancia_porcentaje": 5,
+      "voltaje_maximo": 250
+    },
+    "costo_estimado_usd": 0.01
+  },
+  {
+    "id": "RES_0.25W_4p7R",
+    "nombre": "Resistencia 4.7Ω 1/4W Carbón",
+    "tipo": "Resistive",
+    "subtipo": "Carbon Film",
+    "parametros": {
+      "valor_ohmios": 4.7,
+      "potencia_watts": 0.25,
+      "tolerancia_porcentaje": 5,
+      "voltaje_maximo": 250
+    },
+    "costo_estimado_usd": 0.01
+  },
+  {
+    "id": "RES_0.25W_5p6R",
+    "nombre": "Resistencia 5.6Ω 1/4W Carbón",
+    "tipo": "Resistive",
+    "subtipo": "Carbon Film",
+    "parametros": {
+      "valor_ohmios": 5.6,
+      "potencia_watts": 0.25,
+      "tolerancia_porcentaje": 5,
+      "voltaje_maximo": 250
+    },
+    "costo_estimado_usd": 0.01
+  },
+  {
+    "id": "RES_0.25W_6p8R",
+    "nombre": "Resistencia 6.8Ω 1/4W Carbón",
+    "tipo": "Resistive",
+    "subtipo": "Carbon Film",
+    "parametros": {
+      "valor_ohmios": 6.8,
+      "potencia_watts": 0.25,
+      "tolerancia_porcentaje": 5,
+      "voltaje_maximo": 250
+    },
+    "costo_estimado_usd": 0.01
+  },
+  {
+    "id": "RES_0.25W_8p2R",
+    "nombre": "Resistencia 8.2Ω 1/4W Carbón",
+    "tipo": "Resistive",
+    "subtipo": "Carbon Film",
+    "parametros": {
+      "valor_ohmios": 8.2,
+      "potencia_watts": 0.25,
+      "tolerancia_porcentaje": 5,
+      "voltaje_maximo": 250
+    },
+    "costo_estimado_usd": 0.01
+  },
+  {
+    "id": "RES_0.25W_10R",
+    "nombre": "Resistencia 10Ω 1/4W Carbón",
+    "tipo": "Resistive",
+    "subtipo": "Carbon Film",
+    "parametros": {
+      "valor_ohmios": 10.0,
+      "potencia_watts": 0.25,
+      "tolerancia_porcentaje": 5,
+      "voltaje_maximo": 250
+    },
+    "costo_estimado_usd": 0.01
+  },
+  {
+    "id": "RES_0.25W_12R",
+    "nombre": "Resistencia 12Ω 1/4W Carbón",
+    "tipo": "Resistive",
+    "subtipo": "Carbon Film",
+    "parametros": {
+      "valor_ohmios": 12.0,
+      "potencia_watts": 0.25,
+      "tolerancia_porcentaje": 5,
+      "voltaje_maximo": 250
+    },
+    "costo_estimado_usd": 0.01
+  },
+  {
+    "id": "RES_0.25W_15R",
+    "nombre": "Resistencia 15Ω 1/4W Carbón",
+    "tipo": "Resistive",
+    "subtipo": "Carbon Film",
+    "parametros": {
+      "valor_ohmios": 15.0,
+      "potencia_watts": 0.25,
+      "tolerancia_porcentaje": 5,
+      "voltaje_maximo": 250
+    },
+    "costo_estimado_usd": 0.01
+  },
+  {
+    "id": "RES_0.25W_18R",
+    "nombre": "Resistencia 18Ω 1/4W Carbón",
+    "tipo": "Resistive",
+    "subtipo": "Carbon Film",
+    "parametros": {
+      "valor_ohmios": 18.0,
+      "potencia_watts": 0.25,
+      "tolerancia_porcentaje": 5,
+      "voltaje_maximo": 250
+    },
+    "costo_estimado_usd": 0.01
+  },
+  {
+    "id": "RES_0.25W_22R",
+    "nombre": "Resistencia 22Ω 1/4W Carbón",
+    "tipo": "Resistive",
+    "subtipo": "Carbon Film",
+    "parametros": {
+      "valor_ohmios": 22.0,
+      "potencia_watts": 0.25,
+      "tolerancia_porcentaje": 5,
+      "voltaje_maximo": 250
+    },
+    "costo_estimado_usd": 0.01
+  },
+  {
+    "id": "RES_0.25W_27R",
+    "nombre": "Resistencia 27Ω 1/4W Carbón",
+    "tipo": "Resistive",
+    "subtipo": "Carbon Film",
+    "parametros": {
+      "valor_ohmios": 27.0,
+      "potencia_watts": 0.25,
+      "tolerancia_porcentaje": 5,
+      "voltaje_maximo": 250
+    },
+    "costo_estimado_usd": 0.01
+  },
+  {
+    "id": "RES_0.25W_33R",
+    "nombre": "Resistencia 33Ω 1/4W Carbón",
+    "tipo": "Resistive",
+    "subtipo": "Carbon Film",
+    "parametros": {
+      "valor_ohmios": 33.0,
+      "potencia_watts": 0.25,
+      "tolerancia_porcentaje": 5,
+      "voltaje_maximo": 250
+    },
+    "costo_estimado_usd": 0.01
+  },
+  {
+    "id": "RES_0.25W_39R",
+    "nombre": "Resistencia 39Ω 1/4W Carbón",
+    "tipo": "Resistive",
+    "subtipo": "Carbon Film",
+    "parametros": {
+      "valor_ohmios": 39.0,
+      "potencia_watts": 0.25,
+      "tolerancia_porcentaje": 5,
+      "voltaje_maximo": 250
+    },
+    "costo_estimado_usd": 0.01
+  },
+  {
+    "id": "RES_0.25W_47R",
+    "nombre": "Resistencia 47Ω 1/4W Carbón",
+    "tipo": "Resistive",
+    "subtipo": "Carbon Film",
+    "parametros": {
+      "valor_ohmios": 47.0,
+      "potencia_watts": 0.25,
+      "tolerancia_porcentaje": 5,
+      "voltaje_maximo": 250
+    },
+    "costo_estimado_usd": 0.01
+  },
+  {
+    "id": "RES_0.25W_56R",
+    "nombre": "Resistencia 56Ω 1/4W Carbón",
+    "tipo": "Resistive",
+    "subtipo": "Carbon Film",
+    "parametros": {
+      "valor_ohmios": 56.0,
+      "potencia_watts": 0.25,
+      "tolerancia_porcentaje": 5,
+      "voltaje_maximo": 250
+    },
+    "costo_estimado_usd": 0.01
+  },
+  {
+    "id": "RES_0.25W_68R",
+    "nombre": "Resistencia 68Ω 1/4W Carbón",
+    "tipo": "Resistive",
+    "subtipo": "Carbon Film",
+    "parametros": {
+      "valor_ohmios": 68.0,
+      "potencia_watts": 0.25,
+      "tolerancia_porcentaje": 5,
+      "voltaje_maximo": 250
+    },
+    "costo_estimado_usd": 0.01
+  },
+  {
+    "id": "RES_0.25W_82R",
+    "nombre": "Resistencia 82Ω 1/4W Carbón",
+    "tipo": "Resistive",
+    "subtipo": "Carbon Film",
+    "parametros": {
+      "valor_ohmios": 82.0,
+      "potencia_watts": 0.25,
+      "tolerancia_porcentaje": 5,
+      "voltaje_maximo": 250
+    },
+    "costo_estimado_usd": 0.01
+  },
+  {
+    "id": "RES_0.25W_100R",
+    "nombre": "Resistencia 100Ω 1/4W Carbón",
+    "tipo": "Resistive",
+    "subtipo": "Carbon Film",
+    "parametros": {
+      "valor_ohmios": 100.0,
+      "potencia_watts": 0.25,
+      "tolerancia_porcentaje": 5,
+      "voltaje_maximo": 250
+    },
+    "costo_estimado_usd": 0.01
+  },
+  {
+    "id": "RES_0.25W_120R",
+    "nombre": "Resistencia 120Ω 1/4W Carbón",
+    "tipo": "Resistive",
+    "subtipo": "Carbon Film",
+    "parametros": {
+      "valor_ohmios": 120.0,
+      "potencia_watts": 0.25,
+      "tolerancia_porcentaje": 5,
+      "voltaje_maximo": 250
+    },
+    "costo_estimado_usd": 0.01
+  },
+  {
+    "id": "RES_0.25W_150R",
+    "nombre": "Resistencia 150Ω 1/4W Carbón",
+    "tipo": "Resistive",
+    "subtipo": "Carbon Film",
+    "parametros": {
+      "valor_ohmios": 150.0,
+      "potencia_watts": 0.25,
+      "tolerancia_porcentaje": 5,
+      "voltaje_maximo": 250
+    },
+    "costo_estimado_usd": 0.01
+  },
+  {
+    "id": "RES_0.25W_180R",
+    "nombre": "Resistencia 180Ω 1/4W Carbón",
+    "tipo": "Resistive",
+    "subtipo": "Carbon Film",
+    "parametros": {
+      "valor_ohmios": 180.0,
+      "potencia_watts": 0.25,
+      "tolerancia_porcentaje": 5,
+      "voltaje_maximo": 250
+    },
+    "costo_estimado_usd": 0.01
+  },
+  {
+    "id": "RES_0.25W_220R",
+    "nombre": "Resistencia 220Ω 1/4W Carbón",
+    "tipo": "Resistive",
+    "subtipo": "Carbon Film",
+    "parametros": {
+      "valor_ohmios": 220.0,
+      "potencia_watts": 0.25,
+      "tolerancia_porcentaje": 5,
+      "voltaje_maximo": 250
+    },
+    "costo_estimado_usd": 0.01
+  },
+  {
+    "id": "RES_0.25W_270R",
+    "nombre": "Resistencia 270Ω 1/4W Carbón",
+    "tipo": "Resistive",
+    "subtipo": "Carbon Film",
+    "parametros": {
+      "valor_ohmios": 270.0,
+      "potencia_watts": 0.25,
+      "tolerancia_porcentaje": 5,
+      "voltaje_maximo": 250
+    },
+    "costo_estimado_usd": 0.01
+  },
+  {
+    "id": "RES_0.25W_330R",
+    "nombre": "Resistencia 330Ω 1/4W Carbón",
+    "tipo": "Resistive",
+    "subtipo": "Carbon Film",
+    "parametros": {
+      "valor_ohmios": 330.0,
+      "potencia_watts": 0.25,
+      "tolerancia_porcentaje": 5,
+      "voltaje_maximo": 250
+    },
+    "costo_estimado_usd": 0.01
+  },
+  {
+    "id": "RES_0.25W_390R",
+    "nombre": "Resistencia 390Ω 1/4W Carbón",
+    "tipo": "Resistive",
+    "subtipo": "Carbon Film",
+    "parametros": {
+      "valor_ohmios": 390.0,
+      "potencia_watts": 0.25,
+      "tolerancia_porcentaje": 5,
+      "voltaje_maximo": 250
+    },
+    "costo_estimado_usd": 0.01
+  },
+  {
+    "id": "RES_0.25W_470R",
+    "nombre": "Resistencia 470Ω 1/4W Carbón",
+    "tipo": "Resistive",
+    "subtipo": "Carbon Film",
+    "parametros": {
+      "valor_ohmios": 470.0,
+      "potencia_watts": 0.25,
+      "tolerancia_porcentaje": 5,
+      "voltaje_maximo": 250
+    },
+    "costo_estimado_usd": 0.01
+  },
+  {
+    "id": "RES_0.25W_560R",
+    "nombre": "Resistencia 560Ω 1/4W Carbón",
+    "tipo": "Resistive",
+    "subtipo": "Carbon Film",
+    "parametros": {
+      "valor_ohmios": 560.0,
+      "potencia_watts": 0.25,
+      "tolerancia_porcentaje": 5,
+      "voltaje_maximo": 250
+    },
+    "costo_estimado_usd": 0.01
+  },
+  {
+    "id": "RES_0.25W_680R",
+    "nombre": "Resistencia 680Ω 1/4W Carbón",
+    "tipo": "Resistive",
+    "subtipo": "Carbon Film",
+    "parametros": {
+      "valor_ohmios": 680.0,
+      "potencia_watts": 0.25,
+      "tolerancia_porcentaje": 5,
+      "voltaje_maximo": 250
+    },
+    "costo_estimado_usd": 0.01
+  },
+  {
+    "id": "RES_0.25W_820R",
+    "nombre": "Resistencia 820Ω 1/4W Carbón",
+    "tipo": "Resistive",
+    "subtipo": "Carbon Film",
+    "parametros": {
+      "valor_ohmios": 820.0,
+      "potencia_watts": 0.25,
+      "tolerancia_porcentaje": 5,
+      "voltaje_maximo": 250
+    },
+    "costo_estimado_usd": 0.01
+  },
+  {
+    "id": "RES_0.25W_1k",
+    "nombre": "Resistencia 1kΩ 1/4W Carbón",
+    "tipo": "Resistive",
+    "subtipo": "Carbon Film",
+    "parametros": {
+      "valor_ohmios": 1000.0,
+      "potencia_watts": 0.25,
+      "tolerancia_porcentaje": 5,
+      "voltaje_maximo": 250
+    },
+    "costo_estimado_usd": 0.01
+  },
+  {
+    "id": "RES_0.25W_1p2k",
+    "nombre": "Resistencia 1.2kΩ 1/4W Carbón",
+    "tipo": "Resistive",
+    "subtipo": "Carbon Film",
+    "parametros": {
+      "valor_ohmios": 1200.0,
+      "potencia_watts": 0.25,
+      "tolerancia_porcentaje": 5,
+      "voltaje_maximo": 250
+    },
+    "costo_estimado_usd": 0.01
+  },
+  {
+    "id": "RES_0.25W_1p5k",
+    "nombre": "Resistencia 1.5kΩ 1/4W Carbón",
+    "tipo": "Resistive",
+    "subtipo": "Carbon Film",
+    "parametros": {
+      "valor_ohmios": 1500.0,
+      "potencia_watts": 0.25,
+      "tolerancia_porcentaje": 5,
+      "voltaje_maximo": 250
+    },
+    "costo_estimado_usd": 0.01
+  },
+  {
+    "id": "RES_0.25W_1p8k",
+    "nombre": "Resistencia 1.8kΩ 1/4W Carbón",
+    "tipo": "Resistive",
+    "subtipo": "Carbon Film",
+    "parametros": {
+      "valor_ohmios": 1800.0,
+      "potencia_watts": 0.25,
+      "tolerancia_porcentaje": 5,
+      "voltaje_maximo": 250
+    },
+    "costo_estimado_usd": 0.01
+  },
+  {
+    "id": "RES_0.25W_2p2k",
+    "nombre": "Resistencia 2.2kΩ 1/4W Carbón",
+    "tipo": "Resistive",
+    "subtipo": "Carbon Film",
+    "parametros": {
+      "valor_ohmios": 2200.0,
+      "potencia_watts": 0.25,
+      "tolerancia_porcentaje": 5,
+      "voltaje_maximo": 250
+    },
+    "costo_estimado_usd": 0.01
+  },
+  {
+    "id": "RES_0.25W_2p7k",
+    "nombre": "Resistencia 2.7kΩ 1/4W Carbón",
+    "tipo": "Resistive",
+    "subtipo": "Carbon Film",
+    "parametros": {
+      "valor_ohmios": 2700.0,
+      "potencia_watts": 0.25,
+      "tolerancia_porcentaje": 5,
+      "voltaje_maximo": 250
+    },
+    "costo_estimado_usd": 0.01
+  },
+  {
+    "id": "RES_0.25W_3p3k",
+    "nombre": "Resistencia 3.3kΩ 1/4W Carbón",
+    "tipo": "Resistive",
+    "subtipo": "Carbon Film",
+    "parametros": {
+      "valor_ohmios": 3300.0,
+      "potencia_watts": 0.25,
+      "tolerancia_porcentaje": 5,
+      "voltaje_maximo": 250
+    },
+    "costo_estimado_usd": 0.01
+  },
+  {
+    "id": "RES_0.25W_3p9k",
+    "nombre": "Resistencia 3.9kΩ 1/4W Carbón",
+    "tipo": "Resistive",
+    "subtipo": "Carbon Film",
+    "parametros": {
+      "valor_ohmios": 3900.0,
+      "potencia_watts": 0.25,
+      "tolerancia_porcentaje": 5,
+      "voltaje_maximo": 250
+    },
+    "costo_estimado_usd": 0.01
+  },
+  {
+    "id": "RES_0.25W_4p7k",
+    "nombre": "Resistencia 4.7kΩ 1/4W Carbón",
+    "tipo": "Resistive",
+    "subtipo": "Carbon Film",
+    "parametros": {
+      "valor_ohmios": 4700.0,
+      "potencia_watts": 0.25,
+      "tolerancia_porcentaje": 5,
+      "voltaje_maximo": 250
+    },
+    "costo_estimado_usd": 0.01
+  },
+  {
+    "id": "RES_0.25W_5p6k",
+    "nombre": "Resistencia 5.6kΩ 1/4W Carbón",
+    "tipo": "Resistive",
+    "subtipo": "Carbon Film",
+    "parametros": {
+      "valor_ohmios": 5600.0,
+      "potencia_watts": 0.25,
+      "tolerancia_porcentaje": 5,
+      "voltaje_maximo": 250
+    },
+    "costo_estimado_usd": 0.01
+  },
+  {
+    "id": "RES_0.25W_6p8k",
+    "nombre": "Resistencia 6.8kΩ 1/4W Carbón",
+    "tipo": "Resistive",
+    "subtipo": "Carbon Film",
+    "parametros": {
+      "valor_ohmios": 6800.0,
+      "potencia_watts": 0.25,
+      "tolerancia_porcentaje": 5,
+      "voltaje_maximo": 250
+    },
+    "costo_estimado_usd": 0.01
+  },
+  {
+    "id": "RES_0.25W_8p2k",
+    "nombre": "Resistencia 8.2kΩ 1/4W Carbón",
+    "tipo": "Resistive",
+    "subtipo": "Carbon Film",
+    "parametros": {
+      "valor_ohmios": 8200.0,
+      "potencia_watts": 0.25,
+      "tolerancia_porcentaje": 5,
+      "voltaje_maximo": 250
+    },
+    "costo_estimado_usd": 0.01
+  },
+  {
+    "id": "RES_0.25W_10k",
+    "nombre": "Resistencia 10kΩ 1/4W Carbón",
+    "tipo": "Resistive",
+    "subtipo": "Carbon Film",
+    "parametros": {
+      "valor_ohmios": 10000.0,
+      "potencia_watts": 0.25,
+      "tolerancia_porcentaje": 5,
+      "voltaje_maximo": 250
+    },
+    "costo_estimado_usd": 0.01
+  },
+  {
+    "id": "RES_0.25W_12k",
+    "nombre": "Resistencia 12kΩ 1/4W Carbón",
+    "tipo": "Resistive",
+    "subtipo": "Carbon Film",
+    "parametros": {
+      "valor_ohmios": 12000.0,
+      "potencia_watts": 0.25,
+      "tolerancia_porcentaje": 5,
+      "voltaje_maximo": 250
+    },
+    "costo_estimado_usd": 0.01
+  },
+  {
+    "id": "RES_0.25W_15k",
+    "nombre": "Resistencia 15kΩ 1/4W Carbón",
+    "tipo": "Resistive",
+    "subtipo": "Carbon Film",
+    "parametros": {
+      "valor_ohmios": 15000.0,
+      "potencia_watts": 0.25,
+      "tolerancia_porcentaje": 5,
+      "voltaje_maximo": 250
+    },
+    "costo_estimado_usd": 0.01
+  },
+  {
+    "id": "RES_0.25W_18k",
+    "nombre": "Resistencia 18kΩ 1/4W Carbón",
+    "tipo": "Resistive",
+    "subtipo": "Carbon Film",
+    "parametros": {
+      "valor_ohmios": 18000.0,
+      "potencia_watts": 0.25,
+      "tolerancia_porcentaje": 5,
+      "voltaje_maximo": 250
+    },
+    "costo_estimado_usd": 0.01
+  },
+  {
+    "id": "RES_0.25W_22k",
+    "nombre": "Resistencia 22kΩ 1/4W Carbón",
+    "tipo": "Resistive",
+    "subtipo": "Carbon Film",
+    "parametros": {
+      "valor_ohmios": 22000.0,
+      "potencia_watts": 0.25,
+      "tolerancia_porcentaje": 5,
+      "voltaje_maximo": 250
+    },
+    "costo_estimado_usd": 0.01
+  },
+  {
+    "id": "RES_0.25W_27k",
+    "nombre": "Resistencia 27kΩ 1/4W Carbón",
+    "tipo": "Resistive",
+    "subtipo": "Carbon Film",
+    "parametros": {
+      "valor_ohmios": 27000.0,
+      "potencia_watts": 0.25,
+      "tolerancia_porcentaje": 5,
+      "voltaje_maximo": 250
+    },
+    "costo_estimado_usd": 0.01
+  },
+  {
+    "id": "RES_0.25W_33k",
+    "nombre": "Resistencia 33kΩ 1/4W Carbón",
+    "tipo": "Resistive",
+    "subtipo": "Carbon Film",
+    "parametros": {
+      "valor_ohmios": 33000.0,
+      "potencia_watts": 0.25,
+      "tolerancia_porcentaje": 5,
+      "voltaje_maximo": 250
+    },
+    "costo_estimado_usd": 0.01
+  },
+  {
+    "id": "RES_0.25W_39k",
+    "nombre": "Resistencia 39kΩ 1/4W Carbón",
+    "tipo": "Resistive",
+    "subtipo": "Carbon Film",
+    "parametros": {
+      "valor_ohmios": 39000.0,
+      "potencia_watts": 0.25,
+      "tolerancia_porcentaje": 5,
+      "voltaje_maximo": 250
+    },
+    "costo_estimado_usd": 0.01
+  },
+  {
+    "id": "RES_0.25W_47k",
+    "nombre": "Resistencia 47kΩ 1/4W Carbón",
+    "tipo": "Resistive",
+    "subtipo": "Carbon Film",
+    "parametros": {
+      "valor_ohmios": 47000.0,
+      "potencia_watts": 0.25,
+      "tolerancia_porcentaje": 5,
+      "voltaje_maximo": 250
+    },
+    "costo_estimado_usd": 0.01
+  },
+  {
+    "id": "RES_0.25W_56k",
+    "nombre": "Resistencia 56kΩ 1/4W Carbón",
+    "tipo": "Resistive",
+    "subtipo": "Carbon Film",
+    "parametros": {
+      "valor_ohmios": 56000.0,
+      "potencia_watts": 0.25,
+      "tolerancia_porcentaje": 5,
+      "voltaje_maximo": 250
+    },
+    "costo_estimado_usd": 0.01
+  },
+  {
+    "id": "RES_0.25W_68k",
+    "nombre": "Resistencia 68kΩ 1/4W Carbón",
+    "tipo": "Resistive",
+    "subtipo": "Carbon Film",
+    "parametros": {
+      "valor_ohmios": 68000.0,
+      "potencia_watts": 0.25,
+      "tolerancia_porcentaje": 5,
+      "voltaje_maximo": 250
+    },
+    "costo_estimado_usd": 0.01
+  },
+  {
+    "id": "RES_0.25W_82k",
+    "nombre": "Resistencia 82kΩ 1/4W Carbón",
+    "tipo": "Resistive",
+    "subtipo": "Carbon Film",
+    "parametros": {
+      "valor_ohmios": 82000.0,
+      "potencia_watts": 0.25,
+      "tolerancia_porcentaje": 5,
+      "voltaje_maximo": 250
+    },
+    "costo_estimado_usd": 0.01
+  },
+  {
+    "id": "RES_0.25W_100k",
+    "nombre": "Resistencia 100kΩ 1/4W Carbón",
+    "tipo": "Resistive",
+    "subtipo": "Carbon Film",
+    "parametros": {
+      "valor_ohmios": 100000.0,
+      "potencia_watts": 0.25,
+      "tolerancia_porcentaje": 5,
+      "voltaje_maximo": 250
+    },
+    "costo_estimado_usd": 0.01
+  },
+  {
+    "id": "RES_0.25W_120k",
+    "nombre": "Resistencia 120kΩ 1/4W Carbón",
+    "tipo": "Resistive",
+    "subtipo": "Carbon Film",
+    "parametros": {
+      "valor_ohmios": 120000.0,
+      "potencia_watts": 0.25,
+      "tolerancia_porcentaje": 5,
+      "voltaje_maximo": 250
+    },
+    "costo_estimado_usd": 0.01
+  },
+  {
+    "id": "RES_0.25W_150k",
+    "nombre": "Resistencia 150kΩ 1/4W Carbón",
+    "tipo": "Resistive",
+    "subtipo": "Carbon Film",
+    "parametros": {
+      "valor_ohmios": 150000.0,
+      "potencia_watts": 0.25,
+      "tolerancia_porcentaje": 5,
+      "voltaje_maximo": 250
+    },
+    "costo_estimado_usd": 0.01
+  },
+  {
+    "id": "RES_0.25W_180k",
+    "nombre": "Resistencia 180kΩ 1/4W Carbón",
+    "tipo": "Resistive",
+    "subtipo": "Carbon Film",
+    "parametros": {
+      "valor_ohmios": 180000.0,
+      "potencia_watts": 0.25,
+      "tolerancia_porcentaje": 5,
+      "voltaje_maximo": 250
+    },
+    "costo_estimado_usd": 0.01
+  },
+  {
+    "id": "RES_0.25W_220k",
+    "nombre": "Resistencia 220kΩ 1/4W Carbón",
+    "tipo": "Resistive",
+    "subtipo": "Carbon Film",
+    "parametros": {
+      "valor_ohmios": 220000.0,
+      "potencia_watts": 0.25,
+      "tolerancia_porcentaje": 5,
+      "voltaje_maximo": 250
+    },
+    "costo_estimado_usd": 0.01
+  },
+  {
+    "id": "RES_0.25W_270k",
+    "nombre": "Resistencia 270kΩ 1/4W Carbón",
+    "tipo": "Resistive",
+    "subtipo": "Carbon Film",
+    "parametros": {
+      "valor_ohmios": 270000.0,
+      "potencia_watts": 0.25,
+      "tolerancia_porcentaje": 5,
+      "voltaje_maximo": 250
+    },
+    "costo_estimado_usd": 0.01
+  },
+  {
+    "id": "RES_0.25W_330k",
+    "nombre": "Resistencia 330kΩ 1/4W Carbón",
+    "tipo": "Resistive",
+    "subtipo": "Carbon Film",
+    "parametros": {
+      "valor_ohmios": 330000.0,
+      "potencia_watts": 0.25,
+      "tolerancia_porcentaje": 5,
+      "voltaje_maximo": 250
+    },
+    "costo_estimado_usd": 0.01
+  },
+  {
+    "id": "RES_0.25W_390k",
+    "nombre": "Resistencia 390kΩ 1/4W Carbón",
+    "tipo": "Resistive",
+    "subtipo": "Carbon Film",
+    "parametros": {
+      "valor_ohmios": 390000.0,
+      "potencia_watts": 0.25,
+      "tolerancia_porcentaje": 5,
+      "voltaje_maximo": 250
+    },
+    "costo_estimado_usd": 0.01
+  },
+  {
+    "id": "RES_0.25W_470k",
+    "nombre": "Resistencia 470kΩ 1/4W Carbón",
+    "tipo": "Resistive",
+    "subtipo": "Carbon Film",
+    "parametros": {
+      "valor_ohmios": 470000.0,
+      "potencia_watts": 0.25,
+      "tolerancia_porcentaje": 5,
+      "voltaje_maximo": 250
+    },
+    "costo_estimado_usd": 0.01
+  },
+  {
+    "id": "RES_0.25W_560k",
+    "nombre": "Resistencia 560kΩ 1/4W Carbón",
+    "tipo": "Resistive",
+    "subtipo": "Carbon Film",
+    "parametros": {
+      "valor_ohmios": 560000.0,
+      "potencia_watts": 0.25,
+      "tolerancia_porcentaje": 5,
+      "voltaje_maximo": 250
+    },
+    "costo_estimado_usd": 0.01
+  },
+  {
+    "id": "RES_0.25W_680k",
+    "nombre": "Resistencia 680kΩ 1/4W Carbón",
+    "tipo": "Resistive",
+    "subtipo": "Carbon Film",
+    "parametros": {
+      "valor_ohmios": 680000.0,
+      "potencia_watts": 0.25,
+      "tolerancia_porcentaje": 5,
+      "voltaje_maximo": 250
+    },
+    "costo_estimado_usd": 0.01
+  },
+  {
+    "id": "RES_0.25W_820k",
+    "nombre": "Resistencia 820kΩ 1/4W Carbón",
+    "tipo": "Resistive",
+    "subtipo": "Carbon Film",
+    "parametros": {
+      "valor_ohmios": 820000.0,
+      "potencia_watts": 0.25,
+      "tolerancia_porcentaje": 5,
+      "voltaje_maximo": 250
+    },
+    "costo_estimado_usd": 0.01
+  },
+  {
+    "id": "RES_0.25W_1M",
+    "nombre": "Resistencia 1MΩ 1/4W Carbón",
+    "tipo": "Resistive",
+    "subtipo": "Carbon Film",
+    "parametros": {
+      "valor_ohmios": 1000000.0,
+      "potencia_watts": 0.25,
+      "tolerancia_porcentaje": 5,
+      "voltaje_maximo": 250
+    },
+    "costo_estimado_usd": 0.01
+  },
+  {
+    "id": "RES_0.25W_1p2M",
+    "nombre": "Resistencia 1.2MΩ 1/4W Carbón",
+    "tipo": "Resistive",
+    "subtipo": "Carbon Film",
+    "parametros": {
+      "valor_ohmios": 1200000.0,
+      "potencia_watts": 0.25,
+      "tolerancia_porcentaje": 5,
+      "voltaje_maximo": 250
+    },
+    "costo_estimado_usd": 0.01
+  },
+  {
+    "id": "RES_0.25W_1p5M",
+    "nombre": "Resistencia 1.5MΩ 1/4W Carbón",
+    "tipo": "Resistive",
+    "subtipo": "Carbon Film",
+    "parametros": {
+      "valor_ohmios": 1500000.0,
+      "potencia_watts": 0.25,
+      "tolerancia_porcentaje": 5,
+      "voltaje_maximo": 250
+    },
+    "costo_estimado_usd": 0.01
+  },
+  {
+    "id": "RES_0.25W_1p8M",
+    "nombre": "Resistencia 1.8MΩ 1/4W Carbón",
+    "tipo": "Resistive",
+    "subtipo": "Carbon Film",
+    "parametros": {
+      "valor_ohmios": 1800000.0,
+      "potencia_watts": 0.25,
+      "tolerancia_porcentaje": 5,
+      "voltaje_maximo": 250
+    },
+    "costo_estimado_usd": 0.01
+  },
+  {
+    "id": "RES_0.25W_2p2M",
+    "nombre": "Resistencia 2.2MΩ 1/4W Carbón",
+    "tipo": "Resistive",
+    "subtipo": "Carbon Film",
+    "parametros": {
+      "valor_ohmios": 2200000.0,
+      "potencia_watts": 0.25,
+      "tolerancia_porcentaje": 5,
+      "voltaje_maximo": 250
+    },
+    "costo_estimado_usd": 0.01
+  },
+  {
+    "id": "RES_0.25W_2p7M",
+    "nombre": "Resistencia 2.7MΩ 1/4W Carbón",
+    "tipo": "Resistive",
+    "subtipo": "Carbon Film",
+    "parametros": {
+      "valor_ohmios": 2700000.0,
+      "potencia_watts": 0.25,
+      "tolerancia_porcentaje": 5,
+      "voltaje_maximo": 250
+    },
+    "costo_estimado_usd": 0.01
+  },
+  {
+    "id": "RES_0.25W_3p3M",
+    "nombre": "Resistencia 3.3MΩ 1/4W Carbón",
+    "tipo": "Resistive",
+    "subtipo": "Carbon Film",
+    "parametros": {
+      "valor_ohmios": 3300000.0,
+      "potencia_watts": 0.25,
+      "tolerancia_porcentaje": 5,
+      "voltaje_maximo": 250
+    },
+    "costo_estimado_usd": 0.01
+  },
+  {
+    "id": "RES_0.25W_3p9M",
+    "nombre": "Resistencia 3.9MΩ 1/4W Carbón",
+    "tipo": "Resistive",
+    "subtipo": "Carbon Film",
+    "parametros": {
+      "valor_ohmios": 3900000.0,
+      "potencia_watts": 0.25,
+      "tolerancia_porcentaje": 5,
+      "voltaje_maximo": 250
+    },
+    "costo_estimado_usd": 0.01
+  },
+  {
+    "id": "RES_0.25W_4p7M",
+    "nombre": "Resistencia 4.7MΩ 1/4W Carbón",
+    "tipo": "Resistive",
+    "subtipo": "Carbon Film",
+    "parametros": {
+      "valor_ohmios": 4700000.0,
+      "potencia_watts": 0.25,
+      "tolerancia_porcentaje": 5,
+      "voltaje_maximo": 250
+    },
+    "costo_estimado_usd": 0.01
+  },
+  {
+    "id": "RES_0.25W_5p6M",
+    "nombre": "Resistencia 5.6MΩ 1/4W Carbón",
+    "tipo": "Resistive",
+    "subtipo": "Carbon Film",
+    "parametros": {
+      "valor_ohmios": 5600000.0,
+      "potencia_watts": 0.25,
+      "tolerancia_porcentaje": 5,
+      "voltaje_maximo": 250
+    },
+    "costo_estimado_usd": 0.01
+  },
+  {
+    "id": "RES_0.25W_6p8M",
+    "nombre": "Resistencia 6.8MΩ 1/4W Carbón",
+    "tipo": "Resistive",
+    "subtipo": "Carbon Film",
+    "parametros": {
+      "valor_ohmios": 6800000.0,
+      "potencia_watts": 0.25,
+      "tolerancia_porcentaje": 5,
+      "voltaje_maximo": 250
+    },
+    "costo_estimado_usd": 0.01
+  },
+  {
+    "id": "RES_0.25W_8p2M",
+    "nombre": "Resistencia 8.2MΩ 1/4W Carbón",
+    "tipo": "Resistive",
+    "subtipo": "Carbon Film",
+    "parametros": {
+      "valor_ohmios": 8200000.0,
+      "potencia_watts": 0.25,
+      "tolerancia_porcentaje": 5,
+      "voltaje_maximo": 250
+    },
+    "costo_estimado_usd": 0.01
+  },
+  {
+    "id": "RES_0.25W_10M",
+    "nombre": "Resistencia 10MΩ 1/4W Carbón",
+    "tipo": "Resistive",
+    "subtipo": "Carbon Film",
+    "parametros": {
+      "valor_ohmios": 10000000.0,
+      "potencia_watts": 0.25,
+      "tolerancia_porcentaje": 5,
+      "voltaje_maximo": 250
+    },
+    "costo_estimado_usd": 0.01
+  },
+  {
+    "id": "RES_0.25W_12M",
+    "nombre": "Resistencia 12MΩ 1/4W Carbón",
+    "tipo": "Resistive",
+    "subtipo": "Carbon Film",
+    "parametros": {
+      "valor_ohmios": 12000000.0,
+      "potencia_watts": 0.25,
+      "tolerancia_porcentaje": 5,
+      "voltaje_maximo": 250
+    },
+    "costo_estimado_usd": 0.01
+  },
+  {
+    "id": "RES_0.25W_15M",
+    "nombre": "Resistencia 15MΩ 1/4W Carbón",
+    "tipo": "Resistive",
+    "subtipo": "Carbon Film",
+    "parametros": {
+      "valor_ohmios": 15000000.0,
+      "potencia_watts": 0.25,
+      "tolerancia_porcentaje": 5,
+      "voltaje_maximo": 250
+    },
+    "costo_estimado_usd": 0.01
+  },
+  {
+    "id": "RES_0.25W_18M",
+    "nombre": "Resistencia 18MΩ 1/4W Carbón",
+    "tipo": "Resistive",
+    "subtipo": "Carbon Film",
+    "parametros": {
+      "valor_ohmios": 18000000.0,
+      "potencia_watts": 0.25,
+      "tolerancia_porcentaje": 5,
+      "voltaje_maximo": 250
+    },
+    "costo_estimado_usd": 0.01
+  },
+  {
+    "id": "RES_0.25W_22M",
+    "nombre": "Resistencia 22MΩ 1/4W Carbón",
+    "tipo": "Resistive",
+    "subtipo": "Carbon Film",
+    "parametros": {
+      "valor_ohmios": 22000000.0,
+      "potencia_watts": 0.25,
+      "tolerancia_porcentaje": 5,
+      "voltaje_maximo": 250
+    },
+    "costo_estimado_usd": 0.01
+  },
+  {
+    "id": "RES_0.25W_27M",
+    "nombre": "Resistencia 27MΩ 1/4W Carbón",
+    "tipo": "Resistive",
+    "subtipo": "Carbon Film",
+    "parametros": {
+      "valor_ohmios": 27000000.0,
+      "potencia_watts": 0.25,
+      "tolerancia_porcentaje": 5,
+      "voltaje_maximo": 250
+    },
+    "costo_estimado_usd": 0.01
+  },
+  {
+    "id": "RES_0.25W_33M",
+    "nombre": "Resistencia 33MΩ 1/4W Carbón",
+    "tipo": "Resistive",
+    "subtipo": "Carbon Film",
+    "parametros": {
+      "valor_ohmios": 33000000.0,
+      "potencia_watts": 0.25,
+      "tolerancia_porcentaje": 5,
+      "voltaje_maximo": 250
+    },
+    "costo_estimado_usd": 0.01
+  },
+  {
+    "id": "RES_0.25W_39M",
+    "nombre": "Resistencia 39MΩ 1/4W Carbón",
+    "tipo": "Resistive",
+    "subtipo": "Carbon Film",
+    "parametros": {
+      "valor_ohmios": 39000000.0,
+      "potencia_watts": 0.25,
+      "tolerancia_porcentaje": 5,
+      "voltaje_maximo": 250
+    },
+    "costo_estimado_usd": 0.01
+  },
+  {
+    "id": "RES_0.25W_47M",
+    "nombre": "Resistencia 47MΩ 1/4W Carbón",
+    "tipo": "Resistive",
+    "subtipo": "Carbon Film",
+    "parametros": {
+      "valor_ohmios": 47000000.0,
+      "potencia_watts": 0.25,
+      "tolerancia_porcentaje": 5,
+      "voltaje_maximo": 250
+    },
+    "costo_estimado_usd": 0.01
+  },
+  {
+    "id": "RES_0.25W_56M",
+    "nombre": "Resistencia 56MΩ 1/4W Carbón",
+    "tipo": "Resistive",
+    "subtipo": "Carbon Film",
+    "parametros": {
+      "valor_ohmios": 56000000.0,
+      "potencia_watts": 0.25,
+      "tolerancia_porcentaje": 5,
+      "voltaje_maximo": 250
+    },
+    "costo_estimado_usd": 0.01
+  },
+  {
+    "id": "RES_0.25W_68M",
+    "nombre": "Resistencia 68MΩ 1/4W Carbón",
+    "tipo": "Resistive",
+    "subtipo": "Carbon Film",
+    "parametros": {
+      "valor_ohmios": 68000000.0,
+      "potencia_watts": 0.25,
+      "tolerancia_porcentaje": 5,
+      "voltaje_maximo": 250
+    },
+    "costo_estimado_usd": 0.01
+  },
+  {
+    "id": "RES_0.25W_82M",
+    "nombre": "Resistencia 82MΩ 1/4W Carbón",
+    "tipo": "Resistive",
+    "subtipo": "Carbon Film",
+    "parametros": {
+      "valor_ohmios": 82000000.0,
+      "potencia_watts": 0.25,
+      "tolerancia_porcentaje": 5,
+      "voltaje_maximo": 250
+    },
+    "costo_estimado_usd": 0.01
+  },
+  {
+    "id": "RES_0.5W_0p1R",
+    "nombre": "Resistencia 0.1Ω 1/2W Carbón",
+    "tipo": "Resistive",
+    "subtipo": "Carbon Film",
+    "parametros": {
+      "valor_ohmios": 0.1,
+      "potencia_watts": 0.5,
+      "tolerancia_porcentaje": 5,
+      "voltaje_maximo": 350
+    },
+    "costo_estimado_usd": 0.03
+  },
+  {
+    "id": "RES_0.5W_0p12R",
+    "nombre": "Resistencia 0.12Ω 1/2W Carbón",
+    "tipo": "Resistive",
+    "subtipo": "Carbon Film",
+    "parametros": {
+      "valor_ohmios": 0.12,
+      "potencia_watts": 0.5,
+      "tolerancia_porcentaje": 5,
+      "voltaje_maximo": 350
+    },
+    "costo_estimado_usd": 0.03
+  },
+  {
+    "id": "RES_0.5W_0p15R",
+    "nombre": "Resistencia 0.15Ω 1/2W Carbón",
+    "tipo": "Resistive",
+    "subtipo": "Carbon Film",
+    "parametros": {
+      "valor_ohmios": 0.15,
+      "potencia_watts": 0.5,
+      "tolerancia_porcentaje": 5,
+      "voltaje_maximo": 350
+    },
+    "costo_estimado_usd": 0.03
+  },
+  {
+    "id": "RES_0.5W_0p18R",
+    "nombre": "Resistencia 0.18Ω 1/2W Carbón",
+    "tipo": "Resistive",
+    "subtipo": "Carbon Film",
+    "parametros": {
+      "valor_ohmios": 0.18,
+      "potencia_watts": 0.5,
+      "tolerancia_porcentaje": 5,
+      "voltaje_maximo": 350
+    },
+    "costo_estimado_usd": 0.03
+  },
+  {
+    "id": "RES_0.5W_0p22R",
+    "nombre": "Resistencia 0.22Ω 1/2W Carbón",
+    "tipo": "Resistive",
+    "subtipo": "Carbon Film",
+    "parametros": {
+      "valor_ohmios": 0.22,
+      "potencia_watts": 0.5,
+      "tolerancia_porcentaje": 5,
+      "voltaje_maximo": 350
+    },
+    "costo_estimado_usd": 0.03
+  },
+  {
+    "id": "RES_0.5W_0p27R",
+    "nombre": "Resistencia 0.27Ω 1/2W Carbón",
+    "tipo": "Resistive",
+    "subtipo": "Carbon Film",
+    "parametros": {
+      "valor_ohmios": 0.27,
+      "potencia_watts": 0.5,
+      "tolerancia_porcentaje": 5,
+      "voltaje_maximo": 350
+    },
+    "costo_estimado_usd": 0.03
+  },
+  {
+    "id": "RES_0.5W_0p33R",
+    "nombre": "Resistencia 0.33Ω 1/2W Carbón",
+    "tipo": "Resistive",
+    "subtipo": "Carbon Film",
+    "parametros": {
+      "valor_ohmios": 0.33,
+      "potencia_watts": 0.5,
+      "tolerancia_porcentaje": 5,
+      "voltaje_maximo": 350
+    },
+    "costo_estimado_usd": 0.03
+  },
+  {
+    "id": "RES_0.5W_0p39R",
+    "nombre": "Resistencia 0.39Ω 1/2W Carbón",
+    "tipo": "Resistive",
+    "subtipo": "Carbon Film",
+    "parametros": {
+      "valor_ohmios": 0.39,
+      "potencia_watts": 0.5,
+      "tolerancia_porcentaje": 5,
+      "voltaje_maximo": 350
+    },
+    "costo_estimado_usd": 0.03
+  },
+  {
+    "id": "RES_0.5W_0p47R",
+    "nombre": "Resistencia 0.47Ω 1/2W Carbón",
+    "tipo": "Resistive",
+    "subtipo": "Carbon Film",
+    "parametros": {
+      "valor_ohmios": 0.47,
+      "potencia_watts": 0.5,
+      "tolerancia_porcentaje": 5,
+      "voltaje_maximo": 350
+    },
+    "costo_estimado_usd": 0.03
+  },
+  {
+    "id": "RES_0.5W_0p56R",
+    "nombre": "Resistencia 0.56Ω 1/2W Carbón",
+    "tipo": "Resistive",
+    "subtipo": "Carbon Film",
+    "parametros": {
+      "valor_ohmios": 0.56,
+      "potencia_watts": 0.5,
+      "tolerancia_porcentaje": 5,
+      "voltaje_maximo": 350
+    },
+    "costo_estimado_usd": 0.03
+  },
+  {
+    "id": "RES_0.5W_0p68R",
+    "nombre": "Resistencia 0.68Ω 1/2W Carbón",
+    "tipo": "Resistive",
+    "subtipo": "Carbon Film",
+    "parametros": {
+      "valor_ohmios": 0.68,
+      "potencia_watts": 0.5,
+      "tolerancia_porcentaje": 5,
+      "voltaje_maximo": 350
+    },
+    "costo_estimado_usd": 0.03
+  },
+  {
+    "id": "RES_0.5W_0p82R",
+    "nombre": "Resistencia 0.82Ω 1/2W Carbón",
+    "tipo": "Resistive",
+    "subtipo": "Carbon Film",
+    "parametros": {
+      "valor_ohmios": 0.82,
+      "potencia_watts": 0.5,
+      "tolerancia_porcentaje": 5,
+      "voltaje_maximo": 350
+    },
+    "costo_estimado_usd": 0.03
+  },
+  {
+    "id": "RES_0.5W_1R",
+    "nombre": "Resistencia 1Ω 1/2W Carbón",
+    "tipo": "Resistive",
+    "subtipo": "Carbon Film",
+    "parametros": {
+      "valor_ohmios": 1.0,
+      "potencia_watts": 0.5,
+      "tolerancia_porcentaje": 5,
+      "voltaje_maximo": 350
+    },
+    "costo_estimado_usd": 0.03
+  },
+  {
+    "id": "RES_0.5W_1p2R",
+    "nombre": "Resistencia 1.2Ω 1/2W Carbón",
+    "tipo": "Resistive",
+    "subtipo": "Carbon Film",
+    "parametros": {
+      "valor_ohmios": 1.2,
+      "potencia_watts": 0.5,
+      "tolerancia_porcentaje": 5,
+      "voltaje_maximo": 350
+    },
+    "costo_estimado_usd": 0.03
+  },
+  {
+    "id": "RES_0.5W_1p5R",
+    "nombre": "Resistencia 1.5Ω 1/2W Carbón",
+    "tipo": "Resistive",
+    "subtipo": "Carbon Film",
+    "parametros": {
+      "valor_ohmios": 1.5,
+      "potencia_watts": 0.5,
+      "tolerancia_porcentaje": 5,
+      "voltaje_maximo": 350
+    },
+    "costo_estimado_usd": 0.03
+  },
+  {
+    "id": "RES_0.5W_1p8R",
+    "nombre": "Resistencia 1.8Ω 1/2W Carbón",
+    "tipo": "Resistive",
+    "subtipo": "Carbon Film",
+    "parametros": {
+      "valor_ohmios": 1.8,
+      "potencia_watts": 0.5,
+      "tolerancia_porcentaje": 5,
+      "voltaje_maximo": 350
+    },
+    "costo_estimado_usd": 0.03
+  },
+  {
+    "id": "RES_0.5W_2p2R",
+    "nombre": "Resistencia 2.2Ω 1/2W Carbón",
+    "tipo": "Resistive",
+    "subtipo": "Carbon Film",
+    "parametros": {
+      "valor_ohmios": 2.2,
+      "potencia_watts": 0.5,
+      "tolerancia_porcentaje": 5,
+      "voltaje_maximo": 350
+    },
+    "costo_estimado_usd": 0.03
+  },
+  {
+    "id": "RES_0.5W_2p7R",
+    "nombre": "Resistencia 2.7Ω 1/2W Carbón",
+    "tipo": "Resistive",
+    "subtipo": "Carbon Film",
+    "parametros": {
+      "valor_ohmios": 2.7,
+      "potencia_watts": 0.5,
+      "tolerancia_porcentaje": 5,
+      "voltaje_maximo": 350
+    },
+    "costo_estimado_usd": 0.03
+  },
+  {
+    "id": "RES_0.5W_3p3R",
+    "nombre": "Resistencia 3.3Ω 1/2W Carbón",
+    "tipo": "Resistive",
+    "subtipo": "Carbon Film",
+    "parametros": {
+      "valor_ohmios": 3.3,
+      "potencia_watts": 0.5,
+      "tolerancia_porcentaje": 5,
+      "voltaje_maximo": 350
+    },
+    "costo_estimado_usd": 0.03
+  },
+  {
+    "id": "RES_0.5W_3p9R",
+    "nombre": "Resistencia 3.9Ω 1/2W Carbón",
+    "tipo": "Resistive",
+    "subtipo": "Carbon Film",
+    "parametros": {
+      "valor_ohmios": 3.9,
+      "potencia_watts": 0.5,
+      "tolerancia_porcentaje": 5,
+      "voltaje_maximo": 350
+    },
+    "costo_estimado_usd": 0.03
+  },
+  {
+    "id": "RES_0.5W_4p7R",
+    "nombre": "Resistencia 4.7Ω 1/2W Carbón",
+    "tipo": "Resistive",
+    "subtipo": "Carbon Film",
+    "parametros": {
+      "valor_ohmios": 4.7,
+      "potencia_watts": 0.5,
+      "tolerancia_porcentaje": 5,
+      "voltaje_maximo": 350
+    },
+    "costo_estimado_usd": 0.03
+  },
+  {
+    "id": "RES_0.5W_5p6R",
+    "nombre": "Resistencia 5.6Ω 1/2W Carbón",
+    "tipo": "Resistive",
+    "subtipo": "Carbon Film",
+    "parametros": {
+      "valor_ohmios": 5.6,
+      "potencia_watts": 0.5,
+      "tolerancia_porcentaje": 5,
+      "voltaje_maximo": 350
+    },
+    "costo_estimado_usd": 0.03
+  },
+  {
+    "id": "RES_0.5W_6p8R",
+    "nombre": "Resistencia 6.8Ω 1/2W Carbón",
+    "tipo": "Resistive",
+    "subtipo": "Carbon Film",
+    "parametros": {
+      "valor_ohmios": 6.8,
+      "potencia_watts": 0.5,
+      "tolerancia_porcentaje": 5,
+      "voltaje_maximo": 350
+    },
+    "costo_estimado_usd": 0.03
+  },
+  {
+    "id": "RES_0.5W_8p2R",
+    "nombre": "Resistencia 8.2Ω 1/2W Carbón",
+    "tipo": "Resistive",
+    "subtipo": "Carbon Film",
+    "parametros": {
+      "valor_ohmios": 8.2,
+      "potencia_watts": 0.5,
+      "tolerancia_porcentaje": 5,
+      "voltaje_maximo": 350
+    },
+    "costo_estimado_usd": 0.03
+  },
+  {
+    "id": "RES_0.5W_10R",
+    "nombre": "Resistencia 10Ω 1/2W Carbón",
+    "tipo": "Resistive",
+    "subtipo": "Carbon Film",
+    "parametros": {
+      "valor_ohmios": 10.0,
+      "potencia_watts": 0.5,
+      "tolerancia_porcentaje": 5,
+      "voltaje_maximo": 350
+    },
+    "costo_estimado_usd": 0.03
+  },
+  {
+    "id": "RES_0.5W_12R",
+    "nombre": "Resistencia 12Ω 1/2W Carbón",
+    "tipo": "Resistive",
+    "subtipo": "Carbon Film",
+    "parametros": {
+      "valor_ohmios": 12.0,
+      "potencia_watts": 0.5,
+      "tolerancia_porcentaje": 5,
+      "voltaje_maximo": 350
+    },
+    "costo_estimado_usd": 0.03
+  },
+  {
+    "id": "RES_0.5W_15R",
+    "nombre": "Resistencia 15Ω 1/2W Carbón",
+    "tipo": "Resistive",
+    "subtipo": "Carbon Film",
+    "parametros": {
+      "valor_ohmios": 15.0,
+      "potencia_watts": 0.5,
+      "tolerancia_porcentaje": 5,
+      "voltaje_maximo": 350
+    },
+    "costo_estimado_usd": 0.03
+  },
+  {
+    "id": "RES_0.5W_18R",
+    "nombre": "Resistencia 18Ω 1/2W Carbón",
+    "tipo": "Resistive",
+    "subtipo": "Carbon Film",
+    "parametros": {
+      "valor_ohmios": 18.0,
+      "potencia_watts": 0.5,
+      "tolerancia_porcentaje": 5,
+      "voltaje_maximo": 350
+    },
+    "costo_estimado_usd": 0.03
+  },
+  {
+    "id": "RES_0.5W_22R",
+    "nombre": "Resistencia 22Ω 1/2W Carbón",
+    "tipo": "Resistive",
+    "subtipo": "Carbon Film",
+    "parametros": {
+      "valor_ohmios": 22.0,
+      "potencia_watts": 0.5,
+      "tolerancia_porcentaje": 5,
+      "voltaje_maximo": 350
+    },
+    "costo_estimado_usd": 0.03
+  },
+  {
+    "id": "RES_0.5W_27R",
+    "nombre": "Resistencia 27Ω 1/2W Carbón",
+    "tipo": "Resistive",
+    "subtipo": "Carbon Film",
+    "parametros": {
+      "valor_ohmios": 27.0,
+      "potencia_watts": 0.5,
+      "tolerancia_porcentaje": 5,
+      "voltaje_maximo": 350
+    },
+    "costo_estimado_usd": 0.03
+  },
+  {
+    "id": "RES_0.5W_33R",
+    "nombre": "Resistencia 33Ω 1/2W Carbón",
+    "tipo": "Resistive",
+    "subtipo": "Carbon Film",
+    "parametros": {
+      "valor_ohmios": 33.0,
+      "potencia_watts": 0.5,
+      "tolerancia_porcentaje": 5,
+      "voltaje_maximo": 350
+    },
+    "costo_estimado_usd": 0.03
+  },
+  {
+    "id": "RES_0.5W_39R",
+    "nombre": "Resistencia 39Ω 1/2W Carbón",
+    "tipo": "Resistive",
+    "subtipo": "Carbon Film",
+    "parametros": {
+      "valor_ohmios": 39.0,
+      "potencia_watts": 0.5,
+      "tolerancia_porcentaje": 5,
+      "voltaje_maximo": 350
+    },
+    "costo_estimado_usd": 0.03
+  },
+  {
+    "id": "RES_0.5W_47R",
+    "nombre": "Resistencia 47Ω 1/2W Carbón",
+    "tipo": "Resistive",
+    "subtipo": "Carbon Film",
+    "parametros": {
+      "valor_ohmios": 47.0,
+      "potencia_watts": 0.5,
+      "tolerancia_porcentaje": 5,
+      "voltaje_maximo": 350
+    },
+    "costo_estimado_usd": 0.03
+  },
+  {
+    "id": "RES_0.5W_56R",
+    "nombre": "Resistencia 56Ω 1/2W Carbón",
+    "tipo": "Resistive",
+    "subtipo": "Carbon Film",
+    "parametros": {
+      "valor_ohmios": 56.0,
+      "potencia_watts": 0.5,
+      "tolerancia_porcentaje": 5,
+      "voltaje_maximo": 350
+    },
+    "costo_estimado_usd": 0.03
+  },
+  {
+    "id": "RES_0.5W_68R",
+    "nombre": "Resistencia 68Ω 1/2W Carbón",
+    "tipo": "Resistive",
+    "subtipo": "Carbon Film",
+    "parametros": {
+      "valor_ohmios": 68.0,
+      "potencia_watts": 0.5,
+      "tolerancia_porcentaje": 5,
+      "voltaje_maximo": 350
+    },
+    "costo_estimado_usd": 0.03
+  },
+  {
+    "id": "RES_0.5W_82R",
+    "nombre": "Resistencia 82Ω 1/2W Carbón",
+    "tipo": "Resistive",
+    "subtipo": "Carbon Film",
+    "parametros": {
+      "valor_ohmios": 82.0,
+      "potencia_watts": 0.5,
+      "tolerancia_porcentaje": 5,
+      "voltaje_maximo": 350
+    },
+    "costo_estimado_usd": 0.03
+  },
+  {
+    "id": "RES_0.5W_100R",
+    "nombre": "Resistencia 100Ω 1/2W Carbón",
+    "tipo": "Resistive",
+    "subtipo": "Carbon Film",
+    "parametros": {
+      "valor_ohmios": 100.0,
+      "potencia_watts": 0.5,
+      "tolerancia_porcentaje": 5,
+      "voltaje_maximo": 350
+    },
+    "costo_estimado_usd": 0.03
+  },
+  {
+    "id": "RES_0.5W_120R",
+    "nombre": "Resistencia 120Ω 1/2W Carbón",
+    "tipo": "Resistive",
+    "subtipo": "Carbon Film",
+    "parametros": {
+      "valor_ohmios": 120.0,
+      "potencia_watts": 0.5,
+      "tolerancia_porcentaje": 5,
+      "voltaje_maximo": 350
+    },
+    "costo_estimado_usd": 0.03
+  },
+  {
+    "id": "RES_0.5W_150R",
+    "nombre": "Resistencia 150Ω 1/2W Carbón",
+    "tipo": "Resistive",
+    "subtipo": "Carbon Film",
+    "parametros": {
+      "valor_ohmios": 150.0,
+      "potencia_watts": 0.5,
+      "tolerancia_porcentaje": 5,
+      "voltaje_maximo": 350
+    },
+    "costo_estimado_usd": 0.03
+  },
+  {
+    "id": "RES_0.5W_180R",
+    "nombre": "Resistencia 180Ω 1/2W Carbón",
+    "tipo": "Resistive",
+    "subtipo": "Carbon Film",
+    "parametros": {
+      "valor_ohmios": 180.0,
+      "potencia_watts": 0.5,
+      "tolerancia_porcentaje": 5,
+      "voltaje_maximo": 350
+    },
+    "costo_estimado_usd": 0.03
+  },
+  {
+    "id": "RES_0.5W_220R",
+    "nombre": "Resistencia 220Ω 1/2W Carbón",
+    "tipo": "Resistive",
+    "subtipo": "Carbon Film",
+    "parametros": {
+      "valor_ohmios": 220.0,
+      "potencia_watts": 0.5,
+      "tolerancia_porcentaje": 5,
+      "voltaje_maximo": 350
+    },
+    "costo_estimado_usd": 0.03
+  },
+  {
+    "id": "RES_0.5W_270R",
+    "nombre": "Resistencia 270Ω 1/2W Carbón",
+    "tipo": "Resistive",
+    "subtipo": "Carbon Film",
+    "parametros": {
+      "valor_ohmios": 270.0,
+      "potencia_watts": 0.5,
+      "tolerancia_porcentaje": 5,
+      "voltaje_maximo": 350
+    },
+    "costo_estimado_usd": 0.03
+  },
+  {
+    "id": "RES_0.5W_330R",
+    "nombre": "Resistencia 330Ω 1/2W Carbón",
+    "tipo": "Resistive",
+    "subtipo": "Carbon Film",
+    "parametros": {
+      "valor_ohmios": 330.0,
+      "potencia_watts": 0.5,
+      "tolerancia_porcentaje": 5,
+      "voltaje_maximo": 350
+    },
+    "costo_estimado_usd": 0.03
+  },
+  {
+    "id": "RES_0.5W_390R",
+    "nombre": "Resistencia 390Ω 1/2W Carbón",
+    "tipo": "Resistive",
+    "subtipo": "Carbon Film",
+    "parametros": {
+      "valor_ohmios": 390.0,
+      "potencia_watts": 0.5,
+      "tolerancia_porcentaje": 5,
+      "voltaje_maximo": 350
+    },
+    "costo_estimado_usd": 0.03
+  },
+  {
+    "id": "RES_0.5W_470R",
+    "nombre": "Resistencia 470Ω 1/2W Carbón",
+    "tipo": "Resistive",
+    "subtipo": "Carbon Film",
+    "parametros": {
+      "valor_ohmios": 470.0,
+      "potencia_watts": 0.5,
+      "tolerancia_porcentaje": 5,
+      "voltaje_maximo": 350
+    },
+    "costo_estimado_usd": 0.03
+  },
+  {
+    "id": "RES_0.5W_560R",
+    "nombre": "Resistencia 560Ω 1/2W Carbón",
+    "tipo": "Resistive",
+    "subtipo": "Carbon Film",
+    "parametros": {
+      "valor_ohmios": 560.0,
+      "potencia_watts": 0.5,
+      "tolerancia_porcentaje": 5,
+      "voltaje_maximo": 350
+    },
+    "costo_estimado_usd": 0.03
+  },
+  {
+    "id": "RES_0.5W_680R",
+    "nombre": "Resistencia 680Ω 1/2W Carbón",
+    "tipo": "Resistive",
+    "subtipo": "Carbon Film",
+    "parametros": {
+      "valor_ohmios": 680.0,
+      "potencia_watts": 0.5,
+      "tolerancia_porcentaje": 5,
+      "voltaje_maximo": 350
+    },
+    "costo_estimado_usd": 0.03
+  },
+  {
+    "id": "RES_0.5W_820R",
+    "nombre": "Resistencia 820Ω 1/2W Carbón",
+    "tipo": "Resistive",
+    "subtipo": "Carbon Film",
+    "parametros": {
+      "valor_ohmios": 820.0,
+      "potencia_watts": 0.5,
+      "tolerancia_porcentaje": 5,
+      "voltaje_maximo": 350
+    },
+    "costo_estimado_usd": 0.03
+  },
+  {
+    "id": "RES_0.5W_1k",
+    "nombre": "Resistencia 1kΩ 1/2W Carbón",
+    "tipo": "Resistive",
+    "subtipo": "Carbon Film",
+    "parametros": {
+      "valor_ohmios": 1000.0,
+      "potencia_watts": 0.5,
+      "tolerancia_porcentaje": 5,
+      "voltaje_maximo": 350
+    },
+    "costo_estimado_usd": 0.03
+  },
+  {
+    "id": "RES_0.5W_1p2k",
+    "nombre": "Resistencia 1.2kΩ 1/2W Carbón",
+    "tipo": "Resistive",
+    "subtipo": "Carbon Film",
+    "parametros": {
+      "valor_ohmios": 1200.0,
+      "potencia_watts": 0.5,
+      "tolerancia_porcentaje": 5,
+      "voltaje_maximo": 350
+    },
+    "costo_estimado_usd": 0.03
+  },
+  {
+    "id": "RES_0.5W_1p5k",
+    "nombre": "Resistencia 1.5kΩ 1/2W Carbón",
+    "tipo": "Resistive",
+    "subtipo": "Carbon Film",
+    "parametros": {
+      "valor_ohmios": 1500.0,
+      "potencia_watts": 0.5,
+      "tolerancia_porcentaje": 5,
+      "voltaje_maximo": 350
+    },
+    "costo_estimado_usd": 0.03
+  },
+  {
+    "id": "RES_0.5W_1p8k",
+    "nombre": "Resistencia 1.8kΩ 1/2W Carbón",
+    "tipo": "Resistive",
+    "subtipo": "Carbon Film",
+    "parametros": {
+      "valor_ohmios": 1800.0,
+      "potencia_watts": 0.5,
+      "tolerancia_porcentaje": 5,
+      "voltaje_maximo": 350
+    },
+    "costo_estimado_usd": 0.03
+  },
+  {
+    "id": "RES_0.5W_2p2k",
+    "nombre": "Resistencia 2.2kΩ 1/2W Carbón",
+    "tipo": "Resistive",
+    "subtipo": "Carbon Film",
+    "parametros": {
+      "valor_ohmios": 2200.0,
+      "potencia_watts": 0.5,
+      "tolerancia_porcentaje": 5,
+      "voltaje_maximo": 350
+    },
+    "costo_estimado_usd": 0.03
+  },
+  {
+    "id": "RES_0.5W_2p7k",
+    "nombre": "Resistencia 2.7kΩ 1/2W Carbón",
+    "tipo": "Resistive",
+    "subtipo": "Carbon Film",
+    "parametros": {
+      "valor_ohmios": 2700.0,
+      "potencia_watts": 0.5,
+      "tolerancia_porcentaje": 5,
+      "voltaje_maximo": 350
+    },
+    "costo_estimado_usd": 0.03
+  },
+  {
+    "id": "RES_0.5W_3p3k",
+    "nombre": "Resistencia 3.3kΩ 1/2W Carbón",
+    "tipo": "Resistive",
+    "subtipo": "Carbon Film",
+    "parametros": {
+      "valor_ohmios": 3300.0,
+      "potencia_watts": 0.5,
+      "tolerancia_porcentaje": 5,
+      "voltaje_maximo": 350
+    },
+    "costo_estimado_usd": 0.03
+  },
+  {
+    "id": "RES_0.5W_3p9k",
+    "nombre": "Resistencia 3.9kΩ 1/2W Carbón",
+    "tipo": "Resistive",
+    "subtipo": "Carbon Film",
+    "parametros": {
+      "valor_ohmios": 3900.0,
+      "potencia_watts": 0.5,
+      "tolerancia_porcentaje": 5,
+      "voltaje_maximo": 350
+    },
+    "costo_estimado_usd": 0.03
+  },
+  {
+    "id": "RES_0.5W_4p7k",
+    "nombre": "Resistencia 4.7kΩ 1/2W Carbón",
+    "tipo": "Resistive",
+    "subtipo": "Carbon Film",
+    "parametros": {
+      "valor_ohmios": 4700.0,
+      "potencia_watts": 0.5,
+      "tolerancia_porcentaje": 5,
+      "voltaje_maximo": 350
+    },
+    "costo_estimado_usd": 0.03
+  },
+  {
+    "id": "RES_0.5W_5p6k",
+    "nombre": "Resistencia 5.6kΩ 1/2W Carbón",
+    "tipo": "Resistive",
+    "subtipo": "Carbon Film",
+    "parametros": {
+      "valor_ohmios": 5600.0,
+      "potencia_watts": 0.5,
+      "tolerancia_porcentaje": 5,
+      "voltaje_maximo": 350
+    },
+    "costo_estimado_usd": 0.03
+  },
+  {
+    "id": "RES_0.5W_6p8k",
+    "nombre": "Resistencia 6.8kΩ 1/2W Carbón",
+    "tipo": "Resistive",
+    "subtipo": "Carbon Film",
+    "parametros": {
+      "valor_ohmios": 6800.0,
+      "potencia_watts": 0.5,
+      "tolerancia_porcentaje": 5,
+      "voltaje_maximo": 350
+    },
+    "costo_estimado_usd": 0.03
+  },
+  {
+    "id": "RES_0.5W_8p2k",
+    "nombre": "Resistencia 8.2kΩ 1/2W Carbón",
+    "tipo": "Resistive",
+    "subtipo": "Carbon Film",
+    "parametros": {
+      "valor_ohmios": 8200.0,
+      "potencia_watts": 0.5,
+      "tolerancia_porcentaje": 5,
+      "voltaje_maximo": 350
+    },
+    "costo_estimado_usd": 0.03
+  },
+  {
+    "id": "RES_0.5W_10k",
+    "nombre": "Resistencia 10kΩ 1/2W Carbón",
+    "tipo": "Resistive",
+    "subtipo": "Carbon Film",
+    "parametros": {
+      "valor_ohmios": 10000.0,
+      "potencia_watts": 0.5,
+      "tolerancia_porcentaje": 5,
+      "voltaje_maximo": 350
+    },
+    "costo_estimado_usd": 0.03
+  },
+  {
+    "id": "RES_0.5W_12k",
+    "nombre": "Resistencia 12kΩ 1/2W Carbón",
+    "tipo": "Resistive",
+    "subtipo": "Carbon Film",
+    "parametros": {
+      "valor_ohmios": 12000.0,
+      "potencia_watts": 0.5,
+      "tolerancia_porcentaje": 5,
+      "voltaje_maximo": 350
+    },
+    "costo_estimado_usd": 0.03
+  },
+  {
+    "id": "RES_0.5W_15k",
+    "nombre": "Resistencia 15kΩ 1/2W Carbón",
+    "tipo": "Resistive",
+    "subtipo": "Carbon Film",
+    "parametros": {
+      "valor_ohmios": 15000.0,
+      "potencia_watts": 0.5,
+      "tolerancia_porcentaje": 5,
+      "voltaje_maximo": 350
+    },
+    "costo_estimado_usd": 0.03
+  },
+  {
+    "id": "RES_0.5W_18k",
+    "nombre": "Resistencia 18kΩ 1/2W Carbón",
+    "tipo": "Resistive",
+    "subtipo": "Carbon Film",
+    "parametros": {
+      "valor_ohmios": 18000.0,
+      "potencia_watts": 0.5,
+      "tolerancia_porcentaje": 5,
+      "voltaje_maximo": 350
+    },
+    "costo_estimado_usd": 0.03
+  },
+  {
+    "id": "RES_0.5W_22k",
+    "nombre": "Resistencia 22kΩ 1/2W Carbón",
+    "tipo": "Resistive",
+    "subtipo": "Carbon Film",
+    "parametros": {
+      "valor_ohmios": 22000.0,
+      "potencia_watts": 0.5,
+      "tolerancia_porcentaje": 5,
+      "voltaje_maximo": 350
+    },
+    "costo_estimado_usd": 0.03
+  },
+  {
+    "id": "RES_0.5W_27k",
+    "nombre": "Resistencia 27kΩ 1/2W Carbón",
+    "tipo": "Resistive",
+    "subtipo": "Carbon Film",
+    "parametros": {
+      "valor_ohmios": 27000.0,
+      "potencia_watts": 0.5,
+      "tolerancia_porcentaje": 5,
+      "voltaje_maximo": 350
+    },
+    "costo_estimado_usd": 0.03
+  },
+  {
+    "id": "RES_0.5W_33k",
+    "nombre": "Resistencia 33kΩ 1/2W Carbón",
+    "tipo": "Resistive",
+    "subtipo": "Carbon Film",
+    "parametros": {
+      "valor_ohmios": 33000.0,
+      "potencia_watts": 0.5,
+      "tolerancia_porcentaje": 5,
+      "voltaje_maximo": 350
+    },
+    "costo_estimado_usd": 0.03
+  },
+  {
+    "id": "RES_0.5W_39k",
+    "nombre": "Resistencia 39kΩ 1/2W Carbón",
+    "tipo": "Resistive",
+    "subtipo": "Carbon Film",
+    "parametros": {
+      "valor_ohmios": 39000.0,
+      "potencia_watts": 0.5,
+      "tolerancia_porcentaje": 5,
+      "voltaje_maximo": 350
+    },
+    "costo_estimado_usd": 0.03
+  },
+  {
+    "id": "RES_0.5W_47k",
+    "nombre": "Resistencia 47kΩ 1/2W Carbón",
+    "tipo": "Resistive",
+    "subtipo": "Carbon Film",
+    "parametros": {
+      "valor_ohmios": 47000.0,
+      "potencia_watts": 0.5,
+      "tolerancia_porcentaje": 5,
+      "voltaje_maximo": 350
+    },
+    "costo_estimado_usd": 0.03
+  },
+  {
+    "id": "RES_0.5W_56k",
+    "nombre": "Resistencia 56kΩ 1/2W Carbón",
+    "tipo": "Resistive",
+    "subtipo": "Carbon Film",
+    "parametros": {
+      "valor_ohmios": 56000.0,
+      "potencia_watts": 0.5,
+      "tolerancia_porcentaje": 5,
+      "voltaje_maximo": 350
+    },
+    "costo_estimado_usd": 0.03
+  },
+  {
+    "id": "RES_0.5W_68k",
+    "nombre": "Resistencia 68kΩ 1/2W Carbón",
+    "tipo": "Resistive",
+    "subtipo": "Carbon Film",
+    "parametros": {
+      "valor_ohmios": 68000.0,
+      "potencia_watts": 0.5,
+      "tolerancia_porcentaje": 5,
+      "voltaje_maximo": 350
+    },
+    "costo_estimado_usd": 0.03
+  },
+  {
+    "id": "RES_0.5W_82k",
+    "nombre": "Resistencia 82kΩ 1/2W Carbón",
+    "tipo": "Resistive",
+    "subtipo": "Carbon Film",
+    "parametros": {
+      "valor_ohmios": 82000.0,
+      "potencia_watts": 0.5,
+      "tolerancia_porcentaje": 5,
+      "voltaje_maximo": 350
+    },
+    "costo_estimado_usd": 0.03
+  },
+  {
+    "id": "RES_0.5W_100k",
+    "nombre": "Resistencia 100kΩ 1/2W Carbón",
+    "tipo": "Resistive",
+    "subtipo": "Carbon Film",
+    "parametros": {
+      "valor_ohmios": 100000.0,
+      "potencia_watts": 0.5,
+      "tolerancia_porcentaje": 5,
+      "voltaje_maximo": 350
+    },
+    "costo_estimado_usd": 0.03
+  },
+  {
+    "id": "RES_0.5W_120k",
+    "nombre": "Resistencia 120kΩ 1/2W Carbón",
+    "tipo": "Resistive",
+    "subtipo": "Carbon Film",
+    "parametros": {
+      "valor_ohmios": 120000.0,
+      "potencia_watts": 0.5,
+      "tolerancia_porcentaje": 5,
+      "voltaje_maximo": 350
+    },
+    "costo_estimado_usd": 0.03
+  },
+  {
+    "id": "RES_0.5W_150k",
+    "nombre": "Resistencia 150kΩ 1/2W Carbón",
+    "tipo": "Resistive",
+    "subtipo": "Carbon Film",
+    "parametros": {
+      "valor_ohmios": 150000.0,
+      "potencia_watts": 0.5,
+      "tolerancia_porcentaje": 5,
+      "voltaje_maximo": 350
+    },
+    "costo_estimado_usd": 0.03
+  },
+  {
+    "id": "RES_0.5W_180k",
+    "nombre": "Resistencia 180kΩ 1/2W Carbón",
+    "tipo": "Resistive",
+    "subtipo": "Carbon Film",
+    "parametros": {
+      "valor_ohmios": 180000.0,
+      "potencia_watts": 0.5,
+      "tolerancia_porcentaje": 5,
+      "voltaje_maximo": 350
+    },
+    "costo_estimado_usd": 0.03
+  },
+  {
+    "id": "RES_0.5W_220k",
+    "nombre": "Resistencia 220kΩ 1/2W Carbón",
+    "tipo": "Resistive",
+    "subtipo": "Carbon Film",
+    "parametros": {
+      "valor_ohmios": 220000.0,
+      "potencia_watts": 0.5,
+      "tolerancia_porcentaje": 5,
+      "voltaje_maximo": 350
+    },
+    "costo_estimado_usd": 0.03
+  },
+  {
+    "id": "RES_0.5W_270k",
+    "nombre": "Resistencia 270kΩ 1/2W Carbón",
+    "tipo": "Resistive",
+    "subtipo": "Carbon Film",
+    "parametros": {
+      "valor_ohmios": 270000.0,
+      "potencia_watts": 0.5,
+      "tolerancia_porcentaje": 5,
+      "voltaje_maximo": 350
+    },
+    "costo_estimado_usd": 0.03
+  },
+  {
+    "id": "RES_0.5W_330k",
+    "nombre": "Resistencia 330kΩ 1/2W Carbón",
+    "tipo": "Resistive",
+    "subtipo": "Carbon Film",
+    "parametros": {
+      "valor_ohmios": 330000.0,
+      "potencia_watts": 0.5,
+      "tolerancia_porcentaje": 5,
+      "voltaje_maximo": 350
+    },
+    "costo_estimado_usd": 0.03
+  },
+  {
+    "id": "RES_0.5W_390k",
+    "nombre": "Resistencia 390kΩ 1/2W Carbón",
+    "tipo": "Resistive",
+    "subtipo": "Carbon Film",
+    "parametros": {
+      "valor_ohmios": 390000.0,
+      "potencia_watts": 0.5,
+      "tolerancia_porcentaje": 5,
+      "voltaje_maximo": 350
+    },
+    "costo_estimado_usd": 0.03
+  },
+  {
+    "id": "RES_0.5W_470k",
+    "nombre": "Resistencia 470kΩ 1/2W Carbón",
+    "tipo": "Resistive",
+    "subtipo": "Carbon Film",
+    "parametros": {
+      "valor_ohmios": 470000.0,
+      "potencia_watts": 0.5,
+      "tolerancia_porcentaje": 5,
+      "voltaje_maximo": 350
+    },
+    "costo_estimado_usd": 0.03
+  },
+  {
+    "id": "RES_0.5W_560k",
+    "nombre": "Resistencia 560kΩ 1/2W Carbón",
+    "tipo": "Resistive",
+    "subtipo": "Carbon Film",
+    "parametros": {
+      "valor_ohmios": 560000.0,
+      "potencia_watts": 0.5,
+      "tolerancia_porcentaje": 5,
+      "voltaje_maximo": 350
+    },
+    "costo_estimado_usd": 0.03
+  },
+  {
+    "id": "RES_0.5W_680k",
+    "nombre": "Resistencia 680kΩ 1/2W Carbón",
+    "tipo": "Resistive",
+    "subtipo": "Carbon Film",
+    "parametros": {
+      "valor_ohmios": 680000.0,
+      "potencia_watts": 0.5,
+      "tolerancia_porcentaje": 5,
+      "voltaje_maximo": 350
+    },
+    "costo_estimado_usd": 0.03
+  },
+  {
+    "id": "RES_0.5W_820k",
+    "nombre": "Resistencia 820kΩ 1/2W Carbón",
+    "tipo": "Resistive",
+    "subtipo": "Carbon Film",
+    "parametros": {
+      "valor_ohmios": 820000.0,
+      "potencia_watts": 0.5,
+      "tolerancia_porcentaje": 5,
+      "voltaje_maximo": 350
+    },
+    "costo_estimado_usd": 0.03
+  },
+  {
+    "id": "RES_0.5W_1M",
+    "nombre": "Resistencia 1MΩ 1/2W Carbón",
+    "tipo": "Resistive",
+    "subtipo": "Carbon Film",
+    "parametros": {
+      "valor_ohmios": 1000000.0,
+      "potencia_watts": 0.5,
+      "tolerancia_porcentaje": 5,
+      "voltaje_maximo": 350
+    },
+    "costo_estimado_usd": 0.03
+  },
+  {
+    "id": "RES_0.5W_1p2M",
+    "nombre": "Resistencia 1.2MΩ 1/2W Carbón",
+    "tipo": "Resistive",
+    "subtipo": "Carbon Film",
+    "parametros": {
+      "valor_ohmios": 1200000.0,
+      "potencia_watts": 0.5,
+      "tolerancia_porcentaje": 5,
+      "voltaje_maximo": 350
+    },
+    "costo_estimado_usd": 0.03
+  },
+  {
+    "id": "RES_0.5W_1p5M",
+    "nombre": "Resistencia 1.5MΩ 1/2W Carbón",
+    "tipo": "Resistive",
+    "subtipo": "Carbon Film",
+    "parametros": {
+      "valor_ohmios": 1500000.0,
+      "potencia_watts": 0.5,
+      "tolerancia_porcentaje": 5,
+      "voltaje_maximo": 350
+    },
+    "costo_estimado_usd": 0.03
+  },
+  {
+    "id": "RES_0.5W_1p8M",
+    "nombre": "Resistencia 1.8MΩ 1/2W Carbón",
+    "tipo": "Resistive",
+    "subtipo": "Carbon Film",
+    "parametros": {
+      "valor_ohmios": 1800000.0,
+      "potencia_watts": 0.5,
+      "tolerancia_porcentaje": 5,
+      "voltaje_maximo": 350
+    },
+    "costo_estimado_usd": 0.03
+  },
+  {
+    "id": "RES_0.5W_2p2M",
+    "nombre": "Resistencia 2.2MΩ 1/2W Carbón",
+    "tipo": "Resistive",
+    "subtipo": "Carbon Film",
+    "parametros": {
+      "valor_ohmios": 2200000.0,
+      "potencia_watts": 0.5,
+      "tolerancia_porcentaje": 5,
+      "voltaje_maximo": 350
+    },
+    "costo_estimado_usd": 0.03
+  },
+  {
+    "id": "RES_0.5W_2p7M",
+    "nombre": "Resistencia 2.7MΩ 1/2W Carbón",
+    "tipo": "Resistive",
+    "subtipo": "Carbon Film",
+    "parametros": {
+      "valor_ohmios": 2700000.0,
+      "potencia_watts": 0.5,
+      "tolerancia_porcentaje": 5,
+      "voltaje_maximo": 350
+    },
+    "costo_estimado_usd": 0.03
+  },
+  {
+    "id": "RES_0.5W_3p3M",
+    "nombre": "Resistencia 3.3MΩ 1/2W Carbón",
+    "tipo": "Resistive",
+    "subtipo": "Carbon Film",
+    "parametros": {
+      "valor_ohmios": 3300000.0,
+      "potencia_watts": 0.5,
+      "tolerancia_porcentaje": 5,
+      "voltaje_maximo": 350
+    },
+    "costo_estimado_usd": 0.03
+  },
+  {
+    "id": "RES_0.5W_3p9M",
+    "nombre": "Resistencia 3.9MΩ 1/2W Carbón",
+    "tipo": "Resistive",
+    "subtipo": "Carbon Film",
+    "parametros": {
+      "valor_ohmios": 3900000.0,
+      "potencia_watts": 0.5,
+      "tolerancia_porcentaje": 5,
+      "voltaje_maximo": 350
+    },
+    "costo_estimado_usd": 0.03
+  },
+  {
+    "id": "RES_0.5W_4p7M",
+    "nombre": "Resistencia 4.7MΩ 1/2W Carbón",
+    "tipo": "Resistive",
+    "subtipo": "Carbon Film",
+    "parametros": {
+      "valor_ohmios": 4700000.0,
+      "potencia_watts": 0.5,
+      "tolerancia_porcentaje": 5,
+      "voltaje_maximo": 350
+    },
+    "costo_estimado_usd": 0.03
+  },
+  {
+    "id": "RES_0.5W_5p6M",
+    "nombre": "Resistencia 5.6MΩ 1/2W Carbón",
+    "tipo": "Resistive",
+    "subtipo": "Carbon Film",
+    "parametros": {
+      "valor_ohmios": 5600000.0,
+      "potencia_watts": 0.5,
+      "tolerancia_porcentaje": 5,
+      "voltaje_maximo": 350
+    },
+    "costo_estimado_usd": 0.03
+  },
+  {
+    "id": "RES_0.5W_6p8M",
+    "nombre": "Resistencia 6.8MΩ 1/2W Carbón",
+    "tipo": "Resistive",
+    "subtipo": "Carbon Film",
+    "parametros": {
+      "valor_ohmios": 6800000.0,
+      "potencia_watts": 0.5,
+      "tolerancia_porcentaje": 5,
+      "voltaje_maximo": 350
+    },
+    "costo_estimado_usd": 0.03
+  },
+  {
+    "id": "RES_0.5W_8p2M",
+    "nombre": "Resistencia 8.2MΩ 1/2W Carbón",
+    "tipo": "Resistive",
+    "subtipo": "Carbon Film",
+    "parametros": {
+      "valor_ohmios": 8200000.0,
+      "potencia_watts": 0.5,
+      "tolerancia_porcentaje": 5,
+      "voltaje_maximo": 350
+    },
+    "costo_estimado_usd": 0.03
+  },
+  {
+    "id": "RES_0.5W_10M",
+    "nombre": "Resistencia 10MΩ 1/2W Carbón",
+    "tipo": "Resistive",
+    "subtipo": "Carbon Film",
+    "parametros": {
+      "valor_ohmios": 10000000.0,
+      "potencia_watts": 0.5,
+      "tolerancia_porcentaje": 5,
+      "voltaje_maximo": 350
+    },
+    "costo_estimado_usd": 0.03
+  },
+  {
+    "id": "RES_0.5W_12M",
+    "nombre": "Resistencia 12MΩ 1/2W Carbón",
+    "tipo": "Resistive",
+    "subtipo": "Carbon Film",
+    "parametros": {
+      "valor_ohmios": 12000000.0,
+      "potencia_watts": 0.5,
+      "tolerancia_porcentaje": 5,
+      "voltaje_maximo": 350
+    },
+    "costo_estimado_usd": 0.03
+  },
+  {
+    "id": "RES_0.5W_15M",
+    "nombre": "Resistencia 15MΩ 1/2W Carbón",
+    "tipo": "Resistive",
+    "subtipo": "Carbon Film",
+    "parametros": {
+      "valor_ohmios": 15000000.0,
+      "potencia_watts": 0.5,
+      "tolerancia_porcentaje": 5,
+      "voltaje_maximo": 350
+    },
+    "costo_estimado_usd": 0.03
+  },
+  {
+    "id": "RES_0.5W_18M",
+    "nombre": "Resistencia 18MΩ 1/2W Carbón",
+    "tipo": "Resistive",
+    "subtipo": "Carbon Film",
+    "parametros": {
+      "valor_ohmios": 18000000.0,
+      "potencia_watts": 0.5,
+      "tolerancia_porcentaje": 5,
+      "voltaje_maximo": 350
+    },
+    "costo_estimado_usd": 0.03
+  },
+  {
+    "id": "RES_0.5W_22M",
+    "nombre": "Resistencia 22MΩ 1/2W Carbón",
+    "tipo": "Resistive",
+    "subtipo": "Carbon Film",
+    "parametros": {
+      "valor_ohmios": 22000000.0,
+      "potencia_watts": 0.5,
+      "tolerancia_porcentaje": 5,
+      "voltaje_maximo": 350
+    },
+    "costo_estimado_usd": 0.03
+  },
+  {
+    "id": "RES_0.5W_27M",
+    "nombre": "Resistencia 27MΩ 1/2W Carbón",
+    "tipo": "Resistive",
+    "subtipo": "Carbon Film",
+    "parametros": {
+      "valor_ohmios": 27000000.0,
+      "potencia_watts": 0.5,
+      "tolerancia_porcentaje": 5,
+      "voltaje_maximo": 350
+    },
+    "costo_estimado_usd": 0.03
+  },
+  {
+    "id": "RES_0.5W_33M",
+    "nombre": "Resistencia 33MΩ 1/2W Carbón",
+    "tipo": "Resistive",
+    "subtipo": "Carbon Film",
+    "parametros": {
+      "valor_ohmios": 33000000.0,
+      "potencia_watts": 0.5,
+      "tolerancia_porcentaje": 5,
+      "voltaje_maximo": 350
+    },
+    "costo_estimado_usd": 0.03
+  },
+  {
+    "id": "RES_0.5W_39M",
+    "nombre": "Resistencia 39MΩ 1/2W Carbón",
+    "tipo": "Resistive",
+    "subtipo": "Carbon Film",
+    "parametros": {
+      "valor_ohmios": 39000000.0,
+      "potencia_watts": 0.5,
+      "tolerancia_porcentaje": 5,
+      "voltaje_maximo": 350
+    },
+    "costo_estimado_usd": 0.03
+  },
+  {
+    "id": "RES_0.5W_47M",
+    "nombre": "Resistencia 47MΩ 1/2W Carbón",
+    "tipo": "Resistive",
+    "subtipo": "Carbon Film",
+    "parametros": {
+      "valor_ohmios": 47000000.0,
+      "potencia_watts": 0.5,
+      "tolerancia_porcentaje": 5,
+      "voltaje_maximo": 350
+    },
+    "costo_estimado_usd": 0.03
+  },
+  {
+    "id": "RES_0.5W_56M",
+    "nombre": "Resistencia 56MΩ 1/2W Carbón",
+    "tipo": "Resistive",
+    "subtipo": "Carbon Film",
+    "parametros": {
+      "valor_ohmios": 56000000.0,
+      "potencia_watts": 0.5,
+      "tolerancia_porcentaje": 5,
+      "voltaje_maximo": 350
+    },
+    "costo_estimado_usd": 0.03
+  },
+  {
+    "id": "RES_0.5W_68M",
+    "nombre": "Resistencia 68MΩ 1/2W Carbón",
+    "tipo": "Resistive",
+    "subtipo": "Carbon Film",
+    "parametros": {
+      "valor_ohmios": 68000000.0,
+      "potencia_watts": 0.5,
+      "tolerancia_porcentaje": 5,
+      "voltaje_maximo": 350
+    },
+    "costo_estimado_usd": 0.03
+  },
+  {
+    "id": "RES_0.5W_82M",
+    "nombre": "Resistencia 82MΩ 1/2W Carbón",
+    "tipo": "Resistive",
+    "subtipo": "Carbon Film",
+    "parametros": {
+      "valor_ohmios": 82000000.0,
+      "potencia_watts": 0.5,
+      "tolerancia_porcentaje": 5,
+      "voltaje_maximo": 350
+    },
+    "costo_estimado_usd": 0.03
+  },
+  {
+    "id": "RES_1.0W_0p1R",
+    "nombre": "Resistencia 0.1Ω 1W Metal",
+    "tipo": "Resistive",
+    "subtipo": "Metal Oxide",
+    "parametros": {
+      "valor_ohmios": 0.1,
+      "potencia_watts": 1.0,
+      "tolerancia_porcentaje": 10,
+      "voltaje_maximo": 500
+    },
+    "costo_estimado_usd": 0.1
+  },
+  {
+    "id": "RES_1.0W_0p12R",
+    "nombre": "Resistencia 0.12Ω 1W Metal",
+    "tipo": "Resistive",
+    "subtipo": "Metal Oxide",
+    "parametros": {
+      "valor_ohmios": 0.12,
+      "potencia_watts": 1.0,
+      "tolerancia_porcentaje": 10,
+      "voltaje_maximo": 500
+    },
+    "costo_estimado_usd": 0.1
+  },
+  {
+    "id": "RES_1.0W_0p15R",
+    "nombre": "Resistencia 0.15Ω 1W Metal",
+    "tipo": "Resistive",
+    "subtipo": "Metal Oxide",
+    "parametros": {
+      "valor_ohmios": 0.15,
+      "potencia_watts": 1.0,
+      "tolerancia_porcentaje": 10,
+      "voltaje_maximo": 500
+    },
+    "costo_estimado_usd": 0.1
+  },
+  {
+    "id": "RES_1.0W_0p18R",
+    "nombre": "Resistencia 0.18Ω 1W Metal",
+    "tipo": "Resistive",
+    "subtipo": "Metal Oxide",
+    "parametros": {
+      "valor_ohmios": 0.18,
+      "potencia_watts": 1.0,
+      "tolerancia_porcentaje": 10,
+      "voltaje_maximo": 500
+    },
+    "costo_estimado_usd": 0.1
+  },
+  {
+    "id": "RES_1.0W_0p22R",
+    "nombre": "Resistencia 0.22Ω 1W Metal",
+    "tipo": "Resistive",
+    "subtipo": "Metal Oxide",
+    "parametros": {
+      "valor_ohmios": 0.22,
+      "potencia_watts": 1.0,
+      "tolerancia_porcentaje": 10,
+      "voltaje_maximo": 500
+    },
+    "costo_estimado_usd": 0.1
+  },
+  {
+    "id": "RES_1.0W_0p27R",
+    "nombre": "Resistencia 0.27Ω 1W Metal",
+    "tipo": "Resistive",
+    "subtipo": "Metal Oxide",
+    "parametros": {
+      "valor_ohmios": 0.27,
+      "potencia_watts": 1.0,
+      "tolerancia_porcentaje": 10,
+      "voltaje_maximo": 500
+    },
+    "costo_estimado_usd": 0.1
+  },
+  {
+    "id": "RES_1.0W_0p33R",
+    "nombre": "Resistencia 0.33Ω 1W Metal",
+    "tipo": "Resistive",
+    "subtipo": "Metal Oxide",
+    "parametros": {
+      "valor_ohmios": 0.33,
+      "potencia_watts": 1.0,
+      "tolerancia_porcentaje": 10,
+      "voltaje_maximo": 500
+    },
+    "costo_estimado_usd": 0.1
+  },
+  {
+    "id": "RES_1.0W_0p39R",
+    "nombre": "Resistencia 0.39Ω 1W Metal",
+    "tipo": "Resistive",
+    "subtipo": "Metal Oxide",
+    "parametros": {
+      "valor_ohmios": 0.39,
+      "potencia_watts": 1.0,
+      "tolerancia_porcentaje": 10,
+      "voltaje_maximo": 500
+    },
+    "costo_estimado_usd": 0.1
+  },
+  {
+    "id": "RES_1.0W_0p47R",
+    "nombre": "Resistencia 0.47Ω 1W Metal",
+    "tipo": "Resistive",
+    "subtipo": "Metal Oxide",
+    "parametros": {
+      "valor_ohmios": 0.47,
+      "potencia_watts": 1.0,
+      "tolerancia_porcentaje": 10,
+      "voltaje_maximo": 500
+    },
+    "costo_estimado_usd": 0.1
+  },
+  {
+    "id": "RES_1.0W_0p56R",
+    "nombre": "Resistencia 0.56Ω 1W Metal",
+    "tipo": "Resistive",
+    "subtipo": "Metal Oxide",
+    "parametros": {
+      "valor_ohmios": 0.56,
+      "potencia_watts": 1.0,
+      "tolerancia_porcentaje": 10,
+      "voltaje_maximo": 500
+    },
+    "costo_estimado_usd": 0.1
+  },
+  {
+    "id": "RES_1.0W_0p68R",
+    "nombre": "Resistencia 0.68Ω 1W Metal",
+    "tipo": "Resistive",
+    "subtipo": "Metal Oxide",
+    "parametros": {
+      "valor_ohmios": 0.68,
+      "potencia_watts": 1.0,
+      "tolerancia_porcentaje": 10,
+      "voltaje_maximo": 500
+    },
+    "costo_estimado_usd": 0.1
+  },
+  {
+    "id": "RES_1.0W_0p82R",
+    "nombre": "Resistencia 0.82Ω 1W Metal",
+    "tipo": "Resistive",
+    "subtipo": "Metal Oxide",
+    "parametros": {
+      "valor_ohmios": 0.82,
+      "potencia_watts": 1.0,
+      "tolerancia_porcentaje": 10,
+      "voltaje_maximo": 500
+    },
+    "costo_estimado_usd": 0.1
+  },
+  {
+    "id": "RES_1.0W_1R",
+    "nombre": "Resistencia 1Ω 1W Metal",
+    "tipo": "Resistive",
+    "subtipo": "Metal Oxide",
+    "parametros": {
+      "valor_ohmios": 1.0,
+      "potencia_watts": 1.0,
+      "tolerancia_porcentaje": 10,
+      "voltaje_maximo": 500
+    },
+    "costo_estimado_usd": 0.1
+  },
+  {
+    "id": "RES_1.0W_1p2R",
+    "nombre": "Resistencia 1.2Ω 1W Metal",
+    "tipo": "Resistive",
+    "subtipo": "Metal Oxide",
+    "parametros": {
+      "valor_ohmios": 1.2,
+      "potencia_watts": 1.0,
+      "tolerancia_porcentaje": 10,
+      "voltaje_maximo": 500
+    },
+    "costo_estimado_usd": 0.1
+  },
+  {
+    "id": "RES_1.0W_1p5R",
+    "nombre": "Resistencia 1.5Ω 1W Metal",
+    "tipo": "Resistive",
+    "subtipo": "Metal Oxide",
+    "parametros": {
+      "valor_ohmios": 1.5,
+      "potencia_watts": 1.0,
+      "tolerancia_porcentaje": 10,
+      "voltaje_maximo": 500
+    },
+    "costo_estimado_usd": 0.1
+  },
+  {
+    "id": "RES_1.0W_1p8R",
+    "nombre": "Resistencia 1.8Ω 1W Metal",
+    "tipo": "Resistive",
+    "subtipo": "Metal Oxide",
+    "parametros": {
+      "valor_ohmios": 1.8,
+      "potencia_watts": 1.0,
+      "tolerancia_porcentaje": 10,
+      "voltaje_maximo": 500
+    },
+    "costo_estimado_usd": 0.1
+  },
+  {
+    "id": "RES_1.0W_2p2R",
+    "nombre": "Resistencia 2.2Ω 1W Metal",
+    "tipo": "Resistive",
+    "subtipo": "Metal Oxide",
+    "parametros": {
+      "valor_ohmios": 2.2,
+      "potencia_watts": 1.0,
+      "tolerancia_porcentaje": 10,
+      "voltaje_maximo": 500
+    },
+    "costo_estimado_usd": 0.1
+  },
+  {
+    "id": "RES_1.0W_2p7R",
+    "nombre": "Resistencia 2.7Ω 1W Metal",
+    "tipo": "Resistive",
+    "subtipo": "Metal Oxide",
+    "parametros": {
+      "valor_ohmios": 2.7,
+      "potencia_watts": 1.0,
+      "tolerancia_porcentaje": 10,
+      "voltaje_maximo": 500
+    },
+    "costo_estimado_usd": 0.1
+  },
+  {
+    "id": "RES_1.0W_3p3R",
+    "nombre": "Resistencia 3.3Ω 1W Metal",
+    "tipo": "Resistive",
+    "subtipo": "Metal Oxide",
+    "parametros": {
+      "valor_ohmios": 3.3,
+      "potencia_watts": 1.0,
+      "tolerancia_porcentaje": 10,
+      "voltaje_maximo": 500
+    },
+    "costo_estimado_usd": 0.1
+  },
+  {
+    "id": "RES_1.0W_3p9R",
+    "nombre": "Resistencia 3.9Ω 1W Metal",
+    "tipo": "Resistive",
+    "subtipo": "Metal Oxide",
+    "parametros": {
+      "valor_ohmios": 3.9,
+      "potencia_watts": 1.0,
+      "tolerancia_porcentaje": 10,
+      "voltaje_maximo": 500
+    },
+    "costo_estimado_usd": 0.1
+  },
+  {
+    "id": "RES_1.0W_4p7R",
+    "nombre": "Resistencia 4.7Ω 1W Metal",
+    "tipo": "Resistive",
+    "subtipo": "Metal Oxide",
+    "parametros": {
+      "valor_ohmios": 4.7,
+      "potencia_watts": 1.0,
+      "tolerancia_porcentaje": 10,
+      "voltaje_maximo": 500
+    },
+    "costo_estimado_usd": 0.1
+  },
+  {
+    "id": "RES_1.0W_5p6R",
+    "nombre": "Resistencia 5.6Ω 1W Metal",
+    "tipo": "Resistive",
+    "subtipo": "Metal Oxide",
+    "parametros": {
+      "valor_ohmios": 5.6,
+      "potencia_watts": 1.0,
+      "tolerancia_porcentaje": 10,
+      "voltaje_maximo": 500
+    },
+    "costo_estimado_usd": 0.1
+  },
+  {
+    "id": "RES_1.0W_6p8R",
+    "nombre": "Resistencia 6.8Ω 1W Metal",
+    "tipo": "Resistive",
+    "subtipo": "Metal Oxide",
+    "parametros": {
+      "valor_ohmios": 6.8,
+      "potencia_watts": 1.0,
+      "tolerancia_porcentaje": 10,
+      "voltaje_maximo": 500
+    },
+    "costo_estimado_usd": 0.1
+  },
+  {
+    "id": "RES_1.0W_8p2R",
+    "nombre": "Resistencia 8.2Ω 1W Metal",
+    "tipo": "Resistive",
+    "subtipo": "Metal Oxide",
+    "parametros": {
+      "valor_ohmios": 8.2,
+      "potencia_watts": 1.0,
+      "tolerancia_porcentaje": 10,
+      "voltaje_maximo": 500
+    },
+    "costo_estimado_usd": 0.1
+  },
+  {
+    "id": "RES_1.0W_10R",
+    "nombre": "Resistencia 10Ω 1W Metal",
+    "tipo": "Resistive",
+    "subtipo": "Metal Oxide",
+    "parametros": {
+      "valor_ohmios": 10.0,
+      "potencia_watts": 1.0,
+      "tolerancia_porcentaje": 10,
+      "voltaje_maximo": 500
+    },
+    "costo_estimado_usd": 0.1
+  },
+  {
+    "id": "RES_1.0W_12R",
+    "nombre": "Resistencia 12Ω 1W Metal",
+    "tipo": "Resistive",
+    "subtipo": "Metal Oxide",
+    "parametros": {
+      "valor_ohmios": 12.0,
+      "potencia_watts": 1.0,
+      "tolerancia_porcentaje": 10,
+      "voltaje_maximo": 500
+    },
+    "costo_estimado_usd": 0.1
+  },
+  {
+    "id": "RES_1.0W_15R",
+    "nombre": "Resistencia 15Ω 1W Metal",
+    "tipo": "Resistive",
+    "subtipo": "Metal Oxide",
+    "parametros": {
+      "valor_ohmios": 15.0,
+      "potencia_watts": 1.0,
+      "tolerancia_porcentaje": 10,
+      "voltaje_maximo": 500
+    },
+    "costo_estimado_usd": 0.1
+  },
+  {
+    "id": "RES_1.0W_18R",
+    "nombre": "Resistencia 18Ω 1W Metal",
+    "tipo": "Resistive",
+    "subtipo": "Metal Oxide",
+    "parametros": {
+      "valor_ohmios": 18.0,
+      "potencia_watts": 1.0,
+      "tolerancia_porcentaje": 10,
+      "voltaje_maximo": 500
+    },
+    "costo_estimado_usd": 0.1
+  },
+  {
+    "id": "RES_1.0W_22R",
+    "nombre": "Resistencia 22Ω 1W Metal",
+    "tipo": "Resistive",
+    "subtipo": "Metal Oxide",
+    "parametros": {
+      "valor_ohmios": 22.0,
+      "potencia_watts": 1.0,
+      "tolerancia_porcentaje": 10,
+      "voltaje_maximo": 500
+    },
+    "costo_estimado_usd": 0.1
+  },
+  {
+    "id": "RES_1.0W_27R",
+    "nombre": "Resistencia 27Ω 1W Metal",
+    "tipo": "Resistive",
+    "subtipo": "Metal Oxide",
+    "parametros": {
+      "valor_ohmios": 27.0,
+      "potencia_watts": 1.0,
+      "tolerancia_porcentaje": 10,
+      "voltaje_maximo": 500
+    },
+    "costo_estimado_usd": 0.1
+  },
+  {
+    "id": "RES_1.0W_33R",
+    "nombre": "Resistencia 33Ω 1W Metal",
+    "tipo": "Resistive",
+    "subtipo": "Metal Oxide",
+    "parametros": {
+      "valor_ohmios": 33.0,
+      "potencia_watts": 1.0,
+      "tolerancia_porcentaje": 10,
+      "voltaje_maximo": 500
+    },
+    "costo_estimado_usd": 0.1
+  },
+  {
+    "id": "RES_1.0W_39R",
+    "nombre": "Resistencia 39Ω 1W Metal",
+    "tipo": "Resistive",
+    "subtipo": "Metal Oxide",
+    "parametros": {
+      "valor_ohmios": 39.0,
+      "potencia_watts": 1.0,
+      "tolerancia_porcentaje": 10,
+      "voltaje_maximo": 500
+    },
+    "costo_estimado_usd": 0.1
+  },
+  {
+    "id": "RES_1.0W_47R",
+    "nombre": "Resistencia 47Ω 1W Metal",
+    "tipo": "Resistive",
+    "subtipo": "Metal Oxide",
+    "parametros": {
+      "valor_ohmios": 47.0,
+      "potencia_watts": 1.0,
+      "tolerancia_porcentaje": 10,
+      "voltaje_maximo": 500
+    },
+    "costo_estimado_usd": 0.1
+  },
+  {
+    "id": "RES_1.0W_56R",
+    "nombre": "Resistencia 56Ω 1W Metal",
+    "tipo": "Resistive",
+    "subtipo": "Metal Oxide",
+    "parametros": {
+      "valor_ohmios": 56.0,
+      "potencia_watts": 1.0,
+      "tolerancia_porcentaje": 10,
+      "voltaje_maximo": 500
+    },
+    "costo_estimado_usd": 0.1
+  },
+  {
+    "id": "RES_1.0W_68R",
+    "nombre": "Resistencia 68Ω 1W Metal",
+    "tipo": "Resistive",
+    "subtipo": "Metal Oxide",
+    "parametros": {
+      "valor_ohmios": 68.0,
+      "potencia_watts": 1.0,
+      "tolerancia_porcentaje": 10,
+      "voltaje_maximo": 500
+    },
+    "costo_estimado_usd": 0.1
+  },
+  {
+    "id": "RES_1.0W_82R",
+    "nombre": "Resistencia 82Ω 1W Metal",
+    "tipo": "Resistive",
+    "subtipo": "Metal Oxide",
+    "parametros": {
+      "valor_ohmios": 82.0,
+      "potencia_watts": 1.0,
+      "tolerancia_porcentaje": 10,
+      "voltaje_maximo": 500
+    },
+    "costo_estimado_usd": 0.1
+  },
+  {
+    "id": "RES_1.0W_100R",
+    "nombre": "Resistencia 100Ω 1W Metal",
+    "tipo": "Resistive",
+    "subtipo": "Metal Oxide",
+    "parametros": {
+      "valor_ohmios": 100.0,
+      "potencia_watts": 1.0,
+      "tolerancia_porcentaje": 10,
+      "voltaje_maximo": 500
+    },
+    "costo_estimado_usd": 0.1
+  },
+  {
+    "id": "RES_1.0W_120R",
+    "nombre": "Resistencia 120Ω 1W Metal",
+    "tipo": "Resistive",
+    "subtipo": "Metal Oxide",
+    "parametros": {
+      "valor_ohmios": 120.0,
+      "potencia_watts": 1.0,
+      "tolerancia_porcentaje": 10,
+      "voltaje_maximo": 500
+    },
+    "costo_estimado_usd": 0.1
+  },
+  {
+    "id": "RES_1.0W_150R",
+    "nombre": "Resistencia 150Ω 1W Metal",
+    "tipo": "Resistive",
+    "subtipo": "Metal Oxide",
+    "parametros": {
+      "valor_ohmios": 150.0,
+      "potencia_watts": 1.0,
+      "tolerancia_porcentaje": 10,
+      "voltaje_maximo": 500
+    },
+    "costo_estimado_usd": 0.1
+  },
+  {
+    "id": "RES_1.0W_180R",
+    "nombre": "Resistencia 180Ω 1W Metal",
+    "tipo": "Resistive",
+    "subtipo": "Metal Oxide",
+    "parametros": {
+      "valor_ohmios": 180.0,
+      "potencia_watts": 1.0,
+      "tolerancia_porcentaje": 10,
+      "voltaje_maximo": 500
+    },
+    "costo_estimado_usd": 0.1
+  },
+  {
+    "id": "RES_1.0W_220R",
+    "nombre": "Resistencia 220Ω 1W Metal",
+    "tipo": "Resistive",
+    "subtipo": "Metal Oxide",
+    "parametros": {
+      "valor_ohmios": 220.0,
+      "potencia_watts": 1.0,
+      "tolerancia_porcentaje": 10,
+      "voltaje_maximo": 500
+    },
+    "costo_estimado_usd": 0.1
+  },
+  {
+    "id": "RES_1.0W_270R",
+    "nombre": "Resistencia 270Ω 1W Metal",
+    "tipo": "Resistive",
+    "subtipo": "Metal Oxide",
+    "parametros": {
+      "valor_ohmios": 270.0,
+      "potencia_watts": 1.0,
+      "tolerancia_porcentaje": 10,
+      "voltaje_maximo": 500
+    },
+    "costo_estimado_usd": 0.1
+  },
+  {
+    "id": "RES_1.0W_330R",
+    "nombre": "Resistencia 330Ω 1W Metal",
+    "tipo": "Resistive",
+    "subtipo": "Metal Oxide",
+    "parametros": {
+      "valor_ohmios": 330.0,
+      "potencia_watts": 1.0,
+      "tolerancia_porcentaje": 10,
+      "voltaje_maximo": 500
+    },
+    "costo_estimado_usd": 0.1
+  },
+  {
+    "id": "RES_1.0W_390R",
+    "nombre": "Resistencia 390Ω 1W Metal",
+    "tipo": "Resistive",
+    "subtipo": "Metal Oxide",
+    "parametros": {
+      "valor_ohmios": 390.0,
+      "potencia_watts": 1.0,
+      "tolerancia_porcentaje": 10,
+      "voltaje_maximo": 500
+    },
+    "costo_estimado_usd": 0.1
+  },
+  {
+    "id": "RES_1.0W_470R",
+    "nombre": "Resistencia 470Ω 1W Metal",
+    "tipo": "Resistive",
+    "subtipo": "Metal Oxide",
+    "parametros": {
+      "valor_ohmios": 470.0,
+      "potencia_watts": 1.0,
+      "tolerancia_porcentaje": 10,
+      "voltaje_maximo": 500
+    },
+    "costo_estimado_usd": 0.1
+  },
+  {
+    "id": "RES_1.0W_560R",
+    "nombre": "Resistencia 560Ω 1W Metal",
+    "tipo": "Resistive",
+    "subtipo": "Metal Oxide",
+    "parametros": {
+      "valor_ohmios": 560.0,
+      "potencia_watts": 1.0,
+      "tolerancia_porcentaje": 10,
+      "voltaje_maximo": 500
+    },
+    "costo_estimado_usd": 0.1
+  },
+  {
+    "id": "RES_1.0W_680R",
+    "nombre": "Resistencia 680Ω 1W Metal",
+    "tipo": "Resistive",
+    "subtipo": "Metal Oxide",
+    "parametros": {
+      "valor_ohmios": 680.0,
+      "potencia_watts": 1.0,
+      "tolerancia_porcentaje": 10,
+      "voltaje_maximo": 500
+    },
+    "costo_estimado_usd": 0.1
+  },
+  {
+    "id": "RES_1.0W_820R",
+    "nombre": "Resistencia 820Ω 1W Metal",
+    "tipo": "Resistive",
+    "subtipo": "Metal Oxide",
+    "parametros": {
+      "valor_ohmios": 820.0,
+      "potencia_watts": 1.0,
+      "tolerancia_porcentaje": 10,
+      "voltaje_maximo": 500
+    },
+    "costo_estimado_usd": 0.1
+  },
+  {
+    "id": "RES_1.0W_1k",
+    "nombre": "Resistencia 1kΩ 1W Metal",
+    "tipo": "Resistive",
+    "subtipo": "Metal Oxide",
+    "parametros": {
+      "valor_ohmios": 1000.0,
+      "potencia_watts": 1.0,
+      "tolerancia_porcentaje": 10,
+      "voltaje_maximo": 500
+    },
+    "costo_estimado_usd": 0.1
+  },
+  {
+    "id": "RES_1.0W_1p2k",
+    "nombre": "Resistencia 1.2kΩ 1W Metal",
+    "tipo": "Resistive",
+    "subtipo": "Metal Oxide",
+    "parametros": {
+      "valor_ohmios": 1200.0,
+      "potencia_watts": 1.0,
+      "tolerancia_porcentaje": 10,
+      "voltaje_maximo": 500
+    },
+    "costo_estimado_usd": 0.1
+  },
+  {
+    "id": "RES_1.0W_1p5k",
+    "nombre": "Resistencia 1.5kΩ 1W Metal",
+    "tipo": "Resistive",
+    "subtipo": "Metal Oxide",
+    "parametros": {
+      "valor_ohmios": 1500.0,
+      "potencia_watts": 1.0,
+      "tolerancia_porcentaje": 10,
+      "voltaje_maximo": 500
+    },
+    "costo_estimado_usd": 0.1
+  },
+  {
+    "id": "RES_1.0W_1p8k",
+    "nombre": "Resistencia 1.8kΩ 1W Metal",
+    "tipo": "Resistive",
+    "subtipo": "Metal Oxide",
+    "parametros": {
+      "valor_ohmios": 1800.0,
+      "potencia_watts": 1.0,
+      "tolerancia_porcentaje": 10,
+      "voltaje_maximo": 500
+    },
+    "costo_estimado_usd": 0.1
+  },
+  {
+    "id": "RES_1.0W_2p2k",
+    "nombre": "Resistencia 2.2kΩ 1W Metal",
+    "tipo": "Resistive",
+    "subtipo": "Metal Oxide",
+    "parametros": {
+      "valor_ohmios": 2200.0,
+      "potencia_watts": 1.0,
+      "tolerancia_porcentaje": 10,
+      "voltaje_maximo": 500
+    },
+    "costo_estimado_usd": 0.1
+  },
+  {
+    "id": "RES_1.0W_2p7k",
+    "nombre": "Resistencia 2.7kΩ 1W Metal",
+    "tipo": "Resistive",
+    "subtipo": "Metal Oxide",
+    "parametros": {
+      "valor_ohmios": 2700.0,
+      "potencia_watts": 1.0,
+      "tolerancia_porcentaje": 10,
+      "voltaje_maximo": 500
+    },
+    "costo_estimado_usd": 0.1
+  },
+  {
+    "id": "RES_1.0W_3p3k",
+    "nombre": "Resistencia 3.3kΩ 1W Metal",
+    "tipo": "Resistive",
+    "subtipo": "Metal Oxide",
+    "parametros": {
+      "valor_ohmios": 3300.0,
+      "potencia_watts": 1.0,
+      "tolerancia_porcentaje": 10,
+      "voltaje_maximo": 500
+    },
+    "costo_estimado_usd": 0.1
+  },
+  {
+    "id": "RES_1.0W_3p9k",
+    "nombre": "Resistencia 3.9kΩ 1W Metal",
+    "tipo": "Resistive",
+    "subtipo": "Metal Oxide",
+    "parametros": {
+      "valor_ohmios": 3900.0,
+      "potencia_watts": 1.0,
+      "tolerancia_porcentaje": 10,
+      "voltaje_maximo": 500
+    },
+    "costo_estimado_usd": 0.1
+  },
+  {
+    "id": "RES_1.0W_4p7k",
+    "nombre": "Resistencia 4.7kΩ 1W Metal",
+    "tipo": "Resistive",
+    "subtipo": "Metal Oxide",
+    "parametros": {
+      "valor_ohmios": 4700.0,
+      "potencia_watts": 1.0,
+      "tolerancia_porcentaje": 10,
+      "voltaje_maximo": 500
+    },
+    "costo_estimado_usd": 0.1
+  },
+  {
+    "id": "RES_1.0W_5p6k",
+    "nombre": "Resistencia 5.6kΩ 1W Metal",
+    "tipo": "Resistive",
+    "subtipo": "Metal Oxide",
+    "parametros": {
+      "valor_ohmios": 5600.0,
+      "potencia_watts": 1.0,
+      "tolerancia_porcentaje": 10,
+      "voltaje_maximo": 500
+    },
+    "costo_estimado_usd": 0.1
+  },
+  {
+    "id": "RES_1.0W_6p8k",
+    "nombre": "Resistencia 6.8kΩ 1W Metal",
+    "tipo": "Resistive",
+    "subtipo": "Metal Oxide",
+    "parametros": {
+      "valor_ohmios": 6800.0,
+      "potencia_watts": 1.0,
+      "tolerancia_porcentaje": 10,
+      "voltaje_maximo": 500
+    },
+    "costo_estimado_usd": 0.1
+  },
+  {
+    "id": "RES_1.0W_8p2k",
+    "nombre": "Resistencia 8.2kΩ 1W Metal",
+    "tipo": "Resistive",
+    "subtipo": "Metal Oxide",
+    "parametros": {
+      "valor_ohmios": 8200.0,
+      "potencia_watts": 1.0,
+      "tolerancia_porcentaje": 10,
+      "voltaje_maximo": 500
+    },
+    "costo_estimado_usd": 0.1
+  },
+  {
+    "id": "RES_1.0W_10k",
+    "nombre": "Resistencia 10kΩ 1W Metal",
+    "tipo": "Resistive",
+    "subtipo": "Metal Oxide",
+    "parametros": {
+      "valor_ohmios": 10000.0,
+      "potencia_watts": 1.0,
+      "tolerancia_porcentaje": 10,
+      "voltaje_maximo": 500
+    },
+    "costo_estimado_usd": 0.1
+  },
+  {
+    "id": "RES_1.0W_12k",
+    "nombre": "Resistencia 12kΩ 1W Metal",
+    "tipo": "Resistive",
+    "subtipo": "Metal Oxide",
+    "parametros": {
+      "valor_ohmios": 12000.0,
+      "potencia_watts": 1.0,
+      "tolerancia_porcentaje": 10,
+      "voltaje_maximo": 500
+    },
+    "costo_estimado_usd": 0.1
+  },
+  {
+    "id": "RES_1.0W_15k",
+    "nombre": "Resistencia 15kΩ 1W Metal",
+    "tipo": "Resistive",
+    "subtipo": "Metal Oxide",
+    "parametros": {
+      "valor_ohmios": 15000.0,
+      "potencia_watts": 1.0,
+      "tolerancia_porcentaje": 10,
+      "voltaje_maximo": 500
+    },
+    "costo_estimado_usd": 0.1
+  },
+  {
+    "id": "RES_1.0W_18k",
+    "nombre": "Resistencia 18kΩ 1W Metal",
+    "tipo": "Resistive",
+    "subtipo": "Metal Oxide",
+    "parametros": {
+      "valor_ohmios": 18000.0,
+      "potencia_watts": 1.0,
+      "tolerancia_porcentaje": 10,
+      "voltaje_maximo": 500
+    },
+    "costo_estimado_usd": 0.1
+  },
+  {
+    "id": "RES_1.0W_22k",
+    "nombre": "Resistencia 22kΩ 1W Metal",
+    "tipo": "Resistive",
+    "subtipo": "Metal Oxide",
+    "parametros": {
+      "valor_ohmios": 22000.0,
+      "potencia_watts": 1.0,
+      "tolerancia_porcentaje": 10,
+      "voltaje_maximo": 500
+    },
+    "costo_estimado_usd": 0.1
+  },
+  {
+    "id": "RES_1.0W_27k",
+    "nombre": "Resistencia 27kΩ 1W Metal",
+    "tipo": "Resistive",
+    "subtipo": "Metal Oxide",
+    "parametros": {
+      "valor_ohmios": 27000.0,
+      "potencia_watts": 1.0,
+      "tolerancia_porcentaje": 10,
+      "voltaje_maximo": 500
+    },
+    "costo_estimado_usd": 0.1
+  },
+  {
+    "id": "RES_1.0W_33k",
+    "nombre": "Resistencia 33kΩ 1W Metal",
+    "tipo": "Resistive",
+    "subtipo": "Metal Oxide",
+    "parametros": {
+      "valor_ohmios": 33000.0,
+      "potencia_watts": 1.0,
+      "tolerancia_porcentaje": 10,
+      "voltaje_maximo": 500
+    },
+    "costo_estimado_usd": 0.1
+  },
+  {
+    "id": "RES_1.0W_39k",
+    "nombre": "Resistencia 39kΩ 1W Metal",
+    "tipo": "Resistive",
+    "subtipo": "Metal Oxide",
+    "parametros": {
+      "valor_ohmios": 39000.0,
+      "potencia_watts": 1.0,
+      "tolerancia_porcentaje": 10,
+      "voltaje_maximo": 500
+    },
+    "costo_estimado_usd": 0.1
+  },
+  {
+    "id": "RES_1.0W_47k",
+    "nombre": "Resistencia 47kΩ 1W Metal",
+    "tipo": "Resistive",
+    "subtipo": "Metal Oxide",
+    "parametros": {
+      "valor_ohmios": 47000.0,
+      "potencia_watts": 1.0,
+      "tolerancia_porcentaje": 10,
+      "voltaje_maximo": 500
+    },
+    "costo_estimado_usd": 0.1
+  },
+  {
+    "id": "RES_1.0W_56k",
+    "nombre": "Resistencia 56kΩ 1W Metal",
+    "tipo": "Resistive",
+    "subtipo": "Metal Oxide",
+    "parametros": {
+      "valor_ohmios": 56000.0,
+      "potencia_watts": 1.0,
+      "tolerancia_porcentaje": 10,
+      "voltaje_maximo": 500
+    },
+    "costo_estimado_usd": 0.1
+  },
+  {
+    "id": "RES_1.0W_68k",
+    "nombre": "Resistencia 68kΩ 1W Metal",
+    "tipo": "Resistive",
+    "subtipo": "Metal Oxide",
+    "parametros": {
+      "valor_ohmios": 68000.0,
+      "potencia_watts": 1.0,
+      "tolerancia_porcentaje": 10,
+      "voltaje_maximo": 500
+    },
+    "costo_estimado_usd": 0.1
+  },
+  {
+    "id": "RES_1.0W_82k",
+    "nombre": "Resistencia 82kΩ 1W Metal",
+    "tipo": "Resistive",
+    "subtipo": "Metal Oxide",
+    "parametros": {
+      "valor_ohmios": 82000.0,
+      "potencia_watts": 1.0,
+      "tolerancia_porcentaje": 10,
+      "voltaje_maximo": 500
+    },
+    "costo_estimado_usd": 0.1
+  },
+  {
+    "id": "RES_1.0W_100k",
+    "nombre": "Resistencia 100kΩ 1W Metal",
+    "tipo": "Resistive",
+    "subtipo": "Metal Oxide",
+    "parametros": {
+      "valor_ohmios": 100000.0,
+      "potencia_watts": 1.0,
+      "tolerancia_porcentaje": 10,
+      "voltaje_maximo": 500
+    },
+    "costo_estimado_usd": 0.1
+  },
+  {
+    "id": "RES_1.0W_120k",
+    "nombre": "Resistencia 120kΩ 1W Metal",
+    "tipo": "Resistive",
+    "subtipo": "Metal Oxide",
+    "parametros": {
+      "valor_ohmios": 120000.0,
+      "potencia_watts": 1.0,
+      "tolerancia_porcentaje": 10,
+      "voltaje_maximo": 500
+    },
+    "costo_estimado_usd": 0.1
+  },
+  {
+    "id": "RES_1.0W_150k",
+    "nombre": "Resistencia 150kΩ 1W Metal",
+    "tipo": "Resistive",
+    "subtipo": "Metal Oxide",
+    "parametros": {
+      "valor_ohmios": 150000.0,
+      "potencia_watts": 1.0,
+      "tolerancia_porcentaje": 10,
+      "voltaje_maximo": 500
+    },
+    "costo_estimado_usd": 0.1
+  },
+  {
+    "id": "RES_1.0W_180k",
+    "nombre": "Resistencia 180kΩ 1W Metal",
+    "tipo": "Resistive",
+    "subtipo": "Metal Oxide",
+    "parametros": {
+      "valor_ohmios": 180000.0,
+      "potencia_watts": 1.0,
+      "tolerancia_porcentaje": 10,
+      "voltaje_maximo": 500
+    },
+    "costo_estimado_usd": 0.1
+  },
+  {
+    "id": "RES_1.0W_220k",
+    "nombre": "Resistencia 220kΩ 1W Metal",
+    "tipo": "Resistive",
+    "subtipo": "Metal Oxide",
+    "parametros": {
+      "valor_ohmios": 220000.0,
+      "potencia_watts": 1.0,
+      "tolerancia_porcentaje": 10,
+      "voltaje_maximo": 500
+    },
+    "costo_estimado_usd": 0.1
+  },
+  {
+    "id": "RES_1.0W_270k",
+    "nombre": "Resistencia 270kΩ 1W Metal",
+    "tipo": "Resistive",
+    "subtipo": "Metal Oxide",
+    "parametros": {
+      "valor_ohmios": 270000.0,
+      "potencia_watts": 1.0,
+      "tolerancia_porcentaje": 10,
+      "voltaje_maximo": 500
+    },
+    "costo_estimado_usd": 0.1
+  },
+  {
+    "id": "RES_1.0W_330k",
+    "nombre": "Resistencia 330kΩ 1W Metal",
+    "tipo": "Resistive",
+    "subtipo": "Metal Oxide",
+    "parametros": {
+      "valor_ohmios": 330000.0,
+      "potencia_watts": 1.0,
+      "tolerancia_porcentaje": 10,
+      "voltaje_maximo": 500
+    },
+    "costo_estimado_usd": 0.1
+  },
+  {
+    "id": "RES_1.0W_390k",
+    "nombre": "Resistencia 390kΩ 1W Metal",
+    "tipo": "Resistive",
+    "subtipo": "Metal Oxide",
+    "parametros": {
+      "valor_ohmios": 390000.0,
+      "potencia_watts": 1.0,
+      "tolerancia_porcentaje": 10,
+      "voltaje_maximo": 500
+    },
+    "costo_estimado_usd": 0.1
+  },
+  {
+    "id": "RES_1.0W_470k",
+    "nombre": "Resistencia 470kΩ 1W Metal",
+    "tipo": "Resistive",
+    "subtipo": "Metal Oxide",
+    "parametros": {
+      "valor_ohmios": 470000.0,
+      "potencia_watts": 1.0,
+      "tolerancia_porcentaje": 10,
+      "voltaje_maximo": 500
+    },
+    "costo_estimado_usd": 0.1
+  },
+  {
+    "id": "RES_1.0W_560k",
+    "nombre": "Resistencia 560kΩ 1W Metal",
+    "tipo": "Resistive",
+    "subtipo": "Metal Oxide",
+    "parametros": {
+      "valor_ohmios": 560000.0,
+      "potencia_watts": 1.0,
+      "tolerancia_porcentaje": 10,
+      "voltaje_maximo": 500
+    },
+    "costo_estimado_usd": 0.1
+  },
+  {
+    "id": "RES_1.0W_680k",
+    "nombre": "Resistencia 680kΩ 1W Metal",
+    "tipo": "Resistive",
+    "subtipo": "Metal Oxide",
+    "parametros": {
+      "valor_ohmios": 680000.0,
+      "potencia_watts": 1.0,
+      "tolerancia_porcentaje": 10,
+      "voltaje_maximo": 500
+    },
+    "costo_estimado_usd": 0.1
+  },
+  {
+    "id": "RES_1.0W_820k",
+    "nombre": "Resistencia 820kΩ 1W Metal",
+    "tipo": "Resistive",
+    "subtipo": "Metal Oxide",
+    "parametros": {
+      "valor_ohmios": 820000.0,
+      "potencia_watts": 1.0,
+      "tolerancia_porcentaje": 10,
+      "voltaje_maximo": 500
+    },
+    "costo_estimado_usd": 0.1
+  },
+  {
+    "id": "RES_1.0W_1M",
+    "nombre": "Resistencia 1MΩ 1W Metal",
+    "tipo": "Resistive",
+    "subtipo": "Metal Oxide",
+    "parametros": {
+      "valor_ohmios": 1000000.0,
+      "potencia_watts": 1.0,
+      "tolerancia_porcentaje": 10,
+      "voltaje_maximo": 500
+    },
+    "costo_estimado_usd": 0.1
+  },
+  {
+    "id": "RES_1.0W_1p2M",
+    "nombre": "Resistencia 1.2MΩ 1W Metal",
+    "tipo": "Resistive",
+    "subtipo": "Metal Oxide",
+    "parametros": {
+      "valor_ohmios": 1200000.0,
+      "potencia_watts": 1.0,
+      "tolerancia_porcentaje": 10,
+      "voltaje_maximo": 500
+    },
+    "costo_estimado_usd": 0.1
+  },
+  {
+    "id": "RES_1.0W_1p5M",
+    "nombre": "Resistencia 1.5MΩ 1W Metal",
+    "tipo": "Resistive",
+    "subtipo": "Metal Oxide",
+    "parametros": {
+      "valor_ohmios": 1500000.0,
+      "potencia_watts": 1.0,
+      "tolerancia_porcentaje": 10,
+      "voltaje_maximo": 500
+    },
+    "costo_estimado_usd": 0.1
+  },
+  {
+    "id": "RES_1.0W_1p8M",
+    "nombre": "Resistencia 1.8MΩ 1W Metal",
+    "tipo": "Resistive",
+    "subtipo": "Metal Oxide",
+    "parametros": {
+      "valor_ohmios": 1800000.0,
+      "potencia_watts": 1.0,
+      "tolerancia_porcentaje": 10,
+      "voltaje_maximo": 500
+    },
+    "costo_estimado_usd": 0.1
+  },
+  {
+    "id": "RES_1.0W_2p2M",
+    "nombre": "Resistencia 2.2MΩ 1W Metal",
+    "tipo": "Resistive",
+    "subtipo": "Metal Oxide",
+    "parametros": {
+      "valor_ohmios": 2200000.0,
+      "potencia_watts": 1.0,
+      "tolerancia_porcentaje": 10,
+      "voltaje_maximo": 500
+    },
+    "costo_estimado_usd": 0.1
+  },
+  {
+    "id": "RES_1.0W_2p7M",
+    "nombre": "Resistencia 2.7MΩ 1W Metal",
+    "tipo": "Resistive",
+    "subtipo": "Metal Oxide",
+    "parametros": {
+      "valor_ohmios": 2700000.0,
+      "potencia_watts": 1.0,
+      "tolerancia_porcentaje": 10,
+      "voltaje_maximo": 500
+    },
+    "costo_estimado_usd": 0.1
+  },
+  {
+    "id": "RES_1.0W_3p3M",
+    "nombre": "Resistencia 3.3MΩ 1W Metal",
+    "tipo": "Resistive",
+    "subtipo": "Metal Oxide",
+    "parametros": {
+      "valor_ohmios": 3300000.0,
+      "potencia_watts": 1.0,
+      "tolerancia_porcentaje": 10,
+      "voltaje_maximo": 500
+    },
+    "costo_estimado_usd": 0.1
+  },
+  {
+    "id": "RES_1.0W_3p9M",
+    "nombre": "Resistencia 3.9MΩ 1W Metal",
+    "tipo": "Resistive",
+    "subtipo": "Metal Oxide",
+    "parametros": {
+      "valor_ohmios": 3900000.0,
+      "potencia_watts": 1.0,
+      "tolerancia_porcentaje": 10,
+      "voltaje_maximo": 500
+    },
+    "costo_estimado_usd": 0.1
+  },
+  {
+    "id": "RES_1.0W_4p7M",
+    "nombre": "Resistencia 4.7MΩ 1W Metal",
+    "tipo": "Resistive",
+    "subtipo": "Metal Oxide",
+    "parametros": {
+      "valor_ohmios": 4700000.0,
+      "potencia_watts": 1.0,
+      "tolerancia_porcentaje": 10,
+      "voltaje_maximo": 500
+    },
+    "costo_estimado_usd": 0.1
+  },
+  {
+    "id": "RES_1.0W_5p6M",
+    "nombre": "Resistencia 5.6MΩ 1W Metal",
+    "tipo": "Resistive",
+    "subtipo": "Metal Oxide",
+    "parametros": {
+      "valor_ohmios": 5600000.0,
+      "potencia_watts": 1.0,
+      "tolerancia_porcentaje": 10,
+      "voltaje_maximo": 500
+    },
+    "costo_estimado_usd": 0.1
+  },
+  {
+    "id": "RES_1.0W_6p8M",
+    "nombre": "Resistencia 6.8MΩ 1W Metal",
+    "tipo": "Resistive",
+    "subtipo": "Metal Oxide",
+    "parametros": {
+      "valor_ohmios": 6800000.0,
+      "potencia_watts": 1.0,
+      "tolerancia_porcentaje": 10,
+      "voltaje_maximo": 500
+    },
+    "costo_estimado_usd": 0.1
+  },
+  {
+    "id": "RES_1.0W_8p2M",
+    "nombre": "Resistencia 8.2MΩ 1W Metal",
+    "tipo": "Resistive",
+    "subtipo": "Metal Oxide",
+    "parametros": {
+      "valor_ohmios": 8200000.0,
+      "potencia_watts": 1.0,
+      "tolerancia_porcentaje": 10,
+      "voltaje_maximo": 500
+    },
+    "costo_estimado_usd": 0.1
+  },
+  {
+    "id": "RES_1.0W_10M",
+    "nombre": "Resistencia 10MΩ 1W Metal",
+    "tipo": "Resistive",
+    "subtipo": "Metal Oxide",
+    "parametros": {
+      "valor_ohmios": 10000000.0,
+      "potencia_watts": 1.0,
+      "tolerancia_porcentaje": 10,
+      "voltaje_maximo": 500
+    },
+    "costo_estimado_usd": 0.1
+  },
+  {
+    "id": "RES_1.0W_12M",
+    "nombre": "Resistencia 12MΩ 1W Metal",
+    "tipo": "Resistive",
+    "subtipo": "Metal Oxide",
+    "parametros": {
+      "valor_ohmios": 12000000.0,
+      "potencia_watts": 1.0,
+      "tolerancia_porcentaje": 10,
+      "voltaje_maximo": 500
+    },
+    "costo_estimado_usd": 0.1
+  },
+  {
+    "id": "RES_1.0W_15M",
+    "nombre": "Resistencia 15MΩ 1W Metal",
+    "tipo": "Resistive",
+    "subtipo": "Metal Oxide",
+    "parametros": {
+      "valor_ohmios": 15000000.0,
+      "potencia_watts": 1.0,
+      "tolerancia_porcentaje": 10,
+      "voltaje_maximo": 500
+    },
+    "costo_estimado_usd": 0.1
+  },
+  {
+    "id": "RES_1.0W_18M",
+    "nombre": "Resistencia 18MΩ 1W Metal",
+    "tipo": "Resistive",
+    "subtipo": "Metal Oxide",
+    "parametros": {
+      "valor_ohmios": 18000000.0,
+      "potencia_watts": 1.0,
+      "tolerancia_porcentaje": 10,
+      "voltaje_maximo": 500
+    },
+    "costo_estimado_usd": 0.1
+  },
+  {
+    "id": "RES_1.0W_22M",
+    "nombre": "Resistencia 22MΩ 1W Metal",
+    "tipo": "Resistive",
+    "subtipo": "Metal Oxide",
+    "parametros": {
+      "valor_ohmios": 22000000.0,
+      "potencia_watts": 1.0,
+      "tolerancia_porcentaje": 10,
+      "voltaje_maximo": 500
+    },
+    "costo_estimado_usd": 0.1
+  },
+  {
+    "id": "RES_1.0W_27M",
+    "nombre": "Resistencia 27MΩ 1W Metal",
+    "tipo": "Resistive",
+    "subtipo": "Metal Oxide",
+    "parametros": {
+      "valor_ohmios": 27000000.0,
+      "potencia_watts": 1.0,
+      "tolerancia_porcentaje": 10,
+      "voltaje_maximo": 500
+    },
+    "costo_estimado_usd": 0.1
+  },
+  {
+    "id": "RES_1.0W_33M",
+    "nombre": "Resistencia 33MΩ 1W Metal",
+    "tipo": "Resistive",
+    "subtipo": "Metal Oxide",
+    "parametros": {
+      "valor_ohmios": 33000000.0,
+      "potencia_watts": 1.0,
+      "tolerancia_porcentaje": 10,
+      "voltaje_maximo": 500
+    },
+    "costo_estimado_usd": 0.1
+  },
+  {
+    "id": "RES_1.0W_39M",
+    "nombre": "Resistencia 39MΩ 1W Metal",
+    "tipo": "Resistive",
+    "subtipo": "Metal Oxide",
+    "parametros": {
+      "valor_ohmios": 39000000.0,
+      "potencia_watts": 1.0,
+      "tolerancia_porcentaje": 10,
+      "voltaje_maximo": 500
+    },
+    "costo_estimado_usd": 0.1
+  },
+  {
+    "id": "RES_1.0W_47M",
+    "nombre": "Resistencia 47MΩ 1W Metal",
+    "tipo": "Resistive",
+    "subtipo": "Metal Oxide",
+    "parametros": {
+      "valor_ohmios": 47000000.0,
+      "potencia_watts": 1.0,
+      "tolerancia_porcentaje": 10,
+      "voltaje_maximo": 500
+    },
+    "costo_estimado_usd": 0.1
+  },
+  {
+    "id": "RES_1.0W_56M",
+    "nombre": "Resistencia 56MΩ 1W Metal",
+    "tipo": "Resistive",
+    "subtipo": "Metal Oxide",
+    "parametros": {
+      "valor_ohmios": 56000000.0,
+      "potencia_watts": 1.0,
+      "tolerancia_porcentaje": 10,
+      "voltaje_maximo": 500
+    },
+    "costo_estimado_usd": 0.1
+  },
+  {
+    "id": "RES_1.0W_68M",
+    "nombre": "Resistencia 68MΩ 1W Metal",
+    "tipo": "Resistive",
+    "subtipo": "Metal Oxide",
+    "parametros": {
+      "valor_ohmios": 68000000.0,
+      "potencia_watts": 1.0,
+      "tolerancia_porcentaje": 10,
+      "voltaje_maximo": 500
+    },
+    "costo_estimado_usd": 0.1
+  },
+  {
+    "id": "RES_1.0W_82M",
+    "nombre": "Resistencia 82MΩ 1W Metal",
+    "tipo": "Resistive",
+    "subtipo": "Metal Oxide",
+    "parametros": {
+      "valor_ohmios": 82000000.0,
+      "potencia_watts": 1.0,
+      "tolerancia_porcentaje": 10,
+      "voltaje_maximo": 500
+    },
+    "costo_estimado_usd": 0.1
+  },
+  {
+    "id": "RES_5.0W_0p1R",
+    "nombre": "Resistencia 0.1Ω 5W Cemento",
+    "tipo": "Resistive",
+    "subtipo": "Wirewound",
+    "parametros": {
+      "valor_ohmios": 0.1,
+      "potencia_watts": 5.0,
+      "tolerancia_porcentaje": 10,
+      "voltaje_maximo": 750
+    },
+    "costo_estimado_usd": 0.8
+  },
+  {
+    "id": "RES_5.0W_0p12R",
+    "nombre": "Resistencia 0.12Ω 5W Cemento",
+    "tipo": "Resistive",
+    "subtipo": "Wirewound",
+    "parametros": {
+      "valor_ohmios": 0.12,
+      "potencia_watts": 5.0,
+      "tolerancia_porcentaje": 10,
+      "voltaje_maximo": 750
+    },
+    "costo_estimado_usd": 0.8
+  },
+  {
+    "id": "RES_5.0W_0p15R",
+    "nombre": "Resistencia 0.15Ω 5W Cemento",
+    "tipo": "Resistive",
+    "subtipo": "Wirewound",
+    "parametros": {
+      "valor_ohmios": 0.15,
+      "potencia_watts": 5.0,
+      "tolerancia_porcentaje": 10,
+      "voltaje_maximo": 750
+    },
+    "costo_estimado_usd": 0.8
+  },
+  {
+    "id": "RES_5.0W_0p18R",
+    "nombre": "Resistencia 0.18Ω 5W Cemento",
+    "tipo": "Resistive",
+    "subtipo": "Wirewound",
+    "parametros": {
+      "valor_ohmios": 0.18,
+      "potencia_watts": 5.0,
+      "tolerancia_porcentaje": 10,
+      "voltaje_maximo": 750
+    },
+    "costo_estimado_usd": 0.8
+  },
+  {
+    "id": "RES_5.0W_0p22R",
+    "nombre": "Resistencia 0.22Ω 5W Cemento",
+    "tipo": "Resistive",
+    "subtipo": "Wirewound",
+    "parametros": {
+      "valor_ohmios": 0.22,
+      "potencia_watts": 5.0,
+      "tolerancia_porcentaje": 10,
+      "voltaje_maximo": 750
+    },
+    "costo_estimado_usd": 0.8
+  },
+  {
+    "id": "RES_5.0W_0p27R",
+    "nombre": "Resistencia 0.27Ω 5W Cemento",
+    "tipo": "Resistive",
+    "subtipo": "Wirewound",
+    "parametros": {
+      "valor_ohmios": 0.27,
+      "potencia_watts": 5.0,
+      "tolerancia_porcentaje": 10,
+      "voltaje_maximo": 750
+    },
+    "costo_estimado_usd": 0.8
+  },
+  {
+    "id": "RES_5.0W_0p33R",
+    "nombre": "Resistencia 0.33Ω 5W Cemento",
+    "tipo": "Resistive",
+    "subtipo": "Wirewound",
+    "parametros": {
+      "valor_ohmios": 0.33,
+      "potencia_watts": 5.0,
+      "tolerancia_porcentaje": 10,
+      "voltaje_maximo": 750
+    },
+    "costo_estimado_usd": 0.8
+  },
+  {
+    "id": "RES_5.0W_0p39R",
+    "nombre": "Resistencia 0.39Ω 5W Cemento",
+    "tipo": "Resistive",
+    "subtipo": "Wirewound",
+    "parametros": {
+      "valor_ohmios": 0.39,
+      "potencia_watts": 5.0,
+      "tolerancia_porcentaje": 10,
+      "voltaje_maximo": 750
+    },
+    "costo_estimado_usd": 0.8
+  },
+  {
+    "id": "RES_5.0W_0p47R",
+    "nombre": "Resistencia 0.47Ω 5W Cemento",
+    "tipo": "Resistive",
+    "subtipo": "Wirewound",
+    "parametros": {
+      "valor_ohmios": 0.47,
+      "potencia_watts": 5.0,
+      "tolerancia_porcentaje": 10,
+      "voltaje_maximo": 750
+    },
+    "costo_estimado_usd": 0.8
+  },
+  {
+    "id": "RES_5.0W_0p56R",
+    "nombre": "Resistencia 0.56Ω 5W Cemento",
+    "tipo": "Resistive",
+    "subtipo": "Wirewound",
+    "parametros": {
+      "valor_ohmios": 0.56,
+      "potencia_watts": 5.0,
+      "tolerancia_porcentaje": 10,
+      "voltaje_maximo": 750
+    },
+    "costo_estimado_usd": 0.8
+  },
+  {
+    "id": "RES_5.0W_0p68R",
+    "nombre": "Resistencia 0.68Ω 5W Cemento",
+    "tipo": "Resistive",
+    "subtipo": "Wirewound",
+    "parametros": {
+      "valor_ohmios": 0.68,
+      "potencia_watts": 5.0,
+      "tolerancia_porcentaje": 10,
+      "voltaje_maximo": 750
+    },
+    "costo_estimado_usd": 0.8
+  },
+  {
+    "id": "RES_5.0W_0p82R",
+    "nombre": "Resistencia 0.82Ω 5W Cemento",
+    "tipo": "Resistive",
+    "subtipo": "Wirewound",
+    "parametros": {
+      "valor_ohmios": 0.82,
+      "potencia_watts": 5.0,
+      "tolerancia_porcentaje": 10,
+      "voltaje_maximo": 750
+    },
+    "costo_estimado_usd": 0.8
+  },
+  {
+    "id": "RES_5.0W_1R",
+    "nombre": "Resistencia 1Ω 5W Cemento",
+    "tipo": "Resistive",
+    "subtipo": "Wirewound",
+    "parametros": {
+      "valor_ohmios": 1.0,
+      "potencia_watts": 5.0,
+      "tolerancia_porcentaje": 10,
+      "voltaje_maximo": 750
+    },
+    "costo_estimado_usd": 0.8
+  },
+  {
+    "id": "RES_5.0W_1p2R",
+    "nombre": "Resistencia 1.2Ω 5W Cemento",
+    "tipo": "Resistive",
+    "subtipo": "Wirewound",
+    "parametros": {
+      "valor_ohmios": 1.2,
+      "potencia_watts": 5.0,
+      "tolerancia_porcentaje": 10,
+      "voltaje_maximo": 750
+    },
+    "costo_estimado_usd": 0.8
+  },
+  {
+    "id": "RES_5.0W_1p5R",
+    "nombre": "Resistencia 1.5Ω 5W Cemento",
+    "tipo": "Resistive",
+    "subtipo": "Wirewound",
+    "parametros": {
+      "valor_ohmios": 1.5,
+      "potencia_watts": 5.0,
+      "tolerancia_porcentaje": 10,
+      "voltaje_maximo": 750
+    },
+    "costo_estimado_usd": 0.8
+  },
+  {
+    "id": "RES_5.0W_1p8R",
+    "nombre": "Resistencia 1.8Ω 5W Cemento",
+    "tipo": "Resistive",
+    "subtipo": "Wirewound",
+    "parametros": {
+      "valor_ohmios": 1.8,
+      "potencia_watts": 5.0,
+      "tolerancia_porcentaje": 10,
+      "voltaje_maximo": 750
+    },
+    "costo_estimado_usd": 0.8
+  },
+  {
+    "id": "RES_5.0W_2p2R",
+    "nombre": "Resistencia 2.2Ω 5W Cemento",
+    "tipo": "Resistive",
+    "subtipo": "Wirewound",
+    "parametros": {
+      "valor_ohmios": 2.2,
+      "potencia_watts": 5.0,
+      "tolerancia_porcentaje": 10,
+      "voltaje_maximo": 750
+    },
+    "costo_estimado_usd": 0.8
+  },
+  {
+    "id": "RES_5.0W_2p7R",
+    "nombre": "Resistencia 2.7Ω 5W Cemento",
+    "tipo": "Resistive",
+    "subtipo": "Wirewound",
+    "parametros": {
+      "valor_ohmios": 2.7,
+      "potencia_watts": 5.0,
+      "tolerancia_porcentaje": 10,
+      "voltaje_maximo": 750
+    },
+    "costo_estimado_usd": 0.8
+  },
+  {
+    "id": "RES_5.0W_3p3R",
+    "nombre": "Resistencia 3.3Ω 5W Cemento",
+    "tipo": "Resistive",
+    "subtipo": "Wirewound",
+    "parametros": {
+      "valor_ohmios": 3.3,
+      "potencia_watts": 5.0,
+      "tolerancia_porcentaje": 10,
+      "voltaje_maximo": 750
+    },
+    "costo_estimado_usd": 0.8
+  },
+  {
+    "id": "RES_5.0W_3p9R",
+    "nombre": "Resistencia 3.9Ω 5W Cemento",
+    "tipo": "Resistive",
+    "subtipo": "Wirewound",
+    "parametros": {
+      "valor_ohmios": 3.9,
+      "potencia_watts": 5.0,
+      "tolerancia_porcentaje": 10,
+      "voltaje_maximo": 750
+    },
+    "costo_estimado_usd": 0.8
+  },
+  {
+    "id": "RES_5.0W_4p7R",
+    "nombre": "Resistencia 4.7Ω 5W Cemento",
+    "tipo": "Resistive",
+    "subtipo": "Wirewound",
+    "parametros": {
+      "valor_ohmios": 4.7,
+      "potencia_watts": 5.0,
+      "tolerancia_porcentaje": 10,
+      "voltaje_maximo": 750
+    },
+    "costo_estimado_usd": 0.8
+  },
+  {
+    "id": "RES_5.0W_5p6R",
+    "nombre": "Resistencia 5.6Ω 5W Cemento",
+    "tipo": "Resistive",
+    "subtipo": "Wirewound",
+    "parametros": {
+      "valor_ohmios": 5.6,
+      "potencia_watts": 5.0,
+      "tolerancia_porcentaje": 10,
+      "voltaje_maximo": 750
+    },
+    "costo_estimado_usd": 0.8
+  },
+  {
+    "id": "RES_5.0W_6p8R",
+    "nombre": "Resistencia 6.8Ω 5W Cemento",
+    "tipo": "Resistive",
+    "subtipo": "Wirewound",
+    "parametros": {
+      "valor_ohmios": 6.8,
+      "potencia_watts": 5.0,
+      "tolerancia_porcentaje": 10,
+      "voltaje_maximo": 750
+    },
+    "costo_estimado_usd": 0.8
+  },
+  {
+    "id": "RES_5.0W_8p2R",
+    "nombre": "Resistencia 8.2Ω 5W Cemento",
+    "tipo": "Resistive",
+    "subtipo": "Wirewound",
+    "parametros": {
+      "valor_ohmios": 8.2,
+      "potencia_watts": 5.0,
+      "tolerancia_porcentaje": 10,
+      "voltaje_maximo": 750
+    },
+    "costo_estimado_usd": 0.8
+  },
+  {
+    "id": "RES_5.0W_10R",
+    "nombre": "Resistencia 10Ω 5W Cemento",
+    "tipo": "Resistive",
+    "subtipo": "Wirewound",
+    "parametros": {
+      "valor_ohmios": 10.0,
+      "potencia_watts": 5.0,
+      "tolerancia_porcentaje": 10,
+      "voltaje_maximo": 750
+    },
+    "costo_estimado_usd": 0.8
+  },
+  {
+    "id": "RES_5.0W_12R",
+    "nombre": "Resistencia 12Ω 5W Cemento",
+    "tipo": "Resistive",
+    "subtipo": "Wirewound",
+    "parametros": {
+      "valor_ohmios": 12.0,
+      "potencia_watts": 5.0,
+      "tolerancia_porcentaje": 10,
+      "voltaje_maximo": 750
+    },
+    "costo_estimado_usd": 0.8
+  },
+  {
+    "id": "RES_5.0W_15R",
+    "nombre": "Resistencia 15Ω 5W Cemento",
+    "tipo": "Resistive",
+    "subtipo": "Wirewound",
+    "parametros": {
+      "valor_ohmios": 15.0,
+      "potencia_watts": 5.0,
+      "tolerancia_porcentaje": 10,
+      "voltaje_maximo": 750
+    },
+    "costo_estimado_usd": 0.8
+  },
+  {
+    "id": "RES_5.0W_18R",
+    "nombre": "Resistencia 18Ω 5W Cemento",
+    "tipo": "Resistive",
+    "subtipo": "Wirewound",
+    "parametros": {
+      "valor_ohmios": 18.0,
+      "potencia_watts": 5.0,
+      "tolerancia_porcentaje": 10,
+      "voltaje_maximo": 750
+    },
+    "costo_estimado_usd": 0.8
+  },
+  {
+    "id": "RES_5.0W_22R",
+    "nombre": "Resistencia 22Ω 5W Cemento",
+    "tipo": "Resistive",
+    "subtipo": "Wirewound",
+    "parametros": {
+      "valor_ohmios": 22.0,
+      "potencia_watts": 5.0,
+      "tolerancia_porcentaje": 10,
+      "voltaje_maximo": 750
+    },
+    "costo_estimado_usd": 0.8
+  },
+  {
+    "id": "RES_5.0W_27R",
+    "nombre": "Resistencia 27Ω 5W Cemento",
+    "tipo": "Resistive",
+    "subtipo": "Wirewound",
+    "parametros": {
+      "valor_ohmios": 27.0,
+      "potencia_watts": 5.0,
+      "tolerancia_porcentaje": 10,
+      "voltaje_maximo": 750
+    },
+    "costo_estimado_usd": 0.8
+  },
+  {
+    "id": "RES_5.0W_33R",
+    "nombre": "Resistencia 33Ω 5W Cemento",
+    "tipo": "Resistive",
+    "subtipo": "Wirewound",
+    "parametros": {
+      "valor_ohmios": 33.0,
+      "potencia_watts": 5.0,
+      "tolerancia_porcentaje": 10,
+      "voltaje_maximo": 750
+    },
+    "costo_estimado_usd": 0.8
+  },
+  {
+    "id": "RES_5.0W_39R",
+    "nombre": "Resistencia 39Ω 5W Cemento",
+    "tipo": "Resistive",
+    "subtipo": "Wirewound",
+    "parametros": {
+      "valor_ohmios": 39.0,
+      "potencia_watts": 5.0,
+      "tolerancia_porcentaje": 10,
+      "voltaje_maximo": 750
+    },
+    "costo_estimado_usd": 0.8
+  },
+  {
+    "id": "RES_5.0W_47R",
+    "nombre": "Resistencia 47Ω 5W Cemento",
+    "tipo": "Resistive",
+    "subtipo": "Wirewound",
+    "parametros": {
+      "valor_ohmios": 47.0,
+      "potencia_watts": 5.0,
+      "tolerancia_porcentaje": 10,
+      "voltaje_maximo": 750
+    },
+    "costo_estimado_usd": 0.8
+  },
+  {
+    "id": "RES_5.0W_56R",
+    "nombre": "Resistencia 56Ω 5W Cemento",
+    "tipo": "Resistive",
+    "subtipo": "Wirewound",
+    "parametros": {
+      "valor_ohmios": 56.0,
+      "potencia_watts": 5.0,
+      "tolerancia_porcentaje": 10,
+      "voltaje_maximo": 750
+    },
+    "costo_estimado_usd": 0.8
+  },
+  {
+    "id": "RES_5.0W_68R",
+    "nombre": "Resistencia 68Ω 5W Cemento",
+    "tipo": "Resistive",
+    "subtipo": "Wirewound",
+    "parametros": {
+      "valor_ohmios": 68.0,
+      "potencia_watts": 5.0,
+      "tolerancia_porcentaje": 10,
+      "voltaje_maximo": 750
+    },
+    "costo_estimado_usd": 0.8
+  },
+  {
+    "id": "RES_5.0W_82R",
+    "nombre": "Resistencia 82Ω 5W Cemento",
+    "tipo": "Resistive",
+    "subtipo": "Wirewound",
+    "parametros": {
+      "valor_ohmios": 82.0,
+      "potencia_watts": 5.0,
+      "tolerancia_porcentaje": 10,
+      "voltaje_maximo": 750
+    },
+    "costo_estimado_usd": 0.8
+  },
+  {
+    "id": "RES_5.0W_100R",
+    "nombre": "Resistencia 100Ω 5W Cemento",
+    "tipo": "Resistive",
+    "subtipo": "Wirewound",
+    "parametros": {
+      "valor_ohmios": 100.0,
+      "potencia_watts": 5.0,
+      "tolerancia_porcentaje": 10,
+      "voltaje_maximo": 750
+    },
+    "costo_estimado_usd": 0.8
+  },
+  {
+    "id": "RES_5.0W_120R",
+    "nombre": "Resistencia 120Ω 5W Cemento",
+    "tipo": "Resistive",
+    "subtipo": "Wirewound",
+    "parametros": {
+      "valor_ohmios": 120.0,
+      "potencia_watts": 5.0,
+      "tolerancia_porcentaje": 10,
+      "voltaje_maximo": 750
+    },
+    "costo_estimado_usd": 0.8
+  },
+  {
+    "id": "RES_5.0W_150R",
+    "nombre": "Resistencia 150Ω 5W Cemento",
+    "tipo": "Resistive",
+    "subtipo": "Wirewound",
+    "parametros": {
+      "valor_ohmios": 150.0,
+      "potencia_watts": 5.0,
+      "tolerancia_porcentaje": 10,
+      "voltaje_maximo": 750
+    },
+    "costo_estimado_usd": 0.8
+  },
+  {
+    "id": "RES_5.0W_180R",
+    "nombre": "Resistencia 180Ω 5W Cemento",
+    "tipo": "Resistive",
+    "subtipo": "Wirewound",
+    "parametros": {
+      "valor_ohmios": 180.0,
+      "potencia_watts": 5.0,
+      "tolerancia_porcentaje": 10,
+      "voltaje_maximo": 750
+    },
+    "costo_estimado_usd": 0.8
+  },
+  {
+    "id": "RES_5.0W_220R",
+    "nombre": "Resistencia 220Ω 5W Cemento",
+    "tipo": "Resistive",
+    "subtipo": "Wirewound",
+    "parametros": {
+      "valor_ohmios": 220.0,
+      "potencia_watts": 5.0,
+      "tolerancia_porcentaje": 10,
+      "voltaje_maximo": 750
+    },
+    "costo_estimado_usd": 0.8
+  },
+  {
+    "id": "RES_5.0W_270R",
+    "nombre": "Resistencia 270Ω 5W Cemento",
+    "tipo": "Resistive",
+    "subtipo": "Wirewound",
+    "parametros": {
+      "valor_ohmios": 270.0,
+      "potencia_watts": 5.0,
+      "tolerancia_porcentaje": 10,
+      "voltaje_maximo": 750
+    },
+    "costo_estimado_usd": 0.8
+  },
+  {
+    "id": "RES_5.0W_330R",
+    "nombre": "Resistencia 330Ω 5W Cemento",
+    "tipo": "Resistive",
+    "subtipo": "Wirewound",
+    "parametros": {
+      "valor_ohmios": 330.0,
+      "potencia_watts": 5.0,
+      "tolerancia_porcentaje": 10,
+      "voltaje_maximo": 750
+    },
+    "costo_estimado_usd": 0.8
+  },
+  {
+    "id": "RES_5.0W_390R",
+    "nombre": "Resistencia 390Ω 5W Cemento",
+    "tipo": "Resistive",
+    "subtipo": "Wirewound",
+    "parametros": {
+      "valor_ohmios": 390.0,
+      "potencia_watts": 5.0,
+      "tolerancia_porcentaje": 10,
+      "voltaje_maximo": 750
+    },
+    "costo_estimado_usd": 0.8
+  },
+  {
+    "id": "RES_5.0W_470R",
+    "nombre": "Resistencia 470Ω 5W Cemento",
+    "tipo": "Resistive",
+    "subtipo": "Wirewound",
+    "parametros": {
+      "valor_ohmios": 470.0,
+      "potencia_watts": 5.0,
+      "tolerancia_porcentaje": 10,
+      "voltaje_maximo": 750
+    },
+    "costo_estimado_usd": 0.8
+  },
+  {
+    "id": "RES_5.0W_560R",
+    "nombre": "Resistencia 560Ω 5W Cemento",
+    "tipo": "Resistive",
+    "subtipo": "Wirewound",
+    "parametros": {
+      "valor_ohmios": 560.0,
+      "potencia_watts": 5.0,
+      "tolerancia_porcentaje": 10,
+      "voltaje_maximo": 750
+    },
+    "costo_estimado_usd": 0.8
+  },
+  {
+    "id": "RES_5.0W_680R",
+    "nombre": "Resistencia 680Ω 5W Cemento",
+    "tipo": "Resistive",
+    "subtipo": "Wirewound",
+    "parametros": {
+      "valor_ohmios": 680.0,
+      "potencia_watts": 5.0,
+      "tolerancia_porcentaje": 10,
+      "voltaje_maximo": 750
+    },
+    "costo_estimado_usd": 0.8
+  },
+  {
+    "id": "RES_5.0W_820R",
+    "nombre": "Resistencia 820Ω 5W Cemento",
+    "tipo": "Resistive",
+    "subtipo": "Wirewound",
+    "parametros": {
+      "valor_ohmios": 820.0,
+      "potencia_watts": 5.0,
+      "tolerancia_porcentaje": 10,
+      "voltaje_maximo": 750
+    },
+    "costo_estimado_usd": 0.8
+  },
+  {
+    "id": "RES_5.0W_1k",
+    "nombre": "Resistencia 1kΩ 5W Cemento",
+    "tipo": "Resistive",
+    "subtipo": "Wirewound",
+    "parametros": {
+      "valor_ohmios": 1000.0,
+      "potencia_watts": 5.0,
+      "tolerancia_porcentaje": 10,
+      "voltaje_maximo": 750
+    },
+    "costo_estimado_usd": 0.8
+  },
+  {
+    "id": "RES_5.0W_1p2k",
+    "nombre": "Resistencia 1.2kΩ 5W Cemento",
+    "tipo": "Resistive",
+    "subtipo": "Wirewound",
+    "parametros": {
+      "valor_ohmios": 1200.0,
+      "potencia_watts": 5.0,
+      "tolerancia_porcentaje": 10,
+      "voltaje_maximo": 750
+    },
+    "costo_estimado_usd": 0.8
+  },
+  {
+    "id": "RES_5.0W_1p5k",
+    "nombre": "Resistencia 1.5kΩ 5W Cemento",
+    "tipo": "Resistive",
+    "subtipo": "Wirewound",
+    "parametros": {
+      "valor_ohmios": 1500.0,
+      "potencia_watts": 5.0,
+      "tolerancia_porcentaje": 10,
+      "voltaje_maximo": 750
+    },
+    "costo_estimado_usd": 0.8
+  },
+  {
+    "id": "RES_5.0W_1p8k",
+    "nombre": "Resistencia 1.8kΩ 5W Cemento",
+    "tipo": "Resistive",
+    "subtipo": "Wirewound",
+    "parametros": {
+      "valor_ohmios": 1800.0,
+      "potencia_watts": 5.0,
+      "tolerancia_porcentaje": 10,
+      "voltaje_maximo": 750
+    },
+    "costo_estimado_usd": 0.8
+  },
+  {
+    "id": "RES_5.0W_2p2k",
+    "nombre": "Resistencia 2.2kΩ 5W Cemento",
+    "tipo": "Resistive",
+    "subtipo": "Wirewound",
+    "parametros": {
+      "valor_ohmios": 2200.0,
+      "potencia_watts": 5.0,
+      "tolerancia_porcentaje": 10,
+      "voltaje_maximo": 750
+    },
+    "costo_estimado_usd": 0.8
+  },
+  {
+    "id": "RES_5.0W_2p7k",
+    "nombre": "Resistencia 2.7kΩ 5W Cemento",
+    "tipo": "Resistive",
+    "subtipo": "Wirewound",
+    "parametros": {
+      "valor_ohmios": 2700.0,
+      "potencia_watts": 5.0,
+      "tolerancia_porcentaje": 10,
+      "voltaje_maximo": 750
+    },
+    "costo_estimado_usd": 0.8
+  },
+  {
+    "id": "RES_5.0W_3p3k",
+    "nombre": "Resistencia 3.3kΩ 5W Cemento",
+    "tipo": "Resistive",
+    "subtipo": "Wirewound",
+    "parametros": {
+      "valor_ohmios": 3300.0,
+      "potencia_watts": 5.0,
+      "tolerancia_porcentaje": 10,
+      "voltaje_maximo": 750
+    },
+    "costo_estimado_usd": 0.8
+  },
+  {
+    "id": "RES_5.0W_3p9k",
+    "nombre": "Resistencia 3.9kΩ 5W Cemento",
+    "tipo": "Resistive",
+    "subtipo": "Wirewound",
+    "parametros": {
+      "valor_ohmios": 3900.0,
+      "potencia_watts": 5.0,
+      "tolerancia_porcentaje": 10,
+      "voltaje_maximo": 750
+    },
+    "costo_estimado_usd": 0.8
+  },
+  {
+    "id": "RES_5.0W_4p7k",
+    "nombre": "Resistencia 4.7kΩ 5W Cemento",
+    "tipo": "Resistive",
+    "subtipo": "Wirewound",
+    "parametros": {
+      "valor_ohmios": 4700.0,
+      "potencia_watts": 5.0,
+      "tolerancia_porcentaje": 10,
+      "voltaje_maximo": 750
+    },
+    "costo_estimado_usd": 0.8
+  },
+  {
+    "id": "RES_5.0W_5p6k",
+    "nombre": "Resistencia 5.6kΩ 5W Cemento",
+    "tipo": "Resistive",
+    "subtipo": "Wirewound",
+    "parametros": {
+      "valor_ohmios": 5600.0,
+      "potencia_watts": 5.0,
+      "tolerancia_porcentaje": 10,
+      "voltaje_maximo": 750
+    },
+    "costo_estimado_usd": 0.8
+  },
+  {
+    "id": "RES_5.0W_6p8k",
+    "nombre": "Resistencia 6.8kΩ 5W Cemento",
+    "tipo": "Resistive",
+    "subtipo": "Wirewound",
+    "parametros": {
+      "valor_ohmios": 6800.0,
+      "potencia_watts": 5.0,
+      "tolerancia_porcentaje": 10,
+      "voltaje_maximo": 750
+    },
+    "costo_estimado_usd": 0.8
+  },
+  {
+    "id": "RES_5.0W_8p2k",
+    "nombre": "Resistencia 8.2kΩ 5W Cemento",
+    "tipo": "Resistive",
+    "subtipo": "Wirewound",
+    "parametros": {
+      "valor_ohmios": 8200.0,
+      "potencia_watts": 5.0,
+      "tolerancia_porcentaje": 10,
+      "voltaje_maximo": 750
+    },
+    "costo_estimado_usd": 0.8
+  },
+  {
+    "id": "RES_5.0W_10k",
+    "nombre": "Resistencia 10kΩ 5W Cemento",
+    "tipo": "Resistive",
+    "subtipo": "Wirewound",
+    "parametros": {
+      "valor_ohmios": 10000.0,
+      "potencia_watts": 5.0,
+      "tolerancia_porcentaje": 10,
+      "voltaje_maximo": 750
+    },
+    "costo_estimado_usd": 0.8
+  },
+  {
+    "id": "RES_5.0W_12k",
+    "nombre": "Resistencia 12kΩ 5W Cemento",
+    "tipo": "Resistive",
+    "subtipo": "Wirewound",
+    "parametros": {
+      "valor_ohmios": 12000.0,
+      "potencia_watts": 5.0,
+      "tolerancia_porcentaje": 10,
+      "voltaje_maximo": 750
+    },
+    "costo_estimado_usd": 0.8
+  },
+  {
+    "id": "RES_5.0W_15k",
+    "nombre": "Resistencia 15kΩ 5W Cemento",
+    "tipo": "Resistive",
+    "subtipo": "Wirewound",
+    "parametros": {
+      "valor_ohmios": 15000.0,
+      "potencia_watts": 5.0,
+      "tolerancia_porcentaje": 10,
+      "voltaje_maximo": 750
+    },
+    "costo_estimado_usd": 0.8
+  },
+  {
+    "id": "RES_5.0W_18k",
+    "nombre": "Resistencia 18kΩ 5W Cemento",
+    "tipo": "Resistive",
+    "subtipo": "Wirewound",
+    "parametros": {
+      "valor_ohmios": 18000.0,
+      "potencia_watts": 5.0,
+      "tolerancia_porcentaje": 10,
+      "voltaje_maximo": 750
+    },
+    "costo_estimado_usd": 0.8
+  },
+  {
+    "id": "RES_5.0W_22k",
+    "nombre": "Resistencia 22kΩ 5W Cemento",
+    "tipo": "Resistive",
+    "subtipo": "Wirewound",
+    "parametros": {
+      "valor_ohmios": 22000.0,
+      "potencia_watts": 5.0,
+      "tolerancia_porcentaje": 10,
+      "voltaje_maximo": 750
+    },
+    "costo_estimado_usd": 0.8
+  },
+  {
+    "id": "RES_5.0W_27k",
+    "nombre": "Resistencia 27kΩ 5W Cemento",
+    "tipo": "Resistive",
+    "subtipo": "Wirewound",
+    "parametros": {
+      "valor_ohmios": 27000.0,
+      "potencia_watts": 5.0,
+      "tolerancia_porcentaje": 10,
+      "voltaje_maximo": 750
+    },
+    "costo_estimado_usd": 0.8
+  },
+  {
+    "id": "RES_5.0W_33k",
+    "nombre": "Resistencia 33kΩ 5W Cemento",
+    "tipo": "Resistive",
+    "subtipo": "Wirewound",
+    "parametros": {
+      "valor_ohmios": 33000.0,
+      "potencia_watts": 5.0,
+      "tolerancia_porcentaje": 10,
+      "voltaje_maximo": 750
+    },
+    "costo_estimado_usd": 0.8
+  },
+  {
+    "id": "RES_5.0W_39k",
+    "nombre": "Resistencia 39kΩ 5W Cemento",
+    "tipo": "Resistive",
+    "subtipo": "Wirewound",
+    "parametros": {
+      "valor_ohmios": 39000.0,
+      "potencia_watts": 5.0,
+      "tolerancia_porcentaje": 10,
+      "voltaje_maximo": 750
+    },
+    "costo_estimado_usd": 0.8
+  },
+  {
+    "id": "RES_5.0W_47k",
+    "nombre": "Resistencia 47kΩ 5W Cemento",
+    "tipo": "Resistive",
+    "subtipo": "Wirewound",
+    "parametros": {
+      "valor_ohmios": 47000.0,
+      "potencia_watts": 5.0,
+      "tolerancia_porcentaje": 10,
+      "voltaje_maximo": 750
+    },
+    "costo_estimado_usd": 0.8
+  },
+  {
+    "id": "RES_5.0W_56k",
+    "nombre": "Resistencia 56kΩ 5W Cemento",
+    "tipo": "Resistive",
+    "subtipo": "Wirewound",
+    "parametros": {
+      "valor_ohmios": 56000.0,
+      "potencia_watts": 5.0,
+      "tolerancia_porcentaje": 10,
+      "voltaje_maximo": 750
+    },
+    "costo_estimado_usd": 0.8
+  },
+  {
+    "id": "RES_5.0W_68k",
+    "nombre": "Resistencia 68kΩ 5W Cemento",
+    "tipo": "Resistive",
+    "subtipo": "Wirewound",
+    "parametros": {
+      "valor_ohmios": 68000.0,
+      "potencia_watts": 5.0,
+      "tolerancia_porcentaje": 10,
+      "voltaje_maximo": 750
+    },
+    "costo_estimado_usd": 0.8
+  },
+  {
+    "id": "RES_5.0W_82k",
+    "nombre": "Resistencia 82kΩ 5W Cemento",
+    "tipo": "Resistive",
+    "subtipo": "Wirewound",
+    "parametros": {
+      "valor_ohmios": 82000.0,
+      "potencia_watts": 5.0,
+      "tolerancia_porcentaje": 10,
+      "voltaje_maximo": 750
+    },
+    "costo_estimado_usd": 0.8
+  },
+  {
+    "id": "RES_5.0W_100k",
+    "nombre": "Resistencia 100kΩ 5W Cemento",
+    "tipo": "Resistive",
+    "subtipo": "Wirewound",
+    "parametros": {
+      "valor_ohmios": 100000.0,
+      "potencia_watts": 5.0,
+      "tolerancia_porcentaje": 10,
+      "voltaje_maximo": 750
+    },
+    "costo_estimado_usd": 0.8
+  },
+  {
+    "id": "RES_5.0W_120k",
+    "nombre": "Resistencia 120kΩ 5W Cemento",
+    "tipo": "Resistive",
+    "subtipo": "Wirewound",
+    "parametros": {
+      "valor_ohmios": 120000.0,
+      "potencia_watts": 5.0,
+      "tolerancia_porcentaje": 10,
+      "voltaje_maximo": 750
+    },
+    "costo_estimado_usd": 0.8
+  },
+  {
+    "id": "RES_5.0W_150k",
+    "nombre": "Resistencia 150kΩ 5W Cemento",
+    "tipo": "Resistive",
+    "subtipo": "Wirewound",
+    "parametros": {
+      "valor_ohmios": 150000.0,
+      "potencia_watts": 5.0,
+      "tolerancia_porcentaje": 10,
+      "voltaje_maximo": 750
+    },
+    "costo_estimado_usd": 0.8
+  },
+  {
+    "id": "RES_5.0W_180k",
+    "nombre": "Resistencia 180kΩ 5W Cemento",
+    "tipo": "Resistive",
+    "subtipo": "Wirewound",
+    "parametros": {
+      "valor_ohmios": 180000.0,
+      "potencia_watts": 5.0,
+      "tolerancia_porcentaje": 10,
+      "voltaje_maximo": 750
+    },
+    "costo_estimado_usd": 0.8
+  },
+  {
+    "id": "RES_5.0W_220k",
+    "nombre": "Resistencia 220kΩ 5W Cemento",
+    "tipo": "Resistive",
+    "subtipo": "Wirewound",
+    "parametros": {
+      "valor_ohmios": 220000.0,
+      "potencia_watts": 5.0,
+      "tolerancia_porcentaje": 10,
+      "voltaje_maximo": 750
+    },
+    "costo_estimado_usd": 0.8
+  },
+  {
+    "id": "RES_5.0W_270k",
+    "nombre": "Resistencia 270kΩ 5W Cemento",
+    "tipo": "Resistive",
+    "subtipo": "Wirewound",
+    "parametros": {
+      "valor_ohmios": 270000.0,
+      "potencia_watts": 5.0,
+      "tolerancia_porcentaje": 10,
+      "voltaje_maximo": 750
+    },
+    "costo_estimado_usd": 0.8
+  },
+  {
+    "id": "RES_5.0W_330k",
+    "nombre": "Resistencia 330kΩ 5W Cemento",
+    "tipo": "Resistive",
+    "subtipo": "Wirewound",
+    "parametros": {
+      "valor_ohmios": 330000.0,
+      "potencia_watts": 5.0,
+      "tolerancia_porcentaje": 10,
+      "voltaje_maximo": 750
+    },
+    "costo_estimado_usd": 0.8
+  },
+  {
+    "id": "RES_5.0W_390k",
+    "nombre": "Resistencia 390kΩ 5W Cemento",
+    "tipo": "Resistive",
+    "subtipo": "Wirewound",
+    "parametros": {
+      "valor_ohmios": 390000.0,
+      "potencia_watts": 5.0,
+      "tolerancia_porcentaje": 10,
+      "voltaje_maximo": 750
+    },
+    "costo_estimado_usd": 0.8
+  },
+  {
+    "id": "RES_5.0W_470k",
+    "nombre": "Resistencia 470kΩ 5W Cemento",
+    "tipo": "Resistive",
+    "subtipo": "Wirewound",
+    "parametros": {
+      "valor_ohmios": 470000.0,
+      "potencia_watts": 5.0,
+      "tolerancia_porcentaje": 10,
+      "voltaje_maximo": 750
+    },
+    "costo_estimado_usd": 0.8
+  },
+  {
+    "id": "RES_5.0W_560k",
+    "nombre": "Resistencia 560kΩ 5W Cemento",
+    "tipo": "Resistive",
+    "subtipo": "Wirewound",
+    "parametros": {
+      "valor_ohmios": 560000.0,
+      "potencia_watts": 5.0,
+      "tolerancia_porcentaje": 10,
+      "voltaje_maximo": 750
+    },
+    "costo_estimado_usd": 0.8
+  },
+  {
+    "id": "RES_5.0W_680k",
+    "nombre": "Resistencia 680kΩ 5W Cemento",
+    "tipo": "Resistive",
+    "subtipo": "Wirewound",
+    "parametros": {
+      "valor_ohmios": 680000.0,
+      "potencia_watts": 5.0,
+      "tolerancia_porcentaje": 10,
+      "voltaje_maximo": 750
+    },
+    "costo_estimado_usd": 0.8
+  },
+  {
+    "id": "RES_5.0W_820k",
+    "nombre": "Resistencia 820kΩ 5W Cemento",
+    "tipo": "Resistive",
+    "subtipo": "Wirewound",
+    "parametros": {
+      "valor_ohmios": 820000.0,
+      "potencia_watts": 5.0,
+      "tolerancia_porcentaje": 10,
+      "voltaje_maximo": 750
+    },
+    "costo_estimado_usd": 0.8
+  },
+  {
+    "id": "RES_5.0W_1M",
+    "nombre": "Resistencia 1MΩ 5W Cemento",
+    "tipo": "Resistive",
+    "subtipo": "Wirewound",
+    "parametros": {
+      "valor_ohmios": 1000000.0,
+      "potencia_watts": 5.0,
+      "tolerancia_porcentaje": 10,
+      "voltaje_maximo": 750
+    },
+    "costo_estimado_usd": 0.8
+  },
+  {
+    "id": "RES_5.0W_1p2M",
+    "nombre": "Resistencia 1.2MΩ 5W Cemento",
+    "tipo": "Resistive",
+    "subtipo": "Wirewound",
+    "parametros": {
+      "valor_ohmios": 1200000.0,
+      "potencia_watts": 5.0,
+      "tolerancia_porcentaje": 10,
+      "voltaje_maximo": 750
+    },
+    "costo_estimado_usd": 0.8
+  },
+  {
+    "id": "RES_5.0W_1p5M",
+    "nombre": "Resistencia 1.5MΩ 5W Cemento",
+    "tipo": "Resistive",
+    "subtipo": "Wirewound",
+    "parametros": {
+      "valor_ohmios": 1500000.0,
+      "potencia_watts": 5.0,
+      "tolerancia_porcentaje": 10,
+      "voltaje_maximo": 750
+    },
+    "costo_estimado_usd": 0.8
+  },
+  {
+    "id": "RES_5.0W_1p8M",
+    "nombre": "Resistencia 1.8MΩ 5W Cemento",
+    "tipo": "Resistive",
+    "subtipo": "Wirewound",
+    "parametros": {
+      "valor_ohmios": 1800000.0,
+      "potencia_watts": 5.0,
+      "tolerancia_porcentaje": 10,
+      "voltaje_maximo": 750
+    },
+    "costo_estimado_usd": 0.8
+  },
+  {
+    "id": "RES_5.0W_2p2M",
+    "nombre": "Resistencia 2.2MΩ 5W Cemento",
+    "tipo": "Resistive",
+    "subtipo": "Wirewound",
+    "parametros": {
+      "valor_ohmios": 2200000.0,
+      "potencia_watts": 5.0,
+      "tolerancia_porcentaje": 10,
+      "voltaje_maximo": 750
+    },
+    "costo_estimado_usd": 0.8
+  },
+  {
+    "id": "RES_5.0W_2p7M",
+    "nombre": "Resistencia 2.7MΩ 5W Cemento",
+    "tipo": "Resistive",
+    "subtipo": "Wirewound",
+    "parametros": {
+      "valor_ohmios": 2700000.0,
+      "potencia_watts": 5.0,
+      "tolerancia_porcentaje": 10,
+      "voltaje_maximo": 750
+    },
+    "costo_estimado_usd": 0.8
+  },
+  {
+    "id": "RES_5.0W_3p3M",
+    "nombre": "Resistencia 3.3MΩ 5W Cemento",
+    "tipo": "Resistive",
+    "subtipo": "Wirewound",
+    "parametros": {
+      "valor_ohmios": 3300000.0,
+      "potencia_watts": 5.0,
+      "tolerancia_porcentaje": 10,
+      "voltaje_maximo": 750
+    },
+    "costo_estimado_usd": 0.8
+  },
+  {
+    "id": "RES_5.0W_3p9M",
+    "nombre": "Resistencia 3.9MΩ 5W Cemento",
+    "tipo": "Resistive",
+    "subtipo": "Wirewound",
+    "parametros": {
+      "valor_ohmios": 3900000.0,
+      "potencia_watts": 5.0,
+      "tolerancia_porcentaje": 10,
+      "voltaje_maximo": 750
+    },
+    "costo_estimado_usd": 0.8
+  },
+  {
+    "id": "RES_5.0W_4p7M",
+    "nombre": "Resistencia 4.7MΩ 5W Cemento",
+    "tipo": "Resistive",
+    "subtipo": "Wirewound",
+    "parametros": {
+      "valor_ohmios": 4700000.0,
+      "potencia_watts": 5.0,
+      "tolerancia_porcentaje": 10,
+      "voltaje_maximo": 750
+    },
+    "costo_estimado_usd": 0.8
+  },
+  {
+    "id": "RES_5.0W_5p6M",
+    "nombre": "Resistencia 5.6MΩ 5W Cemento",
+    "tipo": "Resistive",
+    "subtipo": "Wirewound",
+    "parametros": {
+      "valor_ohmios": 5600000.0,
+      "potencia_watts": 5.0,
+      "tolerancia_porcentaje": 10,
+      "voltaje_maximo": 750
+    },
+    "costo_estimado_usd": 0.8
+  },
+  {
+    "id": "RES_5.0W_6p8M",
+    "nombre": "Resistencia 6.8MΩ 5W Cemento",
+    "tipo": "Resistive",
+    "subtipo": "Wirewound",
+    "parametros": {
+      "valor_ohmios": 6800000.0,
+      "potencia_watts": 5.0,
+      "tolerancia_porcentaje": 10,
+      "voltaje_maximo": 750
+    },
+    "costo_estimado_usd": 0.8
+  },
+  {
+    "id": "RES_5.0W_8p2M",
+    "nombre": "Resistencia 8.2MΩ 5W Cemento",
+    "tipo": "Resistive",
+    "subtipo": "Wirewound",
+    "parametros": {
+      "valor_ohmios": 8200000.0,
+      "potencia_watts": 5.0,
+      "tolerancia_porcentaje": 10,
+      "voltaje_maximo": 750
+    },
+    "costo_estimado_usd": 0.8
+  },
+  {
+    "id": "RES_5.0W_10M",
+    "nombre": "Resistencia 10MΩ 5W Cemento",
+    "tipo": "Resistive",
+    "subtipo": "Wirewound",
+    "parametros": {
+      "valor_ohmios": 10000000.0,
+      "potencia_watts": 5.0,
+      "tolerancia_porcentaje": 10,
+      "voltaje_maximo": 750
+    },
+    "costo_estimado_usd": 0.8
+  },
+  {
+    "id": "RES_5.0W_12M",
+    "nombre": "Resistencia 12MΩ 5W Cemento",
+    "tipo": "Resistive",
+    "subtipo": "Wirewound",
+    "parametros": {
+      "valor_ohmios": 12000000.0,
+      "potencia_watts": 5.0,
+      "tolerancia_porcentaje": 10,
+      "voltaje_maximo": 750
+    },
+    "costo_estimado_usd": 0.8
+  },
+  {
+    "id": "RES_5.0W_15M",
+    "nombre": "Resistencia 15MΩ 5W Cemento",
+    "tipo": "Resistive",
+    "subtipo": "Wirewound",
+    "parametros": {
+      "valor_ohmios": 15000000.0,
+      "potencia_watts": 5.0,
+      "tolerancia_porcentaje": 10,
+      "voltaje_maximo": 750
+    },
+    "costo_estimado_usd": 0.8
+  },
+  {
+    "id": "RES_5.0W_18M",
+    "nombre": "Resistencia 18MΩ 5W Cemento",
+    "tipo": "Resistive",
+    "subtipo": "Wirewound",
+    "parametros": {
+      "valor_ohmios": 18000000.0,
+      "potencia_watts": 5.0,
+      "tolerancia_porcentaje": 10,
+      "voltaje_maximo": 750
+    },
+    "costo_estimado_usd": 0.8
+  },
+  {
+    "id": "RES_5.0W_22M",
+    "nombre": "Resistencia 22MΩ 5W Cemento",
+    "tipo": "Resistive",
+    "subtipo": "Wirewound",
+    "parametros": {
+      "valor_ohmios": 22000000.0,
+      "potencia_watts": 5.0,
+      "tolerancia_porcentaje": 10,
+      "voltaje_maximo": 750
+    },
+    "costo_estimado_usd": 0.8
+  },
+  {
+    "id": "RES_5.0W_27M",
+    "nombre": "Resistencia 27MΩ 5W Cemento",
+    "tipo": "Resistive",
+    "subtipo": "Wirewound",
+    "parametros": {
+      "valor_ohmios": 27000000.0,
+      "potencia_watts": 5.0,
+      "tolerancia_porcentaje": 10,
+      "voltaje_maximo": 750
+    },
+    "costo_estimado_usd": 0.8
+  },
+  {
+    "id": "RES_5.0W_33M",
+    "nombre": "Resistencia 33MΩ 5W Cemento",
+    "tipo": "Resistive",
+    "subtipo": "Wirewound",
+    "parametros": {
+      "valor_ohmios": 33000000.0,
+      "potencia_watts": 5.0,
+      "tolerancia_porcentaje": 10,
+      "voltaje_maximo": 750
+    },
+    "costo_estimado_usd": 0.8
+  },
+  {
+    "id": "RES_5.0W_39M",
+    "nombre": "Resistencia 39MΩ 5W Cemento",
+    "tipo": "Resistive",
+    "subtipo": "Wirewound",
+    "parametros": {
+      "valor_ohmios": 39000000.0,
+      "potencia_watts": 5.0,
+      "tolerancia_porcentaje": 10,
+      "voltaje_maximo": 750
+    },
+    "costo_estimado_usd": 0.8
+  },
+  {
+    "id": "RES_5.0W_47M",
+    "nombre": "Resistencia 47MΩ 5W Cemento",
+    "tipo": "Resistive",
+    "subtipo": "Wirewound",
+    "parametros": {
+      "valor_ohmios": 47000000.0,
+      "potencia_watts": 5.0,
+      "tolerancia_porcentaje": 10,
+      "voltaje_maximo": 750
+    },
+    "costo_estimado_usd": 0.8
+  },
+  {
+    "id": "RES_5.0W_56M",
+    "nombre": "Resistencia 56MΩ 5W Cemento",
+    "tipo": "Resistive",
+    "subtipo": "Wirewound",
+    "parametros": {
+      "valor_ohmios": 56000000.0,
+      "potencia_watts": 5.0,
+      "tolerancia_porcentaje": 10,
+      "voltaje_maximo": 750
+    },
+    "costo_estimado_usd": 0.8
+  },
+  {
+    "id": "RES_5.0W_68M",
+    "nombre": "Resistencia 68MΩ 5W Cemento",
+    "tipo": "Resistive",
+    "subtipo": "Wirewound",
+    "parametros": {
+      "valor_ohmios": 68000000.0,
+      "potencia_watts": 5.0,
+      "tolerancia_porcentaje": 10,
+      "voltaje_maximo": 750
+    },
+    "costo_estimado_usd": 0.8
+  },
+  {
+    "id": "RES_5.0W_82M",
+    "nombre": "Resistencia 82MΩ 5W Cemento",
+    "tipo": "Resistive",
+    "subtipo": "Wirewound",
+    "parametros": {
+      "valor_ohmios": 82000000.0,
+      "potencia_watts": 5.0,
+      "tolerancia_porcentaje": 10,
+      "voltaje_maximo": 750
+    },
+    "costo_estimado_usd": 0.8
+  }
+]

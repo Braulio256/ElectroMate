@@ -1,0 +1,34 @@
+# --- PyCharm / JetBrains IDE ---
+# Carpeta de configuración del editor (vital ignorar esto)
+.idea/
+*.iws
+*.iml
+*.ipr
+out/
+
+# --- Python ---
+# Archivos de bytecode (compilados automáticamente)
+__pycache__/
+*.py[cod]
+*$py.class
+
+# --- Entornos Virtuales (Virtual Environments) ---
+# Es muy probable que crees uno para instalar librerías
+venv/
+.venv/
+env/
+ENV/
+
+# --- Sistema Operativo ---
+# Archivos basura de Mac y Windows
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# --- Archivos de Datos / Logs (Opcional pero recomendado) ---
+# Si tu base de datos crece mucho o descargas muchos PDFs (datasheets)
+# es mejor no subirlos a GitHub, sino mantenerlos locales.
+*.log
+*.sqlite3
+# Descomenta la siguiente línea si vas a crear una carpeta para descargar PDFs
+# datasheets/

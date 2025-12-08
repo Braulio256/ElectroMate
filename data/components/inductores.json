@@ -1,0 +1,782 @@
+[
+  {
+    "id": "IND_AXIAL_1.0uH",
+    "nombre": "Inductor Axial 1.0uH",
+    "tipo": "Inductive",
+    "subtipo": "Axial Color Code",
+    "parametros": {
+      "valor_henrys": 1e-06,
+      "corriente_max_A": 0.25,
+      "dcr_ohms": 0.501,
+      "frecuencia_resonancia_hz": 1000000
+    },
+    "costo_estimado_usd": 0.15
+  },
+  {
+    "id": "IND_PWR_1.0uH",
+    "nombre": "Bobina Potencia 1.0uH",
+    "tipo": "Inductive",
+    "subtipo": "Ferrite Core / Toroid",
+    "parametros": {
+      "valor_henrys": 1e-06,
+      "corriente_max_A": 2.0,
+      "dcr_ohms": 0.050100000000000006,
+      "frecuencia_resonancia_hz": 500000
+    },
+    "costo_estimado_usd": 0.85
+  },
+  {
+    "id": "IND_AXIAL_1.5uH",
+    "nombre": "Inductor Axial 1.5uH",
+    "tipo": "Inductive",
+    "subtipo": "Axial Color Code",
+    "parametros": {
+      "valor_henrys": 1.5e-06,
+      "corriente_max_A": 0.25,
+      "dcr_ohms": 0.5015,
+      "frecuencia_resonancia_hz": 1000000
+    },
+    "costo_estimado_usd": 0.15
+  },
+  {
+    "id": "IND_PWR_1.5uH",
+    "nombre": "Bobina Potencia 1.5uH",
+    "tipo": "Inductive",
+    "subtipo": "Ferrite Core / Toroid",
+    "parametros": {
+      "valor_henrys": 1.5e-06,
+      "corriente_max_A": 2.0,
+      "dcr_ohms": 0.05015,
+      "frecuencia_resonancia_hz": 500000
+    },
+    "costo_estimado_usd": 0.85
+  },
+  {
+    "id": "IND_AXIAL_2.2uH",
+    "nombre": "Inductor Axial 2.2uH",
+    "tipo": "Inductive",
+    "subtipo": "Axial Color Code",
+    "parametros": {
+      "valor_henrys": 2.2e-06,
+      "corriente_max_A": 0.25,
+      "dcr_ohms": 0.5022,
+      "frecuencia_resonancia_hz": 1000000
+    },
+    "costo_estimado_usd": 0.15
+  },
+  {
+    "id": "IND_PWR_2.2uH",
+    "nombre": "Bobina Potencia 2.2uH",
+    "tipo": "Inductive",
+    "subtipo": "Ferrite Core / Toroid",
+    "parametros": {
+      "valor_henrys": 2.2e-06,
+      "corriente_max_A": 2.0,
+      "dcr_ohms": 0.05022,
+      "frecuencia_resonancia_hz": 500000
+    },
+    "costo_estimado_usd": 0.85
+  },
+  {
+    "id": "IND_AXIAL_3.3uH",
+    "nombre": "Inductor Axial 3.3uH",
+    "tipo": "Inductive",
+    "subtipo": "Axial Color Code",
+    "parametros": {
+      "valor_henrys": 3.2999999999999997e-06,
+      "corriente_max_A": 0.25,
+      "dcr_ohms": 0.5033,
+      "frecuencia_resonancia_hz": 1000000
+    },
+    "costo_estimado_usd": 0.15
+  },
+  {
+    "id": "IND_PWR_3.3uH",
+    "nombre": "Bobina Potencia 3.3uH",
+    "tipo": "Inductive",
+    "subtipo": "Ferrite Core / Toroid",
+    "parametros": {
+      "valor_henrys": 3.2999999999999997e-06,
+      "corriente_max_A": 2.0,
+      "dcr_ohms": 0.05033,
+      "frecuencia_resonancia_hz": 500000
+    },
+    "costo_estimado_usd": 0.85
+  },
+  {
+    "id": "IND_AXIAL_4.7uH",
+    "nombre": "Inductor Axial 4.7uH",
+    "tipo": "Inductive",
+    "subtipo": "Axial Color Code",
+    "parametros": {
+      "valor_henrys": 4.7e-06,
+      "corriente_max_A": 0.25,
+      "dcr_ohms": 0.5047,
+      "frecuencia_resonancia_hz": 1000000
+    },
+    "costo_estimado_usd": 0.15
+  },
+  {
+    "id": "IND_PWR_4.7uH",
+    "nombre": "Bobina Potencia 4.7uH",
+    "tipo": "Inductive",
+    "subtipo": "Ferrite Core / Toroid",
+    "parametros": {
+      "valor_henrys": 4.7e-06,
+      "corriente_max_A": 2.0,
+      "dcr_ohms": 0.05047,
+      "frecuencia_resonancia_hz": 500000
+    },
+    "costo_estimado_usd": 0.85
+  },
+  {
+    "id": "IND_AXIAL_6.8uH",
+    "nombre": "Inductor Axial 6.8uH",
+    "tipo": "Inductive",
+    "subtipo": "Axial Color Code",
+    "parametros": {
+      "valor_henrys": 6.799999999999999e-06,
+      "corriente_max_A": 0.25,
+      "dcr_ohms": 0.5068,
+      "frecuencia_resonancia_hz": 1000000
+    },
+    "costo_estimado_usd": 0.15
+  },
+  {
+    "id": "IND_PWR_6.8uH",
+    "nombre": "Bobina Potencia 6.8uH",
+    "tipo": "Inductive",
+    "subtipo": "Ferrite Core / Toroid",
+    "parametros": {
+      "valor_henrys": 6.799999999999999e-06,
+      "corriente_max_A": 2.0,
+      "dcr_ohms": 0.05068,
+      "frecuencia_resonancia_hz": 500000
+    },
+    "costo_estimado_usd": 0.85
+  },
+  {
+    "id": "IND_AXIAL_10.0uH",
+    "nombre": "Inductor Axial 10.0uH",
+    "tipo": "Inductive",
+    "subtipo": "Axial Color Code",
+    "parametros": {
+      "valor_henrys": 1e-05,
+      "corriente_max_A": 0.25,
+      "dcr_ohms": 0.51,
+      "frecuencia_resonancia_hz": 1000000
+    },
+    "costo_estimado_usd": 0.15
+  },
+  {
+    "id": "IND_PWR_10.0uH",
+    "nombre": "Bobina Potencia 10.0uH",
+    "tipo": "Inductive",
+    "subtipo": "Ferrite Core / Toroid",
+    "parametros": {
+      "valor_henrys": 1e-05,
+      "corriente_max_A": 2.0,
+      "dcr_ohms": 0.051000000000000004,
+      "frecuencia_resonancia_hz": 500000
+    },
+    "costo_estimado_usd": 0.85
+  },
+  {
+    "id": "IND_AXIAL_15.0uH",
+    "nombre": "Inductor Axial 15.0uH",
+    "tipo": "Inductive",
+    "subtipo": "Axial Color Code",
+    "parametros": {
+      "valor_henrys": 1.5000000000000002e-05,
+      "corriente_max_A": 0.25,
+      "dcr_ohms": 0.515,
+      "frecuencia_resonancia_hz": 1000000
+    },
+    "costo_estimado_usd": 0.15
+  },
+  {
+    "id": "IND_PWR_15.0uH",
+    "nombre": "Bobina Potencia 15.0uH",
+    "tipo": "Inductive",
+    "subtipo": "Ferrite Core / Toroid",
+    "parametros": {
+      "valor_henrys": 1.5000000000000002e-05,
+      "corriente_max_A": 2.0,
+      "dcr_ohms": 0.051500000000000004,
+      "frecuencia_resonancia_hz": 500000
+    },
+    "costo_estimado_usd": 0.85
+  },
+  {
+    "id": "IND_AXIAL_22.0uH",
+    "nombre": "Inductor Axial 22.0uH",
+    "tipo": "Inductive",
+    "subtipo": "Axial Color Code",
+    "parametros": {
+      "valor_henrys": 2.2000000000000003e-05,
+      "corriente_max_A": 0.25,
+      "dcr_ohms": 0.522,
+      "frecuencia_resonancia_hz": 1000000
+    },
+    "costo_estimado_usd": 0.15
+  },
+  {
+    "id": "IND_PWR_22.0uH",
+    "nombre": "Bobina Potencia 22.0uH",
+    "tipo": "Inductive",
+    "subtipo": "Ferrite Core / Toroid",
+    "parametros": {
+      "valor_henrys": 2.2000000000000003e-05,
+      "corriente_max_A": 2.0,
+      "dcr_ohms": 0.0522,
+      "frecuencia_resonancia_hz": 500000
+    },
+    "costo_estimado_usd": 0.85
+  },
+  {
+    "id": "IND_AXIAL_33.0uH",
+    "nombre": "Inductor Axial 33.0uH",
+    "tipo": "Inductive",
+    "subtipo": "Axial Color Code",
+    "parametros": {
+      "valor_henrys": 3.3e-05,
+      "corriente_max_A": 0.25,
+      "dcr_ohms": 0.533,
+      "frecuencia_resonancia_hz": 1000000
+    },
+    "costo_estimado_usd": 0.15
+  },
+  {
+    "id": "IND_PWR_33.0uH",
+    "nombre": "Bobina Potencia 33.0uH",
+    "tipo": "Inductive",
+    "subtipo": "Ferrite Core / Toroid",
+    "parametros": {
+      "valor_henrys": 3.3e-05,
+      "corriente_max_A": 2.0,
+      "dcr_ohms": 0.0533,
+      "frecuencia_resonancia_hz": 500000
+    },
+    "costo_estimado_usd": 0.85
+  },
+  {
+    "id": "IND_AXIAL_47.0uH",
+    "nombre": "Inductor Axial 47.0uH",
+    "tipo": "Inductive",
+    "subtipo": "Axial Color Code",
+    "parametros": {
+      "valor_henrys": 4.7000000000000004e-05,
+      "corriente_max_A": 0.25,
+      "dcr_ohms": 0.547,
+      "frecuencia_resonancia_hz": 1000000
+    },
+    "costo_estimado_usd": 0.15
+  },
+  {
+    "id": "IND_PWR_47.0uH",
+    "nombre": "Bobina Potencia 47.0uH",
+    "tipo": "Inductive",
+    "subtipo": "Ferrite Core / Toroid",
+    "parametros": {
+      "valor_henrys": 4.7000000000000004e-05,
+      "corriente_max_A": 2.0,
+      "dcr_ohms": 0.054700000000000006,
+      "frecuencia_resonancia_hz": 500000
+    },
+    "costo_estimado_usd": 0.85
+  },
+  {
+    "id": "IND_AXIAL_68.0uH",
+    "nombre": "Inductor Axial 68.0uH",
+    "tipo": "Inductive",
+    "subtipo": "Axial Color Code",
+    "parametros": {
+      "valor_henrys": 6.8e-05,
+      "corriente_max_A": 0.25,
+      "dcr_ohms": 0.5680000000000001,
+      "frecuencia_resonancia_hz": 1000000
+    },
+    "costo_estimado_usd": 0.15
+  },
+  {
+    "id": "IND_PWR_68.0uH",
+    "nombre": "Bobina Potencia 68.0uH",
+    "tipo": "Inductive",
+    "subtipo": "Ferrite Core / Toroid",
+    "parametros": {
+      "valor_henrys": 6.8e-05,
+      "corriente_max_A": 2.0,
+      "dcr_ohms": 0.0568,
+      "frecuencia_resonancia_hz": 500000
+    },
+    "costo_estimado_usd": 0.85
+  },
+  {
+    "id": "IND_AXIAL_100.0uH",
+    "nombre": "Inductor Axial 100.0uH",
+    "tipo": "Inductive",
+    "subtipo": "Axial Color Code",
+    "parametros": {
+      "valor_henrys": 0.0001,
+      "corriente_max_A": 0.25,
+      "dcr_ohms": 0.6,
+      "frecuencia_resonancia_hz": 1000000
+    },
+    "costo_estimado_usd": 0.15
+  },
+  {
+    "id": "IND_PWR_100.0uH",
+    "nombre": "Bobina Potencia 100.0uH",
+    "tipo": "Inductive",
+    "subtipo": "Ferrite Core / Toroid",
+    "parametros": {
+      "valor_henrys": 0.0001,
+      "corriente_max_A": 2.0,
+      "dcr_ohms": 0.060000000000000005,
+      "frecuencia_resonancia_hz": 500000
+    },
+    "costo_estimado_usd": 0.85
+  },
+  {
+    "id": "IND_AXIAL_150.0uH",
+    "nombre": "Inductor Axial 150.0uH",
+    "tipo": "Inductive",
+    "subtipo": "Axial Color Code",
+    "parametros": {
+      "valor_henrys": 0.00015000000000000001,
+      "corriente_max_A": 0.25,
+      "dcr_ohms": 0.65,
+      "frecuencia_resonancia_hz": 1000000
+    },
+    "costo_estimado_usd": 0.15
+  },
+  {
+    "id": "IND_PWR_150.0uH",
+    "nombre": "Bobina Potencia 150.0uH",
+    "tipo": "Inductive",
+    "subtipo": "Ferrite Core / Toroid",
+    "parametros": {
+      "valor_henrys": 0.00015000000000000001,
+      "corriente_max_A": 2.0,
+      "dcr_ohms": 0.065,
+      "frecuencia_resonancia_hz": 500000
+    },
+    "costo_estimado_usd": 0.85
+  },
+  {
+    "id": "IND_AXIAL_220.0uH",
+    "nombre": "Inductor Axial 220.0uH",
+    "tipo": "Inductive",
+    "subtipo": "Axial Color Code",
+    "parametros": {
+      "valor_henrys": 0.00022000000000000003,
+      "corriente_max_A": 0.25,
+      "dcr_ohms": 0.72,
+      "frecuencia_resonancia_hz": 1000000
+    },
+    "costo_estimado_usd": 0.15
+  },
+  {
+    "id": "IND_PWR_220.0uH",
+    "nombre": "Bobina Potencia 220.0uH",
+    "tipo": "Inductive",
+    "subtipo": "Ferrite Core / Toroid",
+    "parametros": {
+      "valor_henrys": 0.00022000000000000003,
+      "corriente_max_A": 2.0,
+      "dcr_ohms": 0.07200000000000001,
+      "frecuencia_resonancia_hz": 500000
+    },
+    "costo_estimado_usd": 0.85
+  },
+  {
+    "id": "IND_AXIAL_330.0uH",
+    "nombre": "Inductor Axial 330.0uH",
+    "tipo": "Inductive",
+    "subtipo": "Axial Color Code",
+    "parametros": {
+      "valor_henrys": 0.00033,
+      "corriente_max_A": 0.25,
+      "dcr_ohms": 0.8300000000000001,
+      "frecuencia_resonancia_hz": 1000000
+    },
+    "costo_estimado_usd": 0.15
+  },
+  {
+    "id": "IND_PWR_330.0uH",
+    "nombre": "Bobina Potencia 330.0uH",
+    "tipo": "Inductive",
+    "subtipo": "Ferrite Core / Toroid",
+    "parametros": {
+      "valor_henrys": 0.00033,
+      "corriente_max_A": 2.0,
+      "dcr_ohms": 0.083,
+      "frecuencia_resonancia_hz": 500000
+    },
+    "costo_estimado_usd": 0.85
+  },
+  {
+    "id": "IND_AXIAL_470.0uH",
+    "nombre": "Inductor Axial 470.0uH",
+    "tipo": "Inductive",
+    "subtipo": "Axial Color Code",
+    "parametros": {
+      "valor_henrys": 0.00047000000000000004,
+      "corriente_max_A": 0.25,
+      "dcr_ohms": 0.97,
+      "frecuencia_resonancia_hz": 1000000
+    },
+    "costo_estimado_usd": 0.15
+  },
+  {
+    "id": "IND_PWR_470.0uH",
+    "nombre": "Bobina Potencia 470.0uH",
+    "tipo": "Inductive",
+    "subtipo": "Ferrite Core / Toroid",
+    "parametros": {
+      "valor_henrys": 0.00047000000000000004,
+      "corriente_max_A": 2.0,
+      "dcr_ohms": 0.097,
+      "frecuencia_resonancia_hz": 500000
+    },
+    "costo_estimado_usd": 0.85
+  },
+  {
+    "id": "IND_AXIAL_680.0uH",
+    "nombre": "Inductor Axial 680.0uH",
+    "tipo": "Inductive",
+    "subtipo": "Axial Color Code",
+    "parametros": {
+      "valor_henrys": 0.00068,
+      "corriente_max_A": 0.25,
+      "dcr_ohms": 1.1800000000000002,
+      "frecuencia_resonancia_hz": 1000000
+    },
+    "costo_estimado_usd": 0.15
+  },
+  {
+    "id": "IND_PWR_680.0uH",
+    "nombre": "Bobina Potencia 680.0uH",
+    "tipo": "Inductive",
+    "subtipo": "Ferrite Core / Toroid",
+    "parametros": {
+      "valor_henrys": 0.00068,
+      "corriente_max_A": 2.0,
+      "dcr_ohms": 0.11800000000000001,
+      "frecuencia_resonancia_hz": 500000
+    },
+    "costo_estimado_usd": 0.85
+  },
+  {
+    "id": "IND_AXIAL_1.0mH",
+    "nombre": "Inductor Axial 1.0mH",
+    "tipo": "Inductive",
+    "subtipo": "Axial Color Code",
+    "parametros": {
+      "valor_henrys": 0.001,
+      "corriente_max_A": 0.25,
+      "dcr_ohms": 1.5,
+      "frecuencia_resonancia_hz": 1000000
+    },
+    "costo_estimado_usd": 0.15
+  },
+  {
+    "id": "IND_PWR_1.0mH",
+    "nombre": "Bobina Potencia 1.0mH",
+    "tipo": "Inductive",
+    "subtipo": "Ferrite Core / Toroid",
+    "parametros": {
+      "valor_henrys": 0.001,
+      "corriente_max_A": 2.0,
+      "dcr_ohms": 0.15000000000000002,
+      "frecuencia_resonancia_hz": 500000
+    },
+    "costo_estimado_usd": 0.85
+  },
+  {
+    "id": "IND_AXIAL_1.5mH",
+    "nombre": "Inductor Axial 1.5mH",
+    "tipo": "Inductive",
+    "subtipo": "Axial Color Code",
+    "parametros": {
+      "valor_henrys": 0.0015,
+      "corriente_max_A": 0.25,
+      "dcr_ohms": 2.0,
+      "frecuencia_resonancia_hz": 1000000
+    },
+    "costo_estimado_usd": 0.15
+  },
+  {
+    "id": "IND_PWR_1.5mH",
+    "nombre": "Bobina Potencia 1.5mH",
+    "tipo": "Inductive",
+    "subtipo": "Ferrite Core / Toroid",
+    "parametros": {
+      "valor_henrys": 0.0015,
+      "corriente_max_A": 2.0,
+      "dcr_ohms": 0.2,
+      "frecuencia_resonancia_hz": 500000
+    },
+    "costo_estimado_usd": 0.85
+  },
+  {
+    "id": "IND_AXIAL_2.2mH",
+    "nombre": "Inductor Axial 2.2mH",
+    "tipo": "Inductive",
+    "subtipo": "Axial Color Code",
+    "parametros": {
+      "valor_henrys": 0.0022,
+      "corriente_max_A": 0.25,
+      "dcr_ohms": 2.7,
+      "frecuencia_resonancia_hz": 1000000
+    },
+    "costo_estimado_usd": 0.15
+  },
+  {
+    "id": "IND_PWR_2.2mH",
+    "nombre": "Bobina Potencia 2.2mH",
+    "tipo": "Inductive",
+    "subtipo": "Ferrite Core / Toroid",
+    "parametros": {
+      "valor_henrys": 0.0022,
+      "corriente_max_A": 2.0,
+      "dcr_ohms": 0.27,
+      "frecuencia_resonancia_hz": 500000
+    },
+    "costo_estimado_usd": 0.85
+  },
+  {
+    "id": "IND_AXIAL_3.3mH",
+    "nombre": "Inductor Axial 3.3mH",
+    "tipo": "Inductive",
+    "subtipo": "Axial Color Code",
+    "parametros": {
+      "valor_henrys": 0.0033,
+      "corriente_max_A": 0.25,
+      "dcr_ohms": 3.8,
+      "frecuencia_resonancia_hz": 1000000
+    },
+    "costo_estimado_usd": 0.15
+  },
+  {
+    "id": "IND_PWR_3.3mH",
+    "nombre": "Bobina Potencia 3.3mH",
+    "tipo": "Inductive",
+    "subtipo": "Ferrite Core / Toroid",
+    "parametros": {
+      "valor_henrys": 0.0033,
+      "corriente_max_A": 2.0,
+      "dcr_ohms": 0.38,
+      "frecuencia_resonancia_hz": 500000
+    },
+    "costo_estimado_usd": 0.85
+  },
+  {
+    "id": "IND_AXIAL_4.7mH",
+    "nombre": "Inductor Axial 4.7mH",
+    "tipo": "Inductive",
+    "subtipo": "Axial Color Code",
+    "parametros": {
+      "valor_henrys": 0.0047,
+      "corriente_max_A": 0.25,
+      "dcr_ohms": 5.2,
+      "frecuencia_resonancia_hz": 1000000
+    },
+    "costo_estimado_usd": 0.15
+  },
+  {
+    "id": "IND_PWR_4.7mH",
+    "nombre": "Bobina Potencia 4.7mH",
+    "tipo": "Inductive",
+    "subtipo": "Ferrite Core / Toroid",
+    "parametros": {
+      "valor_henrys": 0.0047,
+      "corriente_max_A": 2.0,
+      "dcr_ohms": 0.52,
+      "frecuencia_resonancia_hz": 500000
+    },
+    "costo_estimado_usd": 0.85
+  },
+  {
+    "id": "IND_AXIAL_6.8mH",
+    "nombre": "Inductor Axial 6.8mH",
+    "tipo": "Inductive",
+    "subtipo": "Axial Color Code",
+    "parametros": {
+      "valor_henrys": 0.0068,
+      "corriente_max_A": 0.25,
+      "dcr_ohms": 7.3,
+      "frecuencia_resonancia_hz": 1000000
+    },
+    "costo_estimado_usd": 0.15
+  },
+  {
+    "id": "IND_PWR_6.8mH",
+    "nombre": "Bobina Potencia 6.8mH",
+    "tipo": "Inductive",
+    "subtipo": "Ferrite Core / Toroid",
+    "parametros": {
+      "valor_henrys": 0.0068,
+      "corriente_max_A": 2.0,
+      "dcr_ohms": 0.73,
+      "frecuencia_resonancia_hz": 500000
+    },
+    "costo_estimado_usd": 0.85
+  },
+  {
+    "id": "IND_AXIAL_10.0mH",
+    "nombre": "Inductor Axial 10.0mH",
+    "tipo": "Inductive",
+    "subtipo": "Axial Color Code",
+    "parametros": {
+      "valor_henrys": 0.01,
+      "corriente_max_A": 0.25,
+      "dcr_ohms": 10.5,
+      "frecuencia_resonancia_hz": 1000000
+    },
+    "costo_estimado_usd": 0.15
+  },
+  {
+    "id": "IND_PWR_10.0mH",
+    "nombre": "Bobina Potencia 10.0mH",
+    "tipo": "Inductive",
+    "subtipo": "Ferrite Core / Toroid",
+    "parametros": {
+      "valor_henrys": 0.01,
+      "corriente_max_A": 2.0,
+      "dcr_ohms": 1.05,
+      "frecuencia_resonancia_hz": 500000
+    },
+    "costo_estimado_usd": 0.85
+  },
+  {
+    "id": "IND_AXIAL_15.0mH",
+    "nombre": "Inductor Axial 15.0mH",
+    "tipo": "Inductive",
+    "subtipo": "Axial Color Code",
+    "parametros": {
+      "valor_henrys": 0.015,
+      "corriente_max_A": 0.25,
+      "dcr_ohms": 15.5,
+      "frecuencia_resonancia_hz": 1000000
+    },
+    "costo_estimado_usd": 0.15
+  },
+  {
+    "id": "IND_PWR_15.0mH",
+    "nombre": "Bobina Potencia 15.0mH",
+    "tipo": "Inductive",
+    "subtipo": "Ferrite Core / Toroid",
+    "parametros": {
+      "valor_henrys": 0.015,
+      "corriente_max_A": 2.0,
+      "dcr_ohms": 1.55,
+      "frecuencia_resonancia_hz": 500000
+    },
+    "costo_estimado_usd": 0.85
+  },
+  {
+    "id": "IND_AXIAL_22.0mH",
+    "nombre": "Inductor Axial 22.0mH",
+    "tipo": "Inductive",
+    "subtipo": "Axial Color Code",
+    "parametros": {
+      "valor_henrys": 0.022000000000000002,
+      "corriente_max_A": 0.25,
+      "dcr_ohms": 22.500000000000004,
+      "frecuencia_resonancia_hz": 1000000
+    },
+    "costo_estimado_usd": 0.15
+  },
+  {
+    "id": "IND_PWR_22.0mH",
+    "nombre": "Bobina Potencia 22.0mH",
+    "tipo": "Inductive",
+    "subtipo": "Ferrite Core / Toroid",
+    "parametros": {
+      "valor_henrys": 0.022000000000000002,
+      "corriente_max_A": 2.0,
+      "dcr_ohms": 2.25,
+      "frecuencia_resonancia_hz": 500000
+    },
+    "costo_estimado_usd": 0.85
+  },
+  {
+    "id": "IND_AXIAL_33.0mH",
+    "nombre": "Inductor Axial 33.0mH",
+    "tipo": "Inductive",
+    "subtipo": "Axial Color Code",
+    "parametros": {
+      "valor_henrys": 0.033,
+      "corriente_max_A": 0.25,
+      "dcr_ohms": 33.5,
+      "frecuencia_resonancia_hz": 1000000
+    },
+    "costo_estimado_usd": 0.15
+  },
+  {
+    "id": "IND_PWR_33.0mH",
+    "nombre": "Bobina Potencia 33.0mH",
+    "tipo": "Inductive",
+    "subtipo": "Ferrite Core / Toroid",
+    "parametros": {
+      "valor_henrys": 0.033,
+      "corriente_max_A": 2.0,
+      "dcr_ohms": 3.35,
+      "frecuencia_resonancia_hz": 500000
+    },
+    "costo_estimado_usd": 0.85
+  },
+  {
+    "id": "IND_AXIAL_47.0mH",
+    "nombre": "Inductor Axial 47.0mH",
+    "tipo": "Inductive",
+    "subtipo": "Axial Color Code",
+    "parametros": {
+      "valor_henrys": 0.047,
+      "corriente_max_A": 0.25,
+      "dcr_ohms": 47.5,
+      "frecuencia_resonancia_hz": 1000000
+    },
+    "costo_estimado_usd": 0.15
+  },
+  {
+    "id": "IND_PWR_47.0mH",
+    "nombre": "Bobina Potencia 47.0mH",
+    "tipo": "Inductive",
+    "subtipo": "Ferrite Core / Toroid",
+    "parametros": {
+      "valor_henrys": 0.047,
+      "corriente_max_A": 2.0,
+      "dcr_ohms": 4.75,
+      "frecuencia_resonancia_hz": 500000
+    },
+    "costo_estimado_usd": 0.85
+  },
+  {
+    "id": "IND_AXIAL_68.0mH",
+    "nombre": "Inductor Axial 68.0mH",
+    "tipo": "Inductive",
+    "subtipo": "Axial Color Code",
+    "parametros": {
+      "valor_henrys": 0.068,
+      "corriente_max_A": 0.25,
+      "dcr_ohms": 68.5,
+      "frecuencia_resonancia_hz": 1000000
+    },
+    "costo_estimado_usd": 0.15
+  },
+  {
+    "id": "IND_PWR_68.0mH",
+    "nombre": "Bobina Potencia 68.0mH",
+    "tipo": "Inductive",
+    "subtipo": "Ferrite Core / Toroid",
+    "parametros": {
+      "valor_henrys": 0.068,
+      "corriente_max_A": 2.0,
+      "dcr_ohms": 6.8500000000000005,
+      "frecuencia_resonancia_hz": 500000
+    },
+    "costo_estimado_usd": 0.85
+  }
+]
