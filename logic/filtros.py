@@ -1,5 +1,6 @@
 import math
-from logic.interfaz import input_profesional, C_BOT, C_SYS, CambioDeContexto
+# Importamos las nuevas herramientas de interfaz
+from logic.interfaz import input_profesional, formatear_valor, C_BOT, C_SYS, CambioDeContexto
 from logic.calculos import (
     calcular_par_rc, calcular_par_rl,
     calcular_par_rlc, calcular_ganancia_opamp
@@ -44,7 +45,9 @@ def resolver_filtro_rc(datos, motor, tipo):
 
     res = calcular_par_rc(motor, f, v)
     if res:
-        print(f"{C_BOT} Resultados (F={res['f']:.1f}Hz):")
+        # Usamos formatear_valor para mostrar la frecuencia real bonita (ej: 1.05 kHz)
+        f_real_fmt = formatear_valor(res['f'], 'Hz')
+        print(f"{C_BOT} Resultados (F={f_real_fmt}):")
         print(f"       • R: {res['r']['nombre']}")
         print(f"       • C: {res['c']['nombre']}")
         if tipo == "LP":
@@ -54,7 +57,7 @@ def resolver_filtro_rc(datos, motor, tipo):
         elif tipo == "NOTCH":
             print("       (Config: Red Twin-T)")
     else:
-        print(f"{C_SYS} Sin resultados comerciales.")
+        print(f"{C_SYS} Sin resultados comerciales exactos para esa frecuencia.")
 
 
 def resolver_filtro_activo(datos, motor):
@@ -72,7 +75,9 @@ def resolver_filtro_activo(datos, motor):
     elif "4" in resp or "notch" in resp:
         tipo = "NOTCH"
 
+    # Pasa Banda
     if tipo == "BP":
+        # Aquí el usuario puede poner "1k" y "20k" y funcionará
         fb = input_profesional("Frecuencia Baja (fL):")
         fa = input_profesional("Frecuencia Alta (fH):")
         v = input_profesional("Voltaje Op-Amp (V):")
@@ -87,6 +92,7 @@ def resolver_filtro_activo(datos, motor):
             print(f"       [LP] R={lp['r']['nombre']}, C={lp['c']['nombre']}")
         return
 
+    # Estándar
     f = datos.get('frecuencia')
     if f is None: f = input_profesional("Frecuencia de Corte (Hz):")
     v = datos.get('voltaje')
@@ -110,10 +116,14 @@ def resolver_filtro_activo(datos, motor):
 def resolver_filtro_rl(datos, motor):
     print(f"{C_BOT} Diseño Filtro RL (Inductivo).")
     f = input_profesional("Frecuencia (Hz):")
-    i = input_profesional("Corriente Máx (A):")
+    i = input_profesional("Corriente Máx (A):")  # Aquí puede poner "500m" (mA)
+
     res = calcular_par_rl(motor, f, i)
     if res:
-        print(f"{C_BOT} L: {res['l']['nombre']} | R: {res['r']['nombre']}")
+        f_fmt = formatear_valor(res['f'], 'Hz')
+        print(f"{C_BOT} Solución RL (F={f_fmt}):")
+        print(f"       • L: {res['l']['nombre']}")
+        print(f"       • R: {res['r']['nombre']}")
     else:
         print(f"{C_SYS} Sin inductores adecuados.")
 
@@ -123,14 +133,22 @@ def resolver_filtro_rlc(datos, motor):
     f = input_profesional("Frecuencia Resonancia (Hz):")
     res = calcular_par_rlc(motor, f, 5.0)
     if res:
-        print(f"{C_BOT} L: {res['l']['nombre']} | C: {res['c']['nombre']}")
+        f_fmt = formatear_valor(res['f'], 'Hz')
+        print(f"{C_BOT} Tanque LC (Fo={f_fmt}):")
+        print(f"       • L: {res['l']['nombre']}")
+        print(f"       • C: {res['c']['nombre']}")
     else:
         print(f"{C_SYS} Sin componentes adecuados.")
 
 
 def resolver_calc_fc_rc(datos):
     print(f"{C_BOT} Calculadora Frecuencia RC.")
+    # Ahora puedes poner "10k" en resistencia y "10u" en capacitor
     r = input_profesional("R (Ω):")
-    c = input_profesional("C (uF):") / 1e6
-    fc = 1 / (2 * math.pi * r * c)
-    print(f"{C_BOT} Frecuencia: {fc:.2f} Hz")
+    c = input_profesional("C (F):")
+
+    if r > 0 and c > 0:
+        fc = 1 / (2 * math.pi * r * c)
+        print(f"{C_BOT} Frecuencia: {formatear_valor(fc, 'Hz')}")
+    else:
+        print(f"{C_SYS} Valores deben ser mayores a 0.")
