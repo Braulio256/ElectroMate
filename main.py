@@ -1,117 +1,207 @@
+import os
 from logic.buscador import BuscadorComponentes
-from logic.procesador import ProcesadorTexto
 from logic.interfaz import C_BOT, C_USR, C_SYS, CambioDeContexto
-# IMPORTAR EL GESTOR DE AUTENTICACIÓN
+# Importamos el sistema de seguridad
 from logic.auth import GestorSesion
 
+# Importamos la lógica de cálculo
 import logic.ohm as ohm
 import logic.filtros as filtros
 
 
+def limpiar_pantalla():
+    # Detecta si es Windows (nt) o Linux/Mac (posix)
+    os.system('cls' if os.name == 'nt' else 'clear')
+
+
+def mostrar_cabecera(usuario):
+    limpiar_pantalla()
+    print("=====================================================")
+    print(f"      ELECTROMATE v5.0 - USUARIO: {usuario.upper()}      ")
+    print("=====================================================")
+    print("             MODO: MENÚ INTERACTIVO                  ")
+    print("=====================================================\n")
+
+
+# --- SUBMENÚS ---
+
+def menu_ley_ohm(motor):
+    while True:
+        print(f"\n{C_BOT} --- LEY DE OHM Y POTENCIA DC ---")
+        print(" [1] Calcular Voltaje (V = I * R)")
+        print(" [2] Calcular Corriente (I = V / R)")
+        print(" [3] Calcular Resistencia (R = V / I)")
+        print(" [4] Calcular Potencia (P = V * I)")
+        print(" [5] Divisor de Voltaje")
+        print(" [6] Cálculo Resistencia para LED")
+        print(" [7] Cálculo de Energía / Batería")
+        print(" [0] Volver al Menú Principal")
+
+        op = input(f"\n{C_USR} Elige una opción: ").strip()
+
+        # Al pasar datos={}, forzamos a que el programa pregunte los valores
+        datos_vacios = {}
+
+        try:
+            if op == "1":
+                ohm.resolver_voltaje(datos_vacios, motor)
+            elif op == "2":
+                ohm.resolver_corriente(datos_vacios, motor)
+            elif op == "3":
+                ohm.resolver_resistencia(datos_vacios, motor)
+            elif op == "4":
+                ohm.resolver_potencia(datos_vacios, motor)
+            elif op == "5":
+                ohm.resolver_divisor_voltaje(datos_vacios, motor)
+            elif op == "6":
+                ohm.resolver_led(datos_vacios, motor)
+            elif op == "7":
+                ohm.resolver_energia(datos_vacios, motor)
+            elif op == "0":
+                break
+            else:
+                print(f"{C_SYS} Opción inválida.")
+        except CambioDeContexto:
+            print(f"{C_SYS} Operación cancelada.")
+
+        input(f"\n{C_SYS} Presiona ENTER para continuar...")
+
+
+def menu_circuitos(motor):
+    while True:
+        print(f"\n{C_BOT} --- ANÁLISIS DE CIRCUITOS ---")
+        print(" [1] Resistencia Equivalente (Serie/Paralelo)")
+        print(" [2] Capacitancia Equivalente (Serie/Paralelo)")
+        print(" [3] Análisis Transitorio (Tau - Carga/Descarga)")
+        print(" [0] Volver al Menú Principal")
+
+        op = input(f"\n{C_USR} Elige una opción: ").strip()
+        datos_vacios = {}
+
+        try:
+            if op == "1":
+                ohm.resolver_reduccion_resistencias(datos_vacios, motor)
+            elif op == "2":
+                ohm.resolver_reduccion_capacitores(datos_vacios, motor)
+            elif op == "3":
+                ohm.resolver_transitorio_tau(datos_vacios, motor)
+            elif op == "0":
+                break
+            else:
+                print(f"{C_SYS} Opción inválida.")
+        except CambioDeContexto:
+            print(f"{C_SYS} Operación cancelada.")
+
+        input(f"\n{C_SYS} Presiona ENTER para continuar...")
+
+
+def menu_filtros_diseno(motor):
+    while True:
+        print(f"\n{C_BOT} --- DISEÑO DE FILTROS (Buscar Componentes) ---")
+        print(" [1] Filtro Pasivo RC - Pasa Bajas")
+        print(" [2] Filtro Pasivo RC - Pasa Altas")
+        print(" [3] Filtro Pasivo RC - Notch (Rechaza Banda)")
+        print(" [4] Filtro Activo (Op-Amp)")
+        print(" [5] Filtro RL (Inductivo - Potencia)")
+        print(" [6] Filtro RLC (Resonante)")
+        print(" [0] Volver al Menú Principal")
+
+        op = input(f"\n{C_USR} Elige una opción: ").strip()
+        datos_vacios = {}
+
+        try:
+            if op == "1":
+                filtros.resolver_filtro_rc(datos_vacios, motor, "LP")
+            elif op == "2":
+                filtros.resolver_filtro_rc(datos_vacios, motor, "HP")
+            elif op == "3":
+                filtros.resolver_filtro_rc(datos_vacios, motor, "NOTCH")
+            elif op == "4":
+                filtros.resolver_filtro_activo(datos_vacios, motor)
+            elif op == "5":
+                filtros.resolver_filtro_rl(datos_vacios, motor)
+            elif op == "6":
+                filtros.resolver_filtro_rlc(datos_vacios, motor)
+            elif op == "0":
+                break
+            else:
+                print(f"{C_SYS} Opción inválida.")
+        except CambioDeContexto:
+            print(f"{C_SYS} Operación cancelada.")
+
+        input(f"\n{C_SYS} Presiona ENTER para continuar...")
+
+
+def menu_calculadoras(motor):
+    while True:
+        print(f"\n{C_BOT} --- CALCULADORAS RÁPIDAS (Sin búsqueda) ---")
+        print(" [1] Calcular Frecuencia de Corte (Circuito RC)")
+        print(" [2] Calcular Frecuencia de Corte (Circuito RL)")
+        print(" [3] Calcular Frecuencia Resonancia (Circuito LC/RLC)")
+        print(" [0] Volver al Menú Principal")
+
+        op = input(f"\n{C_USR} Elige una opción: ").strip()
+        datos_vacios = {}
+
+        try:
+            if op == "1":
+                filtros.resolver_calc_fc_rc(datos_vacios)
+            elif op == "2":
+                filtros.resolver_calc_fc_rl(datos_vacios)
+            elif op == "3":
+                filtros.resolver_calc_fc_rlc(datos_vacios)
+            elif op == "0":
+                break
+            else:
+                print(f"{C_SYS} Opción inválida.")
+        except CambioDeContexto:
+            print(f"{C_SYS} Operación cancelada.")
+
+        input(f"\n{C_SYS} Presiona ENTER para continuar...")
+
+
+# --- MENU PRINCIPAL ---
+
 def main():
-    # --- BLOQUE DE SEGURIDAD ---
+    # 1. BLOQUE DE SEGURIDAD
     sistema_auth = GestorSesion()
     acceso_concedido = sistema_auth.menu_autenticacion()
 
     if not acceso_concedido:
-        return  # Si eligió salir o falló, el programa termina aquí.
+        return
 
-    # --- INICIO DEL CHATBOT ---
-    print("\n" * 50)  # Limpiar pantalla para efecto "Login Exitoso"
-    print("=====================================================")
-    print(f"      ELECTROMATE v5.0 - USUARIO: {sistema_auth.usuario_actual.upper()}          ")
-    print("=====================================================")
-    print("Sistema listo. Módulo experto en Filtros y DC cargado.")
-
+        # 2. CARGA DEL SISTEMA
+    mostrar_cabecera(sistema_auth.usuario_actual)
+    print("Cargando base de datos de componentes...")
     motor = BuscadorComponentes()
-    procesador = ProcesadorTexto()  # Asegúrate de que este archivo tenga la corrección del JSON si la aplicaste
-    comando_pendiente = None
+    print("Sistema cargado correctamente.\n")
 
+    # 3. BUCLE PRINCIPAL
     while True:
-        try:
-            if comando_pendiente:
-                entrada = comando_pendiente
-                comando_pendiente = None
-                print(f"{C_SYS} Redirigiendo: '{entrada}'")
-            else:
-                entrada = input(f"\n{C_USR} ").strip()
+        mostrar_cabecera(sistema_auth.usuario_actual)
+        print(" SELECCIONE UN MÓDULO:")
+        print(" [1] Ley de Ohm y Potencia DC")
+        print(" [2] Circuitos y Reducciones (Req, Ceq, Tau)")
+        print(" [3] Diseño de Filtros (Busca componentes)")
+        print(" [4] Calculadoras de Frecuencia (Solo fórmulas)")
+        print(" [0] Cerrar Sesión y Salir")
 
-            if entrada.lower() in ["salir", "exit", "shutdown", "cerrar sesion"]:
-                print(f"{C_BOT} Guardando sesión... Hasta luego, {sistema_auth.usuario_actual}.")
-                break
+        opcion_principal = input(f"\n{C_USR} Opción: ").strip()
 
-            if not entrada: continue
-
-            # AQUÍ VA EL RESTO DE TU LÓGICA DE PROCESAMIENTO
-            # (Mantén el código que ya tenías dentro del while)
-            intencion = procesador.identificar_intencion(entrada)
-            datos = procesador.extraer_parametros(entrada)
-
-            try:
-                # --- RUTAS DC ---
-                if intencion == "DC_REQ":
-                    ohm.resolver_reduccion_resistencias(datos, motor)
-                elif intencion == "DC_CEQ":
-                    ohm.resolver_reduccion_capacitores(datos, motor)
-                elif intencion == "DC_TRANSITORIO":
-                    ohm.resolver_transitorio_tau(datos, motor)
-                elif intencion == "DC_REDUCCION_AMBIGUA":
-                    print(f"{C_BOT} ¿Quieres calcular equivalentes de Resistencias o Capacitores?")
-                    resp = input(f"{C_USR} ").lower()
-                    if "cap" in resp:
-                        ohm.resolver_reduccion_capacitores(datos, motor)
-                    else:
-                        ohm.resolver_reduccion_resistencias(datos, motor)
-
-                # --- RUTAS FILTROS (CON O SIN LA LOGICA NUEVA, LA QUE TENGAS) ---
-                elif intencion == "FILTRO_AMBIGUO":  # O las nuevas intenciones si usaste el JSON
-                    filtros.resolver_filtro_ambiguo(datos, motor)
-                elif intencion == "FILTRO_ACTIVO":
-                    filtros.resolver_filtro_activo(datos, motor)
-                elif intencion == "FILTRO_RL":
-                    filtros.resolver_filtro_rl(datos, motor)
-                elif intencion == "FILTRO_RLC":
-                    filtros.resolver_filtro_rlc(datos, motor)
-                elif intencion in ["FILTRO_LP", "FILTRO_HP", "FILTRO_NOTCH"]:
-                    tipo = intencion.replace("FILTRO_", "")
-                    filtros.resolver_filtro_rc(datos, motor, tipo)
-                elif intencion == "FILTRO_CALC_FC_RC":
-                    filtros.resolver_calc_fc_rc(datos)
-
-                # --- LEY DE OHM ---
-                elif intencion == "OHM_DIVISOR":
-                    ohm.resolver_divisor_voltaje(datos, motor)
-                elif intencion == "OHM_ENERGIA":
-                    ohm.resolver_energia(datos, motor)
-                elif intencion == "OHM_CALC_V":
-                    ohm.resolver_voltaje(datos, motor)
-                elif intencion == "OHM_CALC_I":
-                    ohm.resolver_corriente(datos, motor)
-                elif intencion == "OHM_CALC_R":
-                    ohm.resolver_resistencia(datos, motor)
-                elif intencion == "OHM_CALC_P":
-                    ohm.resolver_potencia(datos, motor)
-                elif intencion == "OHM_LED":
-                    ohm.resolver_led(datos, motor)
-
-                # --- NUEVAS RUTAS DE DESAMBIGUACION (SI LAS IMPLEMENTASTE) ---
-                elif intencion == "CALCULO_FRECUENCIA_AMBIGUO":
-                    filtros.resolver_calculo_frecuencia_ambiguo(datos)
-                elif intencion == "FILTRO_DISENO_AMBIGUO":
-                    filtros.resolver_filtro_ambiguo_total(datos, motor)
-
-                else:
-                    print(f"{C_BOT} No estoy seguro de qué necesitas.")
-                    print("       Prueba: 'Resistencias en paralelo', 'Constante de tiempo', 'Filtro activo'.")
-
-            except CambioDeContexto as e:
-                if e.nuevo_comando == "cancelar":
-                    print(f"{C_SYS} Operación cancelada.")
-                else:
-                    comando_pendiente = e.nuevo_comando
-
-        except Exception as e:
-            print(f"{C_SYS} Error crítico: {e}")
+        if opcion_principal == "1":
+            menu_ley_ohm(motor)
+        elif opcion_principal == "2":
+            menu_circuitos(motor)
+        elif opcion_principal == "3":
+            menu_filtros_diseno(motor)
+        elif opcion_principal == "4":
+            menu_calculadoras(motor)
+        elif opcion_principal == "0":
+            print(f"\n{C_BOT} Cerrando sesión... ¡Hasta pronto, {sistema_auth.usuario_actual}!")
+            break
+        else:
+            print(f"{C_SYS} Opción no válida.")
+            input("Presiona ENTER...")
 
 
 if __name__ == "__main__":
