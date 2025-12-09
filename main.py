@@ -1,7 +1,6 @@
 import os
 from logic.buscador import BuscadorComponentes
 from logic.interfaz import C_BOT, C_USR, C_SYS, CambioDeContexto
-# Importamos el sistema de seguridad
 from logic.auth import GestorSesion
 
 # Importamos la lógica de cálculo
